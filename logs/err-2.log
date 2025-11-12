@@ -1,0 +1,39 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:51:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:225:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:643:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:656:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:667:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:672:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:51:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:225:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:643:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:656:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:667:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:672:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:51:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:225:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:643:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:656:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:667:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:672:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:6404:24

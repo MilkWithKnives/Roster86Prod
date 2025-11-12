@@ -1,0 +1,312 @@
+2025-11-11T12:24:04: Listening on http://0.0.0.0:3000
+2025-11-12T12:33:37: Listening on http://0.0.0.0:3000
+2025-11-12T12:34:52: Listening on http://0.0.0.0:3000
+2025-11-12T12:37:05: Listening on http://0.0.0.0:3000
+2025-11-12T12:40:43: Listening on http://0.0.0.0:3000
+2025-11-12T13:50:46: prisma:error 
+2025-11-12T13:50:46: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:50:46: 
+2025-11-12T13:50:46: {
+2025-11-12T13:50:46:   data: {
+2025-11-12T13:50:46:     name: "fullscopemedia",
+2025-11-12T13:50:46:     plan: "free",
+2025-11-12T13:50:46: +   id: String
+2025-11-12T13:50:46:   }
+2025-11-12T13:50:46: }
+2025-11-12T13:50:46: 
+2025-11-12T13:50:46: Argument `id` is missing.
+2025-11-12T13:55:31: Listening on http://0.0.0.0:3000
+2025-11-12T13:55:42: prisma:error 
+2025-11-12T13:55:42: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:55:42: 
+2025-11-12T13:55:42: {
+2025-11-12T13:55:42:   data: {
+2025-11-12T13:55:42:     name: "fullscopemedia",
+2025-11-12T13:55:42:     plan: "free",
+2025-11-12T13:55:42: +   id: String
+2025-11-12T13:55:42:   }
+2025-11-12T13:55:42: }
+2025-11-12T13:55:42: 
+2025-11-12T13:55:42: Argument `id` is missing.
+2025-11-12T13:56:23: prisma:error 
+2025-11-12T13:56:23: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:56:23: 
+2025-11-12T13:56:23: {
+2025-11-12T13:56:23:   data: {
+2025-11-12T13:56:23:     name: "fullscopemedia",
+2025-11-12T13:56:23:     plan: "free",
+2025-11-12T13:56:23: +   id: String
+2025-11-12T13:56:23:   }
+2025-11-12T13:56:23: }
+2025-11-12T13:56:23: 
+2025-11-12T13:56:23: Argument `id` is missing.
+2025-11-12T14:22:01: prisma:error 
+2025-11-12T14:22:01: Invalid `prisma.organization.create()` invocation:
+2025-11-12T14:22:01: 
+2025-11-12T14:22:01: {
+2025-11-12T14:22:01:   data: {
+2025-11-12T14:22:01:     name: "fuckyou",
+2025-11-12T14:22:01:     plan: "free",
+2025-11-12T14:22:01: +   id: String
+2025-11-12T14:22:01:   }
+2025-11-12T14:22:01: }
+2025-11-12T14:22:01: 
+2025-11-12T14:22:01: Argument `id` is missing.
+2025-11-12T14:23:24: prisma:error 
+2025-11-12T14:23:24: Invalid `prisma.organization.create()` invocation:
+2025-11-12T14:23:24: 
+2025-11-12T14:23:24: {
+2025-11-12T14:23:24:   data: {
+2025-11-12T14:23:24:     name: "fuckyou",
+2025-11-12T14:23:24:     plan: "free",
+2025-11-12T14:23:24: +   id: String
+2025-11-12T14:23:24:   }
+2025-11-12T14:23:24: }
+2025-11-12T14:23:24: 
+2025-11-12T14:23:24: Argument `id` is missing.
+2025-11-12T14:24:31: Listening on http://0.0.0.0:3000
+2025-11-12T14:29:30: prisma:error 
+2025-11-12T14:29:30: Invalid `prisma.location.create()` invocation:
+2025-11-12T14:29:30: 
+2025-11-12T14:29:30: {
+2025-11-12T14:29:30:   data: {
+2025-11-12T14:29:30:     name: "1123",
+2025-11-12T14:29:30:     address: "123 swingset street",
+2025-11-12T14:29:30:     latitude: null,
+2025-11-12T14:29:30:     longitude: null,
+2025-11-12T14:29:30:     geofenceRadius: 250,
+2025-11-12T14:29:30:     organizationId: "cmhcdn3lz0000pkfbsipsiwns",
+2025-11-12T14:29:30: +   id: String
+2025-11-12T14:29:30:   }
+2025-11-12T14:29:30: }
+2025-11-12T14:29:30: 
+2025-11-12T14:29:30: Argument `id` is missing.
+2025-11-12T14:35:38: Listening on http://0.0.0.0:3000
+2025-11-12T14:45:06: prisma:error 
+2025-11-12T14:45:06: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:06: 
+2025-11-12T14:45:06: {
+2025-11-12T14:45:06:   data: {
+2025-11-12T14:45:06:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:06:     name: "rysn champion",
+2025-11-12T14:45:06:     password: "$2b$10$RSxCKKjbtysq67Rm6mK3LO12ArHqpMWv/rA/CTOvsEGjbE5x166x.",
+2025-11-12T14:45:06:     role: "OWNER",
+2025-11-12T14:45:06:     organizationId: "cmhw43fsy0000xendxp8j4t48",
+2025-11-12T14:45:06:     emailVerified: false,
+2025-11-12T14:45:06: +   updatedAt: DateTime
+2025-11-12T14:45:06:   }
+2025-11-12T14:45:06: }
+2025-11-12T14:45:06: 
+2025-11-12T14:45:06: Argument `updatedAt` is missing.
+2025-11-12T14:45:14: prisma:error 
+2025-11-12T14:45:14: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:14: 
+2025-11-12T14:45:14: {
+2025-11-12T14:45:14:   data: {
+2025-11-12T14:45:14:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:14:     name: "rysn champion",
+2025-11-12T14:45:14:     password: "$2b$10$c5FA4PRoHycbZnNIs4S9OO31kCChYHpYVHZboQEOLSAEvey4TaXA.",
+2025-11-12T14:45:14:     role: "OWNER",
+2025-11-12T14:45:14:     organizationId: "cmhw43met0003xendsqgppjee",
+2025-11-12T14:45:14:     emailVerified: false,
+2025-11-12T14:45:14: +   updatedAt: DateTime
+2025-11-12T14:45:14:   }
+2025-11-12T14:45:14: }
+2025-11-12T14:45:14: 
+2025-11-12T14:45:14: Argument `updatedAt` is missing.
+2025-11-12T14:45:19: prisma:error 
+2025-11-12T14:45:19: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:19: 
+2025-11-12T14:45:19: {
+2025-11-12T14:45:19:   data: {
+2025-11-12T14:45:19:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:19:     name: "rysn champion",
+2025-11-12T14:45:19:     password: "$2b$10$MjtrYMFQ/OPQECuhDsOKsuIkPSRwRGE/ZEiQG0s8F.YFa2PsaQo0i",
+2025-11-12T14:45:19:     role: "OWNER",
+2025-11-12T14:45:19:     organizationId: "cmhw43pxu0006xendcayewvq0",
+2025-11-12T14:45:19:     emailVerified: false,
+2025-11-12T14:45:19: +   updatedAt: DateTime
+2025-11-12T14:45:19:   }
+2025-11-12T14:45:19: }
+2025-11-12T14:45:19: 
+2025-11-12T14:45:19: Argument `updatedAt` is missing.
+2025-11-12T14:45:26: prisma:error 
+2025-11-12T14:45:26: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:26: 
+2025-11-12T14:45:26: {
+2025-11-12T14:45:26:   data: {
+2025-11-12T14:45:26:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:26:     name: "rysn champion",
+2025-11-12T14:45:26:     password: "$2b$10$oPSVZyJ73uw8PS0Pz0kE2.Csc4Tb8yT99dD1oR8lFM2UxQAPCkgp.",
+2025-11-12T14:45:26:     role: "OWNER",
+2025-11-12T14:45:26:     organizationId: "cmhw43v8n0009xendto4ejgh0",
+2025-11-12T14:45:26:     emailVerified: false,
+2025-11-12T14:45:26: +   updatedAt: DateTime
+2025-11-12T14:45:26:   }
+2025-11-12T14:45:26: }
+2025-11-12T14:45:26: 
+2025-11-12T14:45:26: Argument `updatedAt` is missing.
+2025-11-12T14:47:34: prisma:error 
+2025-11-12T14:47:34: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:47:34: 
+2025-11-12T14:47:34: {
+2025-11-12T14:47:34:   data: {
+2025-11-12T14:47:34:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:47:34:     name: "rysn champion",
+2025-11-12T14:47:34:     password: "$2b$10$G282/Rbp5P5ETrmJ3kOBx.wzybe.2iwOonv4jKK4oiqwjjDyvq67S",
+2025-11-12T14:47:34:     role: "OWNER",
+2025-11-12T14:47:34:     organizationId: "cmhw46lz8000cxendaizoyrku",
+2025-11-12T14:47:34:     emailVerified: false,
+2025-11-12T14:47:34: +   updatedAt: DateTime
+2025-11-12T14:47:34:   }
+2025-11-12T14:47:34: }
+2025-11-12T14:47:34: 
+2025-11-12T14:47:34: Argument `updatedAt` is missing.
+2025-11-12T14:59:54: prisma:error 
+2025-11-12T14:59:54: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:59:54: 
+2025-11-12T14:59:54: {
+2025-11-12T14:59:54:   data: {
+2025-11-12T14:59:54:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:59:54:     name: "rysn champion",
+2025-11-12T14:59:54:     password: "$2b$10$75V4BPDUtP8qODuqX7k2ne5XmGNwmrgEPk5C.PB7VxqtPq2pOwhku",
+2025-11-12T14:59:54:     role: "OWNER",
+2025-11-12T14:59:54:     organizationId: "cmhw4mhfv000fxenduesas5ot",
+2025-11-12T14:59:54:     emailVerified: false,
+2025-11-12T14:59:54: +   updatedAt: DateTime
+2025-11-12T14:59:54:   }
+2025-11-12T14:59:54: }
+2025-11-12T14:59:54: 
+2025-11-12T14:59:54: Argument `updatedAt` is missing.
+2025-11-12T15:00:33: prisma:error 
+2025-11-12T15:00:33: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:00:33: 
+2025-11-12T15:00:33: {
+2025-11-12T15:00:33:   data: {
+2025-11-12T15:00:33:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:00:33:     name: "scooter tooter",
+2025-11-12T15:00:33:     password: "$2b$10$kzM6RVn4.wCthZYj6YZtt.Dj7XmsF9HtWnlHml1dBkVmOmQbtnike",
+2025-11-12T15:00:33:     role: "OWNER",
+2025-11-12T15:00:33:     organizationId: "cmhw4naxe000ixendttkah1gu",
+2025-11-12T15:00:33:     emailVerified: false,
+2025-11-12T15:00:33: +   updatedAt: DateTime
+2025-11-12T15:00:33:   }
+2025-11-12T15:00:33: }
+2025-11-12T15:00:33: 
+2025-11-12T15:00:33: Argument `updatedAt` is missing.
+2025-11-12T15:10:55: prisma:error 
+2025-11-12T15:10:55: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:10:55: 
+2025-11-12T15:10:55: {
+2025-11-12T15:10:55:   data: {
+2025-11-12T15:10:55:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:10:55:     name: "scooter tooter",
+2025-11-12T15:10:55:     password: "$2b$10$huHfmRME/KshU1CGyxTr6.un0dPkSrU23xddiJ1PA/9cCqxXovBlm",
+2025-11-12T15:10:55:     role: "OWNER",
+2025-11-12T15:10:55:     organizationId: "cmhw50n8u000lxendpoon2pkz",
+2025-11-12T15:10:55:     emailVerified: false,
+2025-11-12T15:10:55: +   updatedAt: DateTime
+2025-11-12T15:10:55:   }
+2025-11-12T15:10:55: }
+2025-11-12T15:10:55: 
+2025-11-12T15:10:55: Argument `updatedAt` is missing.
+2025-11-12T15:11:59: prisma:error 
+2025-11-12T15:11:59: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:11:59: 
+2025-11-12T15:11:59: {
+2025-11-12T15:11:59:   data: {
+2025-11-12T15:11:59:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:11:59:     name: "scooter tooter",
+2025-11-12T15:11:59:     password: "$2b$10$53w3bOVt9MA3iWVtmFah/.gL8VvXhZp8YhM9CFVQl9yux3isPUgEG",
+2025-11-12T15:11:59:     role: "OWNER",
+2025-11-12T15:11:59:     organizationId: "cmhw520rr000oxendqar52esd",
+2025-11-12T15:11:59:     emailVerified: false,
+2025-11-12T15:11:59: +   updatedAt: DateTime
+2025-11-12T15:11:59:   }
+2025-11-12T15:11:59: }
+2025-11-12T15:11:59: 
+2025-11-12T15:11:59: Argument `updatedAt` is missing.
+2025-11-12T15:12:04: prisma:error 
+2025-11-12T15:12:04: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:12:04: 
+2025-11-12T15:12:04: {
+2025-11-12T15:12:04:   data: {
+2025-11-12T15:12:04:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:12:04:     name: "scooter tooter",
+2025-11-12T15:12:04:     password: "$2b$10$eSVahtWuAruamM2075Vzq.U3GC6bNoCoQHG1odL3eABprgMAF2K.6",
+2025-11-12T15:12:04:     role: "OWNER",
+2025-11-12T15:12:04:     organizationId: "cmhw524j2000rxendpzd68i3y",
+2025-11-12T15:12:04:     emailVerified: false,
+2025-11-12T15:12:04: +   updatedAt: DateTime
+2025-11-12T15:12:04:   }
+2025-11-12T15:12:04: }
+2025-11-12T15:12:04: 
+2025-11-12T15:12:04: Argument `updatedAt` is missing.
+2025-11-12T15:12:11: prisma:error 
+2025-11-12T15:12:11: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:12:11: 
+2025-11-12T15:12:11: {
+2025-11-12T15:12:11:   data: {
+2025-11-12T15:12:11:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:12:11:     name: "scooter tooter",
+2025-11-12T15:12:11:     password: "$2b$10$UESt9NroL.QYIUtNQmBuR.HuOv0pi3D7cdf4jMKaQcpfVRuR1rTDG",
+2025-11-12T15:12:11:     role: "OWNER",
+2025-11-12T15:12:11:     organizationId: "cmhw52a2b000uxendvp7k5oi2",
+2025-11-12T15:12:11:     emailVerified: false,
+2025-11-12T15:12:11: +   updatedAt: DateTime
+2025-11-12T15:12:11:   }
+2025-11-12T15:12:11: }
+2025-11-12T15:12:11: 
+2025-11-12T15:12:11: Argument `updatedAt` is missing.
+2025-11-12T15:13:38: Listening on http://0.0.0.0:3000
+2025-11-12T15:14:22: prisma:error 
+2025-11-12T15:14:22: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:14:22: 
+2025-11-12T15:14:22: {
+2025-11-12T15:14:22:   data: {
+2025-11-12T15:14:22:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:14:22:     name: "scooter tooter",
+2025-11-12T15:14:22:     password: "$2b$10$kvYh2R5wsZb4XTjj88lyD.TitCKNZobsgT3IOpIt2QJztkMBIcaFq",
+2025-11-12T15:14:22:     role: "OWNER",
+2025-11-12T15:14:22:     organizationId: "cmhw552jx0000xerepf6d8zbm",
+2025-11-12T15:14:22:     emailVerified: false,
+2025-11-12T15:14:22: +   updatedAt: DateTime
+2025-11-12T15:14:22:   }
+2025-11-12T15:14:22: }
+2025-11-12T15:14:22: 
+2025-11-12T15:14:22: Argument `updatedAt` is missing.
+2025-11-12T15:14:56: prisma:error 
+2025-11-12T15:14:56: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:14:56: 
+2025-11-12T15:14:56: {
+2025-11-12T15:14:56:   data: {
+2025-11-12T15:14:56:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:14:56:     name: "john smith",
+2025-11-12T15:14:56:     password: "$2b$10$3ZQzefzW/VUDBTofsNE8.ejNPdGKPGK5ckRNpYcZR1mWuR/QyPqBe",
+2025-11-12T15:14:56:     role: "OWNER",
+2025-11-12T15:14:56:     organizationId: "cmhw55tcs0003xere1hyz8rju",
+2025-11-12T15:14:56:     emailVerified: false,
+2025-11-12T15:14:56: +   updatedAt: DateTime
+2025-11-12T15:14:56:   }
+2025-11-12T15:14:56: }
+2025-11-12T15:14:56: 
+2025-11-12T15:14:56: Argument `updatedAt` is missing.
+2025-11-12T15:15:42: prisma:error 
+2025-11-12T15:15:42: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:15:42: 
+2025-11-12T15:15:42: {
+2025-11-12T15:15:42:   data: {
+2025-11-12T15:15:42:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:15:42:     name: "john smith",
+2025-11-12T15:15:42:     password: "$2b$10$Ei.yq2cj7UCyPYn1Ip5xN.9/UmN.vBrGNv1jPyoNk8K1q4ibavR92",
+2025-11-12T15:15:42:     role: "OWNER",
+2025-11-12T15:15:42:     organizationId: "cmhw56soz0006xereiueftev0",
+2025-11-12T15:15:42:     emailVerified: false,
+2025-11-12T15:15:42: +   updatedAt: DateTime
+2025-11-12T15:15:42:   }
+2025-11-12T15:15:42: }
+2025-11-12T15:15:42: 
+2025-11-12T15:15:42: Argument `updatedAt` is missing.
+2025-11-12T15:16:41: Listening on http://0.0.0.0:3000
+2025-11-12T15:19:41: Listening on http://0.0.0.0:3000
+2025-11-12T15:20:30: Listening on http://0.0.0.0:3000

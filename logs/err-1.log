@@ -1,0 +1,830 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:51:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:225:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:643:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:656:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:667:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:672:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:51:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:225:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:643:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:656:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:667:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:672:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:51:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:225:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:643:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:656:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:667:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-D06utZ0l.js:672:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C1kNj1dM.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-xKkf17H-.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-xKkf17H-.js:6404:24
+2025-11-11T12:27:36: 
+[1;31m[404] GET /apple-touch-icon.png[0m
+2025-11-11T12:27:36: 
+[1;31m[404] GET /apple-touch-icon-precomposed.png[0m
+2025-11-11T12:28:15: 
+[1;31m[500] GET /auth/login[0m
+TypeError: event.locals.getSession is not a function
+    at getSession (file:///full-scope-schedulerV1.0/build/server/chunks/auth-BeYI6u-d.js:4:29)
+    at load (file:///full-scope-schedulerV1.0/build/server/chunks/5-CgOxpNP5.js:6:25)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:3496:20
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-BOfuoqsS.js:31:20)
+    at fn (file:///full-scope-schedulerV1.0/build/server/index.js:3494:29)
+    at record_span (file:///full-scope-schedulerV1.0/build/server/index.js:3003:12)
+    at load_server_data (file:///full-scope-schedulerV1.0/build/server/index.js:3485:24)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:5211:37
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/assets/0.DcP7iMsS.css[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/entry/start.6W9UMJQx.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/B7vy_CfM.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/BP1Bp6kc.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/CZNzFtXY.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/DBRRtReg.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/Cjjpl58D.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/CVdFdLU5.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/nodes/0.D6l-SsQS.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/BZupVs0y.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/DDrMb6uy.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/eX3huAQy.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/CjzGT_Eh.js[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:33:58: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:59: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /s/330313e2339313e27363e2237313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /s/832323e27353e21323e2430313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /s/832323e27353e21323e2430313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /s/330313e2339313e27363e2237313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /s/330313e2339313e27363e2237313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:34:04: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:34:05: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:34:05: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:34:06: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:07: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:08: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:10: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:10: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:12: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:12: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:15: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:16: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:17: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:35:46: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:38:39: 
+[1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-11T12:46:47: 
+[1;31m[500] GET /auth/signup[0m
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async Promise.all (index 1)
+    at async internal_respond (file:///full-scope-schedulerV1.0/build/server/index.js:6018:52)
+2025-11-11T12:58:16: 
+[1;31m[404] GET /aab9[0m
+2025-11-11T13:04:25: 
+[1;31m[404] GET /tr/[0m
+2025-11-11T13:47:12: 
+[1;31m[404] GET /help[0m
+2025-11-11T13:55:33: 
+[1;31m[404] GET /apple-touch-icon.png[0m
+2025-11-11T14:00:27: 
+[1;31m[404] GET /developmentserver/metadatauploader[0m
+2025-11-11T14:13:19: 
+[1;31m[404] GET /autodiscover/autodiscover.json[0m
+2025-11-11T14:29:12: 
+[1;31m[404] GET /privacy[0m
+2025-11-11T14:33:43: 
+[1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-11T14:42:32: 
+[1;31m[404] GET /.env[0m
+2025-11-11T14:42:32: 
+[1;31m[404] GET /backend/.env[0m
+2025-11-11T14:42:33: 
+[1;31m[404] GET /.env.example[0m
+Error: ENOENT: no such file or directory, open '/full-scope-schedulerV1.0/build/client/_app/immutable/chunks/sY8c3Tv8.js.br'
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:878:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:891:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:902:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:907:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:878:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:891:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:902:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:907:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/full-scope-schedulerV1.0/build/index.js' imported from /usr/lib/node_modules/pm2/lib/ProcessContainer.js
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:234:31)
+    at importModuleDynamicallyCallback (node:internal/modules/esm/utils:256:12)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:878:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:891:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:902:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:907:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-BGso6F20.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-BGso6F20.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:877:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:890:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:901:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:906:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-B9lzpOy5.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-B9lzpOy5.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:877:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:890:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:901:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:906:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C7qQ64b_.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C7qQ64b_.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:52:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:226:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:684:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:697:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:708:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:713:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-BJvnRNoU.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-BJvnRNoU.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:52:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:226:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:685:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:698:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:709:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:714:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-BhVLkNXC.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-BhVLkNXC.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:52:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:226:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:686:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:699:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:710:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:715:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-D8uykMy1.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-D8uykMy1.js:6404:24
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

@@ -1,0 +1,2447 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-xKkf17H-.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-xKkf17H-.js:6404:24
+2025-11-11T12:24:04: Listening on http://0.0.0.0:3000
+2025-11-11T12:25:54: 
+[1;31m[500] GET /auth/login[0m
+TypeError: event.locals.getSession is not a function
+    at getSession (file:///full-scope-schedulerV1.0/build/server/chunks/auth-BeYI6u-d.js:4:29)
+    at load (file:///full-scope-schedulerV1.0/build/server/chunks/5-CgOxpNP5.js:6:25)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:3496:20
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-BOfuoqsS.js:31:20)
+    at fn (file:///full-scope-schedulerV1.0/build/server/index.js:3494:29)
+    at record_span (file:///full-scope-schedulerV1.0/build/server/index.js:3003:12)
+    at load_server_data (file:///full-scope-schedulerV1.0/build/server/index.js:3485:24)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:5411:18
+2025-11-11T12:26:34: 
+[1;31m[500] GET /auth/login[0m
+TypeError: event.locals.getSession is not a function
+    at getSession (file:///full-scope-schedulerV1.0/build/server/chunks/auth-BeYI6u-d.js:4:29)
+    at load (file:///full-scope-schedulerV1.0/build/server/chunks/5-CgOxpNP5.js:6:25)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:3496:20
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-BOfuoqsS.js:31:20)
+    at fn (file:///full-scope-schedulerV1.0/build/server/index.js:3494:29)
+    at record_span (file:///full-scope-schedulerV1.0/build/server/index.js:3003:12)
+    at load_server_data (file:///full-scope-schedulerV1.0/build/server/index.js:3485:24)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:5411:18
+2025-11-11T12:27:00: 
+[1;31m[500] GET /auth/login[0m
+TypeError: event.locals.getSession is not a function
+    at getSession (file:///full-scope-schedulerV1.0/build/server/chunks/auth-BeYI6u-d.js:4:29)
+    at load (file:///full-scope-schedulerV1.0/build/server/chunks/5-CgOxpNP5.js:6:25)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:3496:20
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-BOfuoqsS.js:31:20)
+    at fn (file:///full-scope-schedulerV1.0/build/server/index.js:3494:29)
+    at record_span (file:///full-scope-schedulerV1.0/build/server/index.js:3003:12)
+    at load_server_data (file:///full-scope-schedulerV1.0/build/server/index.js:3485:24)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:5411:18
+2025-11-11T12:27:36: 
+[1;31m[404] GET /favicon.ico[0m
+2025-11-11T12:28:18: 
+[1;31m[500] GET /auth/signup[0m
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async Promise.all (index 1)
+    at async internal_respond (file:///full-scope-schedulerV1.0/build/server/index.js:6018:52)
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/sY8c3Tv8.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/ZxQ60tPs.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/BMO7Mk3x.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/entry/app.D6k8Zs7S.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/BapAUJpM.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/ClrLnr6u.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/B7HHDvP3.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/BqnETwBm.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/C4eQ0Xlp.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/nodes/1._lQgeglp.js[0m
+2025-11-11T12:28:18: 
+[1;31m[404] GET /auth/_app/immutable/chunks/BqhLRQ7d.js[0m
+2025-11-11T12:33:57: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/graphql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:33:58: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:33:59: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:33:59: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/swagger-ui.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:33:59: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v2/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:00: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /api-docs/swagger.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] POST /graphql/api[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /@vite/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /server[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /about[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:01: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /v2/_catalog[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:02: 
+[1;31m[404] POST /api/gql[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /login.action[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.DS_Store[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /s/832323e27353e21323e2430313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:02: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /s/330313e2339313e27363e2237313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /config.json[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:34:03: 
+[1;31m[404] GET /info.php[0m
+2025-11-11T12:34:04: 
+[1;31m[404] GET /swagger/index.html[0m
+2025-11-11T12:34:04: 
+[1;31m[404] GET /webjars/swagger-ui/index.html[0m
+2025-11-11T12:34:05: 
+[1;31m[404] GET /swagger/v1/swagger.json[0m
+2025-11-11T12:34:06: 
+[1;31m[404] GET /v3/api-docs[0m
+2025-11-11T12:34:07: 
+[1;31m[404] GET /api/swagger.json[0m
+2025-11-11T12:34:08: 
+[1;31m[404] GET /actuator/env[0m
+2025-11-11T12:34:09: 
+[1;31m[404] GET /.vscode/sftp.json[0m
+2025-11-11T12:34:10: 
+[1;31m[404] GET /debug/default/view[0m
+2025-11-11T12:34:11: 
+[1;31m[404] GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application[0m
+2025-11-11T12:34:11: 
+[1;31m[404] GET /server-status[0m
+2025-11-11T12:34:12: 
+[1;31m[404] GET /_all_dbs[0m
+2025-11-11T12:34:15: 
+[1;31m[404] GET /.env[0m
+2025-11-11T12:34:16: 
+[1;31m[404] GET /s/832323e27353e21323e2430313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties[0m
+2025-11-11T12:34:17: 
+[1;31m[404] GET /telescope/requests[0m
+2025-11-11T12:35:47: 
+[1;31m[404] GET /.git/config[0m
+2025-11-11T12:48:06: 
+[1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-11T12:58:16: 
+[1;31m[404] GET /aaa9[0m
+2025-11-11T13:55:33: 
+[1;31m[404] GET /apple-touch-icon-precomposed.png[0m
+2025-11-11T13:55:33: 
+[1;31m[404] GET /favicon.ico[0m
+2025-11-11T13:59:03: 
+[1;31m[404] GET /docs[0m
+2025-11-11T14:17:34: 
+[1;31m[500] GET /auth/login[0m
+TypeError: event.locals.getSession is not a function
+    at getSession (file:///full-scope-schedulerV1.0/build/server/chunks/auth-BeYI6u-d.js:4:29)
+    at load (file:///full-scope-schedulerV1.0/build/server/chunks/5-CgOxpNP5.js:6:25)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:3496:20
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-BOfuoqsS.js:31:20)
+    at fn (file:///full-scope-schedulerV1.0/build/server/index.js:3494:29)
+    at record_span (file:///full-scope-schedulerV1.0/build/server/index.js:3003:12)
+    at load_server_data (file:///full-scope-schedulerV1.0/build/server/index.js:3485:24)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:5211:37
+2025-11-11T14:42:32: 
+[1;31m[404] GET /api/.env[0m
+2025-11-11T14:42:33: 
+[1;31m[404] GET /admin/.env[0m
+2025-11-11T14:43:20: 
+[1;31m[500] GET /auth/login[0m
+TypeError: event.locals.getSession is not a function
+    at getSession (file:///full-scope-schedulerV1.0/build/server/chunks/auth-BeYI6u-d.js:4:29)
+    at load (file:///full-scope-schedulerV1.0/build/server/chunks/5-CgOxpNP5.js:6:25)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:3496:20
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-BOfuoqsS.js:31:20)
+    at fn (file:///full-scope-schedulerV1.0/build/server/index.js:3494:29)
+    at record_span (file:///full-scope-schedulerV1.0/build/server/index.js:3003:12)
+    at load_server_data (file:///full-scope-schedulerV1.0/build/server/index.js:3485:24)
+    at file:///full-scope-schedulerV1.0/build/server/index.js:5211:37
+Error: ENOENT: no such file or directory, open '/full-scope-schedulerV1.0/build/client/_app/immutable/entry/start.6W9UMJQx.js.br'
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:837:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:850:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:861:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-C0K1Qjbb.js:866:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C15WR3QP.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:878:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:891:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:902:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:907:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:878:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:891:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:902:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:907:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:878:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:891:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:902:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:907:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-B-HfyUuy.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/full-scope-schedulerV1.0/build/index.js' imported from /usr/lib/node_modules/pm2/lib/ProcessContainer.js
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:605:34)
+    at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:234:31)
+    at importModuleDynamicallyCallback (node:internal/modules/esm/utils:256:12)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:878:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:891:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:902:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CGpVc0uJ.js:907:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-BGso6F20.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-BGso6F20.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:877:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:890:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:901:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:906:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-B9lzpOy5.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-B9lzpOy5.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireBinary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:230:2310)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:418:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:877:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:890:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:901:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-DvTqCLFM.js:906:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-C7qQ64b_.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-C7qQ64b_.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:52:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:226:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:684:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:697:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:708:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CQTN39g0.js:713:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-BJvnRNoU.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-BJvnRNoU.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:52:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:226:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:685:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:698:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:709:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-E6fcpQgn.js:714:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-BhVLkNXC.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-BhVLkNXC.js:6404:24
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/full-scope-schedulerV1.0/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at requireLibrary (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:52:7069)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:226:21
+    at requireClient (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:686:4)
+    at require_default$1 (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:699:20)
+    at require_default (file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:710:21)
+    at file:///full-scope-schedulerV1.0/build/server/chunks/prisma-CioWthnM.js:715:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async get_hooks (file:///full-scope-schedulerV1.0/build/server/chunks/index-D8uykMy1.js:2621:72)
+    at async file:///full-scope-schedulerV1.0/build/server/chunks/index-D8uykMy1.js:6404:24
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE 0.0.0.0:3000
+    at listenOnPrimaryHandle (node:net:1989:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:536:35)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-11-12T12:33:37: Listening on http://0.0.0.0:3000
+2025-11-12T12:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:33:53: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T12:33:53:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T12:33:53:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T12:33:53:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:236:20)
+2025-11-12T12:33:53:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:33:53:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:33:53: 
+2025-11-12T12:33:53: [1;31m[500] HEAD /[0m
+2025-11-12T12:33:53: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T12:33:53:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:248:9)
+2025-11-12T12:33:53:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:33:53:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:33:53:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:33:53:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6086:16)
+2025-11-12T12:33:53:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6068:22)
+2025-11-12T12:33:53:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T12:34:52: Listening on http://0.0.0.0:3000
+2025-11-12T12:35:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:35:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:35:15: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T12:35:15:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T12:35:15:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T12:35:15:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:236:20)
+2025-11-12T12:35:15:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:35:15:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:35:15: 
+2025-11-12T12:35:15: [1;31m[500] HEAD /[0m
+2025-11-12T12:35:15: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T12:35:15:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:248:9)
+2025-11-12T12:35:15:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:35:15:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:35:15:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:35:15:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6086:16)
+2025-11-12T12:35:15:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6068:22)
+2025-11-12T12:35:15:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T12:37:05: Listening on http://0.0.0.0:3000
+2025-11-12T12:37:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:19: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T12:37:19:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T12:37:19:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T12:37:19:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:236:20)
+2025-11-12T12:37:19:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:19:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:19: 
+2025-11-12T12:37:19: [1;31m[500] HEAD /[0m
+2025-11-12T12:37:19: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T12:37:19:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:248:9)
+2025-11-12T12:37:19:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:19:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:19:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:19:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6086:16)
+2025-11-12T12:37:19:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6068:22)
+2025-11-12T12:37:19:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T12:37:41:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T12:37:41:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T12:37:41:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:236:20)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41: 
+2025-11-12T12:37:41: [1;31m[500] GET /[0m
+2025-11-12T12:37:41: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T12:37:41:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:248:9)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6086:16)
+2025-11-12T12:37:41:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6068:22)
+2025-11-12T12:37:41:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T12:37:41:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T12:37:41:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T12:37:41:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:236:20)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41: 
+2025-11-12T12:37:41: [1;31m[500] GET /apple-touch-icon.png[0m
+2025-11-12T12:37:41: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T12:37:41:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:248:9)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6086:16)
+2025-11-12T12:37:41:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6068:22)
+2025-11-12T12:37:41:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T12:37:41:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T12:37:41:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T12:37:41:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:236:20)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41: 
+2025-11-12T12:37:41: [1;31m[500] GET /apple-touch-icon-precomposed.png[0m
+2025-11-12T12:37:41: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T12:37:41:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:248:9)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6086:16)
+2025-11-12T12:37:41:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6068:22)
+2025-11-12T12:37:41:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:37:41: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T12:37:41:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T12:37:41:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T12:37:41:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:236:20)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41: 
+2025-11-12T12:37:41: [1;31m[500] GET /favicon.ico[0m
+2025-11-12T12:37:41: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T12:37:41:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:248:9)
+2025-11-12T12:37:41:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:360:19)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-qBk-Tv1J.js:115:13)
+2025-11-12T12:37:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6086:16)
+2025-11-12T12:37:41:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-aCRGW3Vv.js:6068:22)
+2025-11-12T12:37:41:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T12:40:43: Listening on http://0.0.0.0:3000
+2025-11-12T12:41:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:41:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:41:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:41:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:41:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T12:41:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:00:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:00:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:00:31: 
+2025-11-12T13:00:31: [1;31m[404] GET /.git/config[0m
+2025-11-12T13:00:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:00:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:09:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:09:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:11:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:11:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:11:46: 
+2025-11-12T13:11:46: [1;31m[404] GET /.git/config[0m
+2025-11-12T13:11:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:11:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:23:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:23:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:23:00: 
+2025-11-12T13:23:00: [1;31m[404] GET /.env[0m
+2025-11-12T13:23:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:23:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:23:01: 
+2025-11-12T13:23:01: [1;31m[404] GET /.git/config[0m
+2025-11-12T13:24:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:24:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:26:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:26:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:26:32: 
+2025-11-12T13:26:32: [1;31m[404] GET /.git/config[0m
+2025-11-12T13:49:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:17: 
+2025-11-12T13:49:17: [1;31m[404] GET /favicon.ico[0m
+2025-11-12T13:49:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:17: 
+2025-11-12T13:49:17: [1;31m[404] GET /apple-touch-icon-precomposed.png[0m
+2025-11-12T13:49:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:17: 
+2025-11-12T13:49:17: [1;31m[404] GET /apple-touch-icon.png[0m
+2025-11-12T13:49:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:49:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:05: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T13:50:05:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T13:50:05:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T13:50:05:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T13:50:05:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CHNplO5H.js:115:13)
+2025-11-12T13:50:05:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6086:16)
+2025-11-12T13:50:05:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6068:22)
+2025-11-12T13:50:05:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T13:50:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:07: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T13:50:07:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T13:50:07:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T13:50:07:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CHNplO5H.js:115:13)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6086:16)
+2025-11-12T13:50:07:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6068:22)
+2025-11-12T13:50:07:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T13:50:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:07: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T13:50:07:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T13:50:07:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T13:50:07:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CHNplO5H.js:115:13)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6086:16)
+2025-11-12T13:50:07:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6068:22)
+2025-11-12T13:50:07:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T13:50:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:07: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T13:50:07:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T13:50:07:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T13:50:07:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CHNplO5H.js:115:13)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6086:16)
+2025-11-12T13:50:07:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6068:22)
+2025-11-12T13:50:07:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T13:50:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:07: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T13:50:07:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T13:50:07:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T13:50:07:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CHNplO5H.js:115:13)
+2025-11-12T13:50:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6086:16)
+2025-11-12T13:50:07:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6068:22)
+2025-11-12T13:50:07:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T13:50:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:09: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T13:50:09:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T13:50:09:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T13:50:09:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T13:50:09:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CHNplO5H.js:115:13)
+2025-11-12T13:50:09:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6086:16)
+2025-11-12T13:50:09:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:6068:22)
+2025-11-12T13:50:09:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T13:50:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:50:46: prisma:error 
+2025-11-12T13:50:46: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:50:46: 
+2025-11-12T13:50:46: {
+2025-11-12T13:50:46:   data: {
+2025-11-12T13:50:46:     name: "fullscopemedia",
+2025-11-12T13:50:46:     plan: "free",
+2025-11-12T13:50:46: +   id: String
+2025-11-12T13:50:46:   }
+2025-11-12T13:50:46: }
+2025-11-12T13:50:46: 
+2025-11-12T13:50:46: Argument `id` is missing.
+2025-11-12T13:50:46: Signup error: PrismaClientValidationError: 
+2025-11-12T13:50:46: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:50:46: 
+2025-11-12T13:50:46: {
+2025-11-12T13:50:46:   data: {
+2025-11-12T13:50:46:     name: "fullscopemedia",
+2025-11-12T13:50:46:     plan: "free",
+2025-11-12T13:50:46: +   id: String
+2025-11-12T13:50:46:   }
+2025-11-12T13:50:46: }
+2025-11-12T13:50:46: 
+2025-11-12T13:50:46: Argument `id` is missing.
+2025-11-12T13:50:46:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:89:1365)
+2025-11-12T13:50:46:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:7026)
+2025-11-12T13:50:46:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6707)
+2025-11-12T13:50:46:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6413)
+2025-11-12T13:50:46:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:9575)
+2025-11-12T13:50:46:     at async file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:58:30
+2025-11-12T13:50:46:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:8140)
+2025-11-12T13:50:46:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:57:22)
+2025-11-12T13:50:46:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:3193:22)
+2025-11-12T13:50:46:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-DzLm5PhU.js:3123:18) {
+2025-11-12T13:50:46:   clientVersion: '6.19.0'
+2025-11-12T13:50:46: }
+2025-11-12T13:50:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:55:31: Listening on http://0.0.0.0:3000
+2025-11-12T13:55:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:55:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:55:42: prisma:error 
+2025-11-12T13:55:42: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:55:42: 
+2025-11-12T13:55:42: {
+2025-11-12T13:55:42:   data: {
+2025-11-12T13:55:42:     name: "fullscopemedia",
+2025-11-12T13:55:42:     plan: "free",
+2025-11-12T13:55:42: +   id: String
+2025-11-12T13:55:42:   }
+2025-11-12T13:55:42: }
+2025-11-12T13:55:42: 
+2025-11-12T13:55:42: Argument `id` is missing.
+2025-11-12T13:55:42: Signup error: PrismaClientValidationError: 
+2025-11-12T13:55:42: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:55:42: 
+2025-11-12T13:55:42: {
+2025-11-12T13:55:42:   data: {
+2025-11-12T13:55:42:     name: "fullscopemedia",
+2025-11-12T13:55:42:     plan: "free",
+2025-11-12T13:55:42: +   id: String
+2025-11-12T13:55:42:   }
+2025-11-12T13:55:42: }
+2025-11-12T13:55:42: 
+2025-11-12T13:55:42: Argument `id` is missing.
+2025-11-12T13:55:42:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:89:1365)
+2025-11-12T13:55:42:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:7026)
+2025-11-12T13:55:42:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6707)
+2025-11-12T13:55:42:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6413)
+2025-11-12T13:55:42:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:9575)
+2025-11-12T13:55:42:     at async file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:58:30
+2025-11-12T13:55:42:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:8140)
+2025-11-12T13:55:42:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:57:22)
+2025-11-12T13:55:42:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3193:22)
+2025-11-12T13:55:42:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3123:18) {
+2025-11-12T13:55:42:   clientVersion: '6.19.0'
+2025-11-12T13:55:42: }
+2025-11-12T13:55:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:23: prisma:error 
+2025-11-12T13:56:23: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:56:23: 
+2025-11-12T13:56:23: {
+2025-11-12T13:56:23:   data: {
+2025-11-12T13:56:23:     name: "fullscopemedia",
+2025-11-12T13:56:23:     plan: "free",
+2025-11-12T13:56:23: +   id: String
+2025-11-12T13:56:23:   }
+2025-11-12T13:56:23: }
+2025-11-12T13:56:23: 
+2025-11-12T13:56:23: Argument `id` is missing.
+2025-11-12T13:56:23: Signup error: PrismaClientValidationError: 
+2025-11-12T13:56:23: Invalid `prisma.organization.create()` invocation:
+2025-11-12T13:56:23: 
+2025-11-12T13:56:23: {
+2025-11-12T13:56:23:   data: {
+2025-11-12T13:56:23:     name: "fullscopemedia",
+2025-11-12T13:56:23:     plan: "free",
+2025-11-12T13:56:23: +   id: String
+2025-11-12T13:56:23:   }
+2025-11-12T13:56:23: }
+2025-11-12T13:56:23: 
+2025-11-12T13:56:23: Argument `id` is missing.
+2025-11-12T13:56:23:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:89:1365)
+2025-11-12T13:56:23:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:7026)
+2025-11-12T13:56:23:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6707)
+2025-11-12T13:56:23:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6413)
+2025-11-12T13:56:23:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:9575)
+2025-11-12T13:56:23:     at async file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:58:30
+2025-11-12T13:56:23:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:8140)
+2025-11-12T13:56:23:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:57:22)
+2025-11-12T13:56:23:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3193:22)
+2025-11-12T13:56:23:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3123:18) {
+2025-11-12T13:56:23:   clientVersion: '6.19.0'
+2025-11-12T13:56:23: }
+2025-11-12T13:56:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:39: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T13:56:39: [31m[auth][error][0m Error: Provider with id "email" not found. Available providers: [credentials].
+2025-11-12T13:56:39:     at parseProviders (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/providers.js:37:15)
+2025-11-12T13:56:39:     at init (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/init.js:37:37)
+2025-11-12T13:56:39:     at AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:13:40)
+2025-11-12T13:56:39:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:40)
+2025-11-12T13:56:39:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-11-12T13:56:39:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T13:56:39:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T13:56:39:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T13:56:39:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:02:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:02:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:02:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:03:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:03:47: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:03:47:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:03:47:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:03:47:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:03:47:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:03:47:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:03:47:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:03:47:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:03:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:03:48: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:03:48:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:03:48:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:03:48:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:03:48:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:03:48:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:03:48:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:03:48:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:03:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:03:53: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:03:53:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:03:53:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:03:53:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:03:53:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:03:53:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:03:53:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:03:53:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:03:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:03:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:03:57: 
+2025-11-12T14:03:57: [1;31m[404] GET /auth/forgot-password[0m
+2025-11-12T14:05:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:04: 
+2025-11-12T14:05:04: [1;31m[404] GET /auth/forgot-password[0m
+2025-11-12T14:05:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:05:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:10:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:10:19: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:10:19:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:10:19:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:10:19:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:10:19:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:10:19:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:10:19:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:10:19:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:10:22: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:10:22: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:10:22:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:10:22:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:10:22:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:10:22:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:10:22:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:10:22:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:10:22:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:10:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:10:23: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:10:23:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:10:23:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:10:23:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:10:23:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:10:23:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:10:23:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:10:23:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:14:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:23: 
+2025-11-12T14:14:23: [1;31m[404] GET /auth/forgot-password[0m
+2025-11-12T14:14:25: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:25: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:14:25:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:14:25:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:14:25:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:14:25:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:14:25:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:14:25:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:14:25:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:14:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:26: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:14:26:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:14:26:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:14:26:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:14:26:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:14:26:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:14:26:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:14:26:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:14:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:43: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:14:43:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:14:43:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:14:43:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:14:43:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:14:43:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:14:43:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:14:43:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:14:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:14:48: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-12T14:14:48:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-12T14:14:48:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-12T14:14:48:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-12T14:14:48:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:14:48:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:14:48:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:14:48:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:15:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:15:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:15:52: 
+2025-11-12T14:15:52: [1;31m[404] GET /.git/config[0m
+2025-11-12T14:15:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:15:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:15:55: 
+2025-11-12T14:15:55: [1;31m[404] GET /.git/config[0m
+2025-11-12T14:17:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:17:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:17:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:17:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:17:19: 
+2025-11-12T14:17:19: [1;31m[404] GET /favicon.ico[0m
+2025-11-12T14:17:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:17:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:17:30: 
+2025-11-12T14:17:30: [1;31m[404] GET /login[0m
+2025-11-12T14:20:50: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:20:50: [31m[auth][error][0m Error: Provider with id "email" not found. Available providers: [credentials].
+2025-11-12T14:20:50:     at parseProviders (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/providers.js:37:15)
+2025-11-12T14:20:50:     at init (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/init.js:37:37)
+2025-11-12T14:20:50:     at AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:13:40)
+2025-11-12T14:20:50:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:40)
+2025-11-12T14:20:50:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-11-12T14:20:50:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DbQMZMKj.js:115:13)
+2025-11-12T14:20:50:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6086:16)
+2025-11-12T14:20:50:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:6068:22)
+2025-11-12T14:20:50:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T14:21:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:21:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:21:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:21:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:21:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:21:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:22:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:22:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:22:01: prisma:error 
+2025-11-12T14:22:01: Invalid `prisma.organization.create()` invocation:
+2025-11-12T14:22:01: 
+2025-11-12T14:22:01: {
+2025-11-12T14:22:01:   data: {
+2025-11-12T14:22:01:     name: "fuckyou",
+2025-11-12T14:22:01:     plan: "free",
+2025-11-12T14:22:01: +   id: String
+2025-11-12T14:22:01:   }
+2025-11-12T14:22:01: }
+2025-11-12T14:22:01: 
+2025-11-12T14:22:01: Argument `id` is missing.
+2025-11-12T14:22:01: Signup error: PrismaClientValidationError: 
+2025-11-12T14:22:01: Invalid `prisma.organization.create()` invocation:
+2025-11-12T14:22:01: 
+2025-11-12T14:22:01: {
+2025-11-12T14:22:01:   data: {
+2025-11-12T14:22:01:     name: "fuckyou",
+2025-11-12T14:22:01:     plan: "free",
+2025-11-12T14:22:01: +   id: String
+2025-11-12T14:22:01:   }
+2025-11-12T14:22:01: }
+2025-11-12T14:22:01: 
+2025-11-12T14:22:01: Argument `id` is missing.
+2025-11-12T14:22:01:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:89:1365)
+2025-11-12T14:22:01:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:7026)
+2025-11-12T14:22:01:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6707)
+2025-11-12T14:22:01:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6413)
+2025-11-12T14:22:01:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:9575)
+2025-11-12T14:22:01:     at async file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:58:30
+2025-11-12T14:22:01:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:8140)
+2025-11-12T14:22:01:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:57:22)
+2025-11-12T14:22:01:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3193:22)
+2025-11-12T14:22:01:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3123:18) {
+2025-11-12T14:22:01:   clientVersion: '6.19.0'
+2025-11-12T14:22:01: }
+2025-11-12T14:22:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:23:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:23:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:23:24: prisma:error 
+2025-11-12T14:23:24: Invalid `prisma.organization.create()` invocation:
+2025-11-12T14:23:24: 
+2025-11-12T14:23:24: {
+2025-11-12T14:23:24:   data: {
+2025-11-12T14:23:24:     name: "fuckyou",
+2025-11-12T14:23:24:     plan: "free",
+2025-11-12T14:23:24: +   id: String
+2025-11-12T14:23:24:   }
+2025-11-12T14:23:24: }
+2025-11-12T14:23:24: 
+2025-11-12T14:23:24: Argument `id` is missing.
+2025-11-12T14:23:24: Signup error: PrismaClientValidationError: 
+2025-11-12T14:23:24: Invalid `prisma.organization.create()` invocation:
+2025-11-12T14:23:24: 
+2025-11-12T14:23:24: {
+2025-11-12T14:23:24:   data: {
+2025-11-12T14:23:24:     name: "fuckyou",
+2025-11-12T14:23:24:     plan: "free",
+2025-11-12T14:23:24: +   id: String
+2025-11-12T14:23:24:   }
+2025-11-12T14:23:24: }
+2025-11-12T14:23:24: 
+2025-11-12T14:23:24: Argument `id` is missing.
+2025-11-12T14:23:24:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:89:1365)
+2025-11-12T14:23:24:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:7026)
+2025-11-12T14:23:24:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6707)
+2025-11-12T14:23:24:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6413)
+2025-11-12T14:23:24:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:9575)
+2025-11-12T14:23:24:     at async file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:58:30
+2025-11-12T14:23:24:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:8140)
+2025-11-12T14:23:24:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/6-CIvcarex.js:57:22)
+2025-11-12T14:23:24:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3193:22)
+2025-11-12T14:23:24:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-DOD8wVZG.js:3123:18) {
+2025-11-12T14:23:24:   clientVersion: '6.19.0'
+2025-11-12T14:23:24: }
+2025-11-12T14:23:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:24:31: Listening on http://0.0.0.0:3000
+2025-11-12T14:27:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:27:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:28:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:30: prisma:error 
+2025-11-12T14:29:30: Invalid `prisma.location.create()` invocation:
+2025-11-12T14:29:30: 
+2025-11-12T14:29:30: {
+2025-11-12T14:29:30:   data: {
+2025-11-12T14:29:30:     name: "1123",
+2025-11-12T14:29:30:     address: "123 swingset street",
+2025-11-12T14:29:30:     latitude: null,
+2025-11-12T14:29:30:     longitude: null,
+2025-11-12T14:29:30:     geofenceRadius: 250,
+2025-11-12T14:29:30:     organizationId: "cmhcdn3lz0000pkfbsipsiwns",
+2025-11-12T14:29:30: +   id: String
+2025-11-12T14:29:30:   }
+2025-11-12T14:29:30: }
+2025-11-12T14:29:30: 
+2025-11-12T14:29:30: Argument `id` is missing.
+2025-11-12T14:29:30: Add location error: PrismaClientValidationError: 
+2025-11-12T14:29:30: Invalid `prisma.location.create()` invocation:
+2025-11-12T14:29:30: 
+2025-11-12T14:29:30: {
+2025-11-12T14:29:30:   data: {
+2025-11-12T14:29:30:     name: "1123",
+2025-11-12T14:29:30:     address: "123 swingset street",
+2025-11-12T14:29:30:     latitude: null,
+2025-11-12T14:29:30:     longitude: null,
+2025-11-12T14:29:30:     geofenceRadius: 250,
+2025-11-12T14:29:30:     organizationId: "cmhcdn3lz0000pkfbsipsiwns",
+2025-11-12T14:29:30: +   id: String
+2025-11-12T14:29:30:   }
+2025-11-12T14:29:30: }
+2025-11-12T14:29:30: 
+2025-11-12T14:29:30: Argument `id` is missing.
+2025-11-12T14:29:30:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:89:1365)
+2025-11-12T14:29:30:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:7026)
+2025-11-12T14:29:30:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6707)
+2025-11-12T14:29:30:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:181:6413)
+2025-11-12T14:29:30:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-jFxOECu0.js:190:9575)
+2025-11-12T14:29:30:     at async addLocation (file:///full-scope-schedulerV1.0/build/server/chunks/14-gTuvZVbl.js:42:7)
+2025-11-12T14:29:30:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DKl650j5.js:3193:22)
+2025-11-12T14:29:30:     at async handle_action_json_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-DKl650j5.js:3038:18)
+2025-11-12T14:29:30:     at async resolve2 (file:///full-scope-schedulerV1.0/build/server/chunks/index-DKl650j5.js:6226:25)
+2025-11-12T14:29:30:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-C73IrRKK.js:115:13) {
+2025-11-12T14:29:30:   clientVersion: '6.19.0'
+2025-11-12T14:29:30: }
+2025-11-12T14:29:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:29:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:35:38: Listening on http://0.0.0.0:3000
+2025-11-12T14:38:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:38:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:38:12: 
+2025-11-12T14:38:12: [1;31m[404] GET /owa/auth/logon.aspx[0m
+2025-11-12T14:42:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:42:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:43:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:43:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:43:14: 
+2025-11-12T14:43:14: [1;31m[404] GET /favicon.ico[0m
+2025-11-12T14:43:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:43:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:43:47: 
+2025-11-12T14:43:47: [1;31m[404] GET /.well-known/security.txt[0m
+2025-11-12T14:44:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:44:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:06: prisma:error 
+2025-11-12T14:45:06: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:06: 
+2025-11-12T14:45:06: {
+2025-11-12T14:45:06:   data: {
+2025-11-12T14:45:06:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:06:     name: "rysn champion",
+2025-11-12T14:45:06:     password: "$2b$10$RSxCKKjbtysq67Rm6mK3LO12ArHqpMWv/rA/CTOvsEGjbE5x166x.",
+2025-11-12T14:45:06:     role: "OWNER",
+2025-11-12T14:45:06:     organizationId: "cmhw43fsy0000xendxp8j4t48",
+2025-11-12T14:45:06:     emailVerified: false,
+2025-11-12T14:45:06: +   updatedAt: DateTime
+2025-11-12T14:45:06:   }
+2025-11-12T14:45:06: }
+2025-11-12T14:45:06: 
+2025-11-12T14:45:06: Argument `updatedAt` is missing.
+2025-11-12T14:45:06: Signup error: PrismaClientValidationError: 
+2025-11-12T14:45:06: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:06: 
+2025-11-12T14:45:06: {
+2025-11-12T14:45:06:   data: {
+2025-11-12T14:45:06:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:06:     name: "rysn champion",
+2025-11-12T14:45:06:     password: "$2b$10$RSxCKKjbtysq67Rm6mK3LO12ArHqpMWv/rA/CTOvsEGjbE5x166x.",
+2025-11-12T14:45:06:     role: "OWNER",
+2025-11-12T14:45:06:     organizationId: "cmhw43fsy0000xendxp8j4t48",
+2025-11-12T14:45:06:     emailVerified: false,
+2025-11-12T14:45:06: +   updatedAt: DateTime
+2025-11-12T14:45:06:   }
+2025-11-12T14:45:06: }
+2025-11-12T14:45:06: 
+2025-11-12T14:45:06: Argument `updatedAt` is missing.
+2025-11-12T14:45:06:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T14:45:06:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T14:45:06:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T14:45:06:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T14:45:06:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T14:45:06:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T14:45:06:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T14:45:06:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T14:45:06:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T14:45:06:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T14:45:06:   clientVersion: '6.19.0'
+2025-11-12T14:45:06: }
+2025-11-12T14:45:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:14: prisma:error 
+2025-11-12T14:45:14: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:14: 
+2025-11-12T14:45:14: {
+2025-11-12T14:45:14:   data: {
+2025-11-12T14:45:14:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:14:     name: "rysn champion",
+2025-11-12T14:45:14:     password: "$2b$10$c5FA4PRoHycbZnNIs4S9OO31kCChYHpYVHZboQEOLSAEvey4TaXA.",
+2025-11-12T14:45:14:     role: "OWNER",
+2025-11-12T14:45:14:     organizationId: "cmhw43met0003xendsqgppjee",
+2025-11-12T14:45:14:     emailVerified: false,
+2025-11-12T14:45:14: +   updatedAt: DateTime
+2025-11-12T14:45:14:   }
+2025-11-12T14:45:14: }
+2025-11-12T14:45:14: 
+2025-11-12T14:45:14: Argument `updatedAt` is missing.
+2025-11-12T14:45:14: Signup error: PrismaClientValidationError: 
+2025-11-12T14:45:14: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:14: 
+2025-11-12T14:45:14: {
+2025-11-12T14:45:14:   data: {
+2025-11-12T14:45:14:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:14:     name: "rysn champion",
+2025-11-12T14:45:14:     password: "$2b$10$c5FA4PRoHycbZnNIs4S9OO31kCChYHpYVHZboQEOLSAEvey4TaXA.",
+2025-11-12T14:45:14:     role: "OWNER",
+2025-11-12T14:45:14:     organizationId: "cmhw43met0003xendsqgppjee",
+2025-11-12T14:45:14:     emailVerified: false,
+2025-11-12T14:45:14: +   updatedAt: DateTime
+2025-11-12T14:45:14:   }
+2025-11-12T14:45:14: }
+2025-11-12T14:45:14: 
+2025-11-12T14:45:14: Argument `updatedAt` is missing.
+2025-11-12T14:45:14:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T14:45:14:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T14:45:14:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T14:45:14:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T14:45:14:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T14:45:14:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T14:45:14:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T14:45:14:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T14:45:14:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T14:45:14:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T14:45:14:   clientVersion: '6.19.0'
+2025-11-12T14:45:14: }
+2025-11-12T14:45:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:19: prisma:error 
+2025-11-12T14:45:19: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:19: 
+2025-11-12T14:45:19: {
+2025-11-12T14:45:19:   data: {
+2025-11-12T14:45:19:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:19:     name: "rysn champion",
+2025-11-12T14:45:19:     password: "$2b$10$MjtrYMFQ/OPQECuhDsOKsuIkPSRwRGE/ZEiQG0s8F.YFa2PsaQo0i",
+2025-11-12T14:45:19:     role: "OWNER",
+2025-11-12T14:45:19:     organizationId: "cmhw43pxu0006xendcayewvq0",
+2025-11-12T14:45:19:     emailVerified: false,
+2025-11-12T14:45:19: +   updatedAt: DateTime
+2025-11-12T14:45:19:   }
+2025-11-12T14:45:19: }
+2025-11-12T14:45:19: 
+2025-11-12T14:45:19: Argument `updatedAt` is missing.
+2025-11-12T14:45:19: Signup error: PrismaClientValidationError: 
+2025-11-12T14:45:19: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:19: 
+2025-11-12T14:45:19: {
+2025-11-12T14:45:19:   data: {
+2025-11-12T14:45:19:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:19:     name: "rysn champion",
+2025-11-12T14:45:19:     password: "$2b$10$MjtrYMFQ/OPQECuhDsOKsuIkPSRwRGE/ZEiQG0s8F.YFa2PsaQo0i",
+2025-11-12T14:45:19:     role: "OWNER",
+2025-11-12T14:45:19:     organizationId: "cmhw43pxu0006xendcayewvq0",
+2025-11-12T14:45:19:     emailVerified: false,
+2025-11-12T14:45:19: +   updatedAt: DateTime
+2025-11-12T14:45:19:   }
+2025-11-12T14:45:19: }
+2025-11-12T14:45:19: 
+2025-11-12T14:45:19: Argument `updatedAt` is missing.
+2025-11-12T14:45:19:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T14:45:19:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T14:45:19:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T14:45:19:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T14:45:19:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T14:45:19:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T14:45:19:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T14:45:19:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T14:45:19:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T14:45:19:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T14:45:19:   clientVersion: '6.19.0'
+2025-11-12T14:45:19: }
+2025-11-12T14:45:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:45:26: prisma:error 
+2025-11-12T14:45:26: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:26: 
+2025-11-12T14:45:26: {
+2025-11-12T14:45:26:   data: {
+2025-11-12T14:45:26:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:26:     name: "rysn champion",
+2025-11-12T14:45:26:     password: "$2b$10$oPSVZyJ73uw8PS0Pz0kE2.Csc4Tb8yT99dD1oR8lFM2UxQAPCkgp.",
+2025-11-12T14:45:26:     role: "OWNER",
+2025-11-12T14:45:26:     organizationId: "cmhw43v8n0009xendto4ejgh0",
+2025-11-12T14:45:26:     emailVerified: false,
+2025-11-12T14:45:26: +   updatedAt: DateTime
+2025-11-12T14:45:26:   }
+2025-11-12T14:45:26: }
+2025-11-12T14:45:26: 
+2025-11-12T14:45:26: Argument `updatedAt` is missing.
+2025-11-12T14:45:26: Signup error: PrismaClientValidationError: 
+2025-11-12T14:45:26: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:45:26: 
+2025-11-12T14:45:26: {
+2025-11-12T14:45:26:   data: {
+2025-11-12T14:45:26:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:45:26:     name: "rysn champion",
+2025-11-12T14:45:26:     password: "$2b$10$oPSVZyJ73uw8PS0Pz0kE2.Csc4Tb8yT99dD1oR8lFM2UxQAPCkgp.",
+2025-11-12T14:45:26:     role: "OWNER",
+2025-11-12T14:45:26:     organizationId: "cmhw43v8n0009xendto4ejgh0",
+2025-11-12T14:45:26:     emailVerified: false,
+2025-11-12T14:45:26: +   updatedAt: DateTime
+2025-11-12T14:45:26:   }
+2025-11-12T14:45:26: }
+2025-11-12T14:45:26: 
+2025-11-12T14:45:26: Argument `updatedAt` is missing.
+2025-11-12T14:45:26:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T14:45:26:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T14:45:26:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T14:45:26:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T14:45:26:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T14:45:26:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T14:45:26:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T14:45:26:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T14:45:26:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T14:45:26:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T14:45:26:   clientVersion: '6.19.0'
+2025-11-12T14:45:26: }
+2025-11-12T14:45:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:47:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:47:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:47:34: prisma:error 
+2025-11-12T14:47:34: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:47:34: 
+2025-11-12T14:47:34: {
+2025-11-12T14:47:34:   data: {
+2025-11-12T14:47:34:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:47:34:     name: "rysn champion",
+2025-11-12T14:47:34:     password: "$2b$10$G282/Rbp5P5ETrmJ3kOBx.wzybe.2iwOonv4jKK4oiqwjjDyvq67S",
+2025-11-12T14:47:34:     role: "OWNER",
+2025-11-12T14:47:34:     organizationId: "cmhw46lz8000cxendaizoyrku",
+2025-11-12T14:47:34:     emailVerified: false,
+2025-11-12T14:47:34: +   updatedAt: DateTime
+2025-11-12T14:47:34:   }
+2025-11-12T14:47:34: }
+2025-11-12T14:47:34: 
+2025-11-12T14:47:34: Argument `updatedAt` is missing.
+2025-11-12T14:47:34: Signup error: PrismaClientValidationError: 
+2025-11-12T14:47:34: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:47:34: 
+2025-11-12T14:47:34: {
+2025-11-12T14:47:34:   data: {
+2025-11-12T14:47:34:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:47:34:     name: "rysn champion",
+2025-11-12T14:47:34:     password: "$2b$10$G282/Rbp5P5ETrmJ3kOBx.wzybe.2iwOonv4jKK4oiqwjjDyvq67S",
+2025-11-12T14:47:34:     role: "OWNER",
+2025-11-12T14:47:34:     organizationId: "cmhw46lz8000cxendaizoyrku",
+2025-11-12T14:47:34:     emailVerified: false,
+2025-11-12T14:47:34: +   updatedAt: DateTime
+2025-11-12T14:47:34:   }
+2025-11-12T14:47:34: }
+2025-11-12T14:47:34: 
+2025-11-12T14:47:34: Argument `updatedAt` is missing.
+2025-11-12T14:47:34:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T14:47:34:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T14:47:34:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T14:47:34:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T14:47:34:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T14:47:34:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T14:47:34:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T14:47:34:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T14:47:34:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T14:47:34:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T14:47:34:   clientVersion: '6.19.0'
+2025-11-12T14:47:34: }
+2025-11-12T14:47:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:59:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:59:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T14:59:54: prisma:error 
+2025-11-12T14:59:54: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:59:54: 
+2025-11-12T14:59:54: {
+2025-11-12T14:59:54:   data: {
+2025-11-12T14:59:54:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:59:54:     name: "rysn champion",
+2025-11-12T14:59:54:     password: "$2b$10$75V4BPDUtP8qODuqX7k2ne5XmGNwmrgEPk5C.PB7VxqtPq2pOwhku",
+2025-11-12T14:59:54:     role: "OWNER",
+2025-11-12T14:59:54:     organizationId: "cmhw4mhfv000fxenduesas5ot",
+2025-11-12T14:59:54:     emailVerified: false,
+2025-11-12T14:59:54: +   updatedAt: DateTime
+2025-11-12T14:59:54:   }
+2025-11-12T14:59:54: }
+2025-11-12T14:59:54: 
+2025-11-12T14:59:54: Argument `updatedAt` is missing.
+2025-11-12T14:59:54: Signup error: PrismaClientValidationError: 
+2025-11-12T14:59:54: Invalid `prisma.user.create()` invocation:
+2025-11-12T14:59:54: 
+2025-11-12T14:59:54: {
+2025-11-12T14:59:54:   data: {
+2025-11-12T14:59:54:     email: "ryanchampion94@gmail.com",
+2025-11-12T14:59:54:     name: "rysn champion",
+2025-11-12T14:59:54:     password: "$2b$10$75V4BPDUtP8qODuqX7k2ne5XmGNwmrgEPk5C.PB7VxqtPq2pOwhku",
+2025-11-12T14:59:54:     role: "OWNER",
+2025-11-12T14:59:54:     organizationId: "cmhw4mhfv000fxenduesas5ot",
+2025-11-12T14:59:54:     emailVerified: false,
+2025-11-12T14:59:54: +   updatedAt: DateTime
+2025-11-12T14:59:54:   }
+2025-11-12T14:59:54: }
+2025-11-12T14:59:54: 
+2025-11-12T14:59:54: Argument `updatedAt` is missing.
+2025-11-12T14:59:54:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T14:59:54:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T14:59:54:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T14:59:54:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T14:59:54:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T14:59:54:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T14:59:54:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T14:59:54:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T14:59:54:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T14:59:54:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T14:59:54:   clientVersion: '6.19.0'
+2025-11-12T14:59:54: }
+2025-11-12T14:59:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:33: prisma:error 
+2025-11-12T15:00:33: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:00:33: 
+2025-11-12T15:00:33: {
+2025-11-12T15:00:33:   data: {
+2025-11-12T15:00:33:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:00:33:     name: "scooter tooter",
+2025-11-12T15:00:33:     password: "$2b$10$kzM6RVn4.wCthZYj6YZtt.Dj7XmsF9HtWnlHml1dBkVmOmQbtnike",
+2025-11-12T15:00:33:     role: "OWNER",
+2025-11-12T15:00:33:     organizationId: "cmhw4naxe000ixendttkah1gu",
+2025-11-12T15:00:33:     emailVerified: false,
+2025-11-12T15:00:33: +   updatedAt: DateTime
+2025-11-12T15:00:33:   }
+2025-11-12T15:00:33: }
+2025-11-12T15:00:33: 
+2025-11-12T15:00:33: Argument `updatedAt` is missing.
+2025-11-12T15:00:33: Signup error: PrismaClientValidationError: 
+2025-11-12T15:00:33: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:00:33: 
+2025-11-12T15:00:33: {
+2025-11-12T15:00:33:   data: {
+2025-11-12T15:00:33:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:00:33:     name: "scooter tooter",
+2025-11-12T15:00:33:     password: "$2b$10$kzM6RVn4.wCthZYj6YZtt.Dj7XmsF9HtWnlHml1dBkVmOmQbtnike",
+2025-11-12T15:00:33:     role: "OWNER",
+2025-11-12T15:00:33:     organizationId: "cmhw4naxe000ixendttkah1gu",
+2025-11-12T15:00:33:     emailVerified: false,
+2025-11-12T15:00:33: +   updatedAt: DateTime
+2025-11-12T15:00:33:   }
+2025-11-12T15:00:33: }
+2025-11-12T15:00:33: 
+2025-11-12T15:00:33: Argument `updatedAt` is missing.
+2025-11-12T15:00:33:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:00:33:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:00:33:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:00:33:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:00:33:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:00:33:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:00:33:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:00:33:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:00:33:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:00:33:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:00:33:   clientVersion: '6.19.0'
+2025-11-12T15:00:33: }
+2025-11-12T15:00:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:00:45: 
+2025-11-12T15:00:45: [1;31m[404] GET /vkey/[0m
+2025-11-12T15:05:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:05:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:05:01: 
+2025-11-12T15:05:01: [1;31m[404] GET /.git/HEAD[0m
+2025-11-12T15:10:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:10:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:10:55: prisma:error 
+2025-11-12T15:10:55: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:10:55: 
+2025-11-12T15:10:55: {
+2025-11-12T15:10:55:   data: {
+2025-11-12T15:10:55:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:10:55:     name: "scooter tooter",
+2025-11-12T15:10:55:     password: "$2b$10$huHfmRME/KshU1CGyxTr6.un0dPkSrU23xddiJ1PA/9cCqxXovBlm",
+2025-11-12T15:10:55:     role: "OWNER",
+2025-11-12T15:10:55:     organizationId: "cmhw50n8u000lxendpoon2pkz",
+2025-11-12T15:10:55:     emailVerified: false,
+2025-11-12T15:10:55: +   updatedAt: DateTime
+2025-11-12T15:10:55:   }
+2025-11-12T15:10:55: }
+2025-11-12T15:10:55: 
+2025-11-12T15:10:55: Argument `updatedAt` is missing.
+2025-11-12T15:10:55: Signup error: PrismaClientValidationError: 
+2025-11-12T15:10:55: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:10:55: 
+2025-11-12T15:10:55: {
+2025-11-12T15:10:55:   data: {
+2025-11-12T15:10:55:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:10:55:     name: "scooter tooter",
+2025-11-12T15:10:55:     password: "$2b$10$huHfmRME/KshU1CGyxTr6.un0dPkSrU23xddiJ1PA/9cCqxXovBlm",
+2025-11-12T15:10:55:     role: "OWNER",
+2025-11-12T15:10:55:     organizationId: "cmhw50n8u000lxendpoon2pkz",
+2025-11-12T15:10:55:     emailVerified: false,
+2025-11-12T15:10:55: +   updatedAt: DateTime
+2025-11-12T15:10:55:   }
+2025-11-12T15:10:55: }
+2025-11-12T15:10:55: 
+2025-11-12T15:10:55: Argument `updatedAt` is missing.
+2025-11-12T15:10:55:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:10:55:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:10:55:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:10:55:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:10:55:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:10:55:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:10:55:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:10:55:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:10:55:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:10:55:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:10:55:   clientVersion: '6.19.0'
+2025-11-12T15:10:55: }
+2025-11-12T15:10:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:11:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:11:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:11:59: prisma:error 
+2025-11-12T15:11:59: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:11:59: 
+2025-11-12T15:11:59: {
+2025-11-12T15:11:59:   data: {
+2025-11-12T15:11:59:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:11:59:     name: "scooter tooter",
+2025-11-12T15:11:59:     password: "$2b$10$53w3bOVt9MA3iWVtmFah/.gL8VvXhZp8YhM9CFVQl9yux3isPUgEG",
+2025-11-12T15:11:59:     role: "OWNER",
+2025-11-12T15:11:59:     organizationId: "cmhw520rr000oxendqar52esd",
+2025-11-12T15:11:59:     emailVerified: false,
+2025-11-12T15:11:59: +   updatedAt: DateTime
+2025-11-12T15:11:59:   }
+2025-11-12T15:11:59: }
+2025-11-12T15:11:59: 
+2025-11-12T15:11:59: Argument `updatedAt` is missing.
+2025-11-12T15:11:59: Signup error: PrismaClientValidationError: 
+2025-11-12T15:11:59: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:11:59: 
+2025-11-12T15:11:59: {
+2025-11-12T15:11:59:   data: {
+2025-11-12T15:11:59:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:11:59:     name: "scooter tooter",
+2025-11-12T15:11:59:     password: "$2b$10$53w3bOVt9MA3iWVtmFah/.gL8VvXhZp8YhM9CFVQl9yux3isPUgEG",
+2025-11-12T15:11:59:     role: "OWNER",
+2025-11-12T15:11:59:     organizationId: "cmhw520rr000oxendqar52esd",
+2025-11-12T15:11:59:     emailVerified: false,
+2025-11-12T15:11:59: +   updatedAt: DateTime
+2025-11-12T15:11:59:   }
+2025-11-12T15:11:59: }
+2025-11-12T15:11:59: 
+2025-11-12T15:11:59: Argument `updatedAt` is missing.
+2025-11-12T15:11:59:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:11:59:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:11:59:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:11:59:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:11:59:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:11:59:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:11:59:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:11:59:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:11:59:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:11:59:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:11:59:   clientVersion: '6.19.0'
+2025-11-12T15:11:59: }
+2025-11-12T15:11:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:04: prisma:error 
+2025-11-12T15:12:04: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:12:04: 
+2025-11-12T15:12:04: {
+2025-11-12T15:12:04:   data: {
+2025-11-12T15:12:04:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:12:04:     name: "scooter tooter",
+2025-11-12T15:12:04:     password: "$2b$10$eSVahtWuAruamM2075Vzq.U3GC6bNoCoQHG1odL3eABprgMAF2K.6",
+2025-11-12T15:12:04:     role: "OWNER",
+2025-11-12T15:12:04:     organizationId: "cmhw524j2000rxendpzd68i3y",
+2025-11-12T15:12:04:     emailVerified: false,
+2025-11-12T15:12:04: +   updatedAt: DateTime
+2025-11-12T15:12:04:   }
+2025-11-12T15:12:04: }
+2025-11-12T15:12:04: 
+2025-11-12T15:12:04: Argument `updatedAt` is missing.
+2025-11-12T15:12:04: Signup error: PrismaClientValidationError: 
+2025-11-12T15:12:04: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:12:04: 
+2025-11-12T15:12:04: {
+2025-11-12T15:12:04:   data: {
+2025-11-12T15:12:04:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:12:04:     name: "scooter tooter",
+2025-11-12T15:12:04:     password: "$2b$10$eSVahtWuAruamM2075Vzq.U3GC6bNoCoQHG1odL3eABprgMAF2K.6",
+2025-11-12T15:12:04:     role: "OWNER",
+2025-11-12T15:12:04:     organizationId: "cmhw524j2000rxendpzd68i3y",
+2025-11-12T15:12:04:     emailVerified: false,
+2025-11-12T15:12:04: +   updatedAt: DateTime
+2025-11-12T15:12:04:   }
+2025-11-12T15:12:04: }
+2025-11-12T15:12:04: 
+2025-11-12T15:12:04: Argument `updatedAt` is missing.
+2025-11-12T15:12:04:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:12:04:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:12:04:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:12:04:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:12:04:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:12:04:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:12:04:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:12:04:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:12:04:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:12:04:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:12:04:   clientVersion: '6.19.0'
+2025-11-12T15:12:04: }
+2025-11-12T15:12:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:11: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:11: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:11: prisma:error 
+2025-11-12T15:12:11: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:12:11: 
+2025-11-12T15:12:11: {
+2025-11-12T15:12:11:   data: {
+2025-11-12T15:12:11:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:12:11:     name: "scooter tooter",
+2025-11-12T15:12:11:     password: "$2b$10$UESt9NroL.QYIUtNQmBuR.HuOv0pi3D7cdf4jMKaQcpfVRuR1rTDG",
+2025-11-12T15:12:11:     role: "OWNER",
+2025-11-12T15:12:11:     organizationId: "cmhw52a2b000uxendvp7k5oi2",
+2025-11-12T15:12:11:     emailVerified: false,
+2025-11-12T15:12:11: +   updatedAt: DateTime
+2025-11-12T15:12:11:   }
+2025-11-12T15:12:11: }
+2025-11-12T15:12:11: 
+2025-11-12T15:12:11: Argument `updatedAt` is missing.
+2025-11-12T15:12:11: Signup error: PrismaClientValidationError: 
+2025-11-12T15:12:11: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:12:11: 
+2025-11-12T15:12:11: {
+2025-11-12T15:12:11:   data: {
+2025-11-12T15:12:11:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:12:11:     name: "scooter tooter",
+2025-11-12T15:12:11:     password: "$2b$10$UESt9NroL.QYIUtNQmBuR.HuOv0pi3D7cdf4jMKaQcpfVRuR1rTDG",
+2025-11-12T15:12:11:     role: "OWNER",
+2025-11-12T15:12:11:     organizationId: "cmhw52a2b000uxendvp7k5oi2",
+2025-11-12T15:12:11:     emailVerified: false,
+2025-11-12T15:12:11: +   updatedAt: DateTime
+2025-11-12T15:12:11:   }
+2025-11-12T15:12:11: }
+2025-11-12T15:12:11: 
+2025-11-12T15:12:11: Argument `updatedAt` is missing.
+2025-11-12T15:12:11:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:12:11:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:12:11:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:12:11:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:12:11:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:12:11:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:12:11:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:12:11:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:12:11:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:12:11:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:12:11:   clientVersion: '6.19.0'
+2025-11-12T15:12:11: }
+2025-11-12T15:12:11: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:12:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:13:22: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:13:22: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:13:22: 
+2025-11-12T15:13:22: [1;31m[404] GET /.git/config[0m
+2025-11-12T15:13:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:13:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:13:28: 
+2025-11-12T15:13:28: [1;31m[404] GET /.git/config[0m
+2025-11-12T15:13:38: Listening on http://0.0.0.0:3000
+2025-11-12T15:14:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:10: 
+2025-11-12T15:14:10: [1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-12T15:14:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:22: prisma:error 
+2025-11-12T15:14:22: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:14:22: 
+2025-11-12T15:14:22: {
+2025-11-12T15:14:22:   data: {
+2025-11-12T15:14:22:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:14:22:     name: "scooter tooter",
+2025-11-12T15:14:22:     password: "$2b$10$kvYh2R5wsZb4XTjj88lyD.TitCKNZobsgT3IOpIt2QJztkMBIcaFq",
+2025-11-12T15:14:22:     role: "OWNER",
+2025-11-12T15:14:22:     organizationId: "cmhw552jx0000xerepf6d8zbm",
+2025-11-12T15:14:22:     emailVerified: false,
+2025-11-12T15:14:22: +   updatedAt: DateTime
+2025-11-12T15:14:22:   }
+2025-11-12T15:14:22: }
+2025-11-12T15:14:22: 
+2025-11-12T15:14:22: Argument `updatedAt` is missing.
+2025-11-12T15:14:22: Signup error: PrismaClientValidationError: 
+2025-11-12T15:14:22: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:14:22: 
+2025-11-12T15:14:22: {
+2025-11-12T15:14:22:   data: {
+2025-11-12T15:14:22:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:14:22:     name: "scooter tooter",
+2025-11-12T15:14:22:     password: "$2b$10$kvYh2R5wsZb4XTjj88lyD.TitCKNZobsgT3IOpIt2QJztkMBIcaFq",
+2025-11-12T15:14:22:     role: "OWNER",
+2025-11-12T15:14:22:     organizationId: "cmhw552jx0000xerepf6d8zbm",
+2025-11-12T15:14:22:     emailVerified: false,
+2025-11-12T15:14:22: +   updatedAt: DateTime
+2025-11-12T15:14:22:   }
+2025-11-12T15:14:22: }
+2025-11-12T15:14:22: 
+2025-11-12T15:14:22: Argument `updatedAt` is missing.
+2025-11-12T15:14:22:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:14:22:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:14:22:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:14:22:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:14:22:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:14:22:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:14:22:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:14:22:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:14:22:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:14:22:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:14:22:   clientVersion: '6.19.0'
+2025-11-12T15:14:22: }
+2025-11-12T15:14:22: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:14:56: prisma:error 
+2025-11-12T15:14:56: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:14:56: 
+2025-11-12T15:14:56: {
+2025-11-12T15:14:56:   data: {
+2025-11-12T15:14:56:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:14:56:     name: "john smith",
+2025-11-12T15:14:56:     password: "$2b$10$3ZQzefzW/VUDBTofsNE8.ejNPdGKPGK5ckRNpYcZR1mWuR/QyPqBe",
+2025-11-12T15:14:56:     role: "OWNER",
+2025-11-12T15:14:56:     organizationId: "cmhw55tcs0003xere1hyz8rju",
+2025-11-12T15:14:56:     emailVerified: false,
+2025-11-12T15:14:56: +   updatedAt: DateTime
+2025-11-12T15:14:56:   }
+2025-11-12T15:14:56: }
+2025-11-12T15:14:56: 
+2025-11-12T15:14:56: Argument `updatedAt` is missing.
+2025-11-12T15:14:56: Signup error: PrismaClientValidationError: 
+2025-11-12T15:14:56: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:14:56: 
+2025-11-12T15:14:56: {
+2025-11-12T15:14:56:   data: {
+2025-11-12T15:14:56:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:14:56:     name: "john smith",
+2025-11-12T15:14:56:     password: "$2b$10$3ZQzefzW/VUDBTofsNE8.ejNPdGKPGK5ckRNpYcZR1mWuR/QyPqBe",
+2025-11-12T15:14:56:     role: "OWNER",
+2025-11-12T15:14:56:     organizationId: "cmhw55tcs0003xere1hyz8rju",
+2025-11-12T15:14:56:     emailVerified: false,
+2025-11-12T15:14:56: +   updatedAt: DateTime
+2025-11-12T15:14:56:   }
+2025-11-12T15:14:56: }
+2025-11-12T15:14:56: 
+2025-11-12T15:14:56: Argument `updatedAt` is missing.
+2025-11-12T15:14:56:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:14:56:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:14:56:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:14:56:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:14:56:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:14:56:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:14:56:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:14:56:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:14:56:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:14:56:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:14:56:   clientVersion: '6.19.0'
+2025-11-12T15:14:56: }
+2025-11-12T15:14:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:42: prisma:error 
+2025-11-12T15:15:42: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:15:42: 
+2025-11-12T15:15:42: {
+2025-11-12T15:15:42:   data: {
+2025-11-12T15:15:42:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:15:42:     name: "john smith",
+2025-11-12T15:15:42:     password: "$2b$10$Ei.yq2cj7UCyPYn1Ip5xN.9/UmN.vBrGNv1jPyoNk8K1q4ibavR92",
+2025-11-12T15:15:42:     role: "OWNER",
+2025-11-12T15:15:42:     organizationId: "cmhw56soz0006xereiueftev0",
+2025-11-12T15:15:42:     emailVerified: false,
+2025-11-12T15:15:42: +   updatedAt: DateTime
+2025-11-12T15:15:42:   }
+2025-11-12T15:15:42: }
+2025-11-12T15:15:42: 
+2025-11-12T15:15:42: Argument `updatedAt` is missing.
+2025-11-12T15:15:42: Signup error: PrismaClientValidationError: 
+2025-11-12T15:15:42: Invalid `prisma.user.create()` invocation:
+2025-11-12T15:15:42: 
+2025-11-12T15:15:42: {
+2025-11-12T15:15:42:   data: {
+2025-11-12T15:15:42:     email: "ryn_chmpn@yahoo.com",
+2025-11-12T15:15:42:     name: "john smith",
+2025-11-12T15:15:42:     password: "$2b$10$Ei.yq2cj7UCyPYn1Ip5xN.9/UmN.vBrGNv1jPyoNk8K1q4ibavR92",
+2025-11-12T15:15:42:     role: "OWNER",
+2025-11-12T15:15:42:     organizationId: "cmhw56soz0006xereiueftev0",
+2025-11-12T15:15:42:     emailVerified: false,
+2025-11-12T15:15:42: +   updatedAt: DateTime
+2025-11-12T15:15:42:   }
+2025-11-12T15:15:42: }
+2025-11-12T15:15:42: 
+2025-11-12T15:15:42: Argument `updatedAt` is missing.
+2025-11-12T15:15:42:     at Nn (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:89:1365)
+2025-11-12T15:15:42:     at ei.handleRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:7026)
+2025-11-12T15:15:42:     at ei.handleAndLogRequestError (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6707)
+2025-11-12T15:15:42:     at ei.request (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:181:6413)
+2025-11-12T15:15:42:     at async a (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:9575)
+2025-11-12T15:15:42:     at async file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:64:22
+2025-11-12T15:15:42:     at async Proxy._transactionWithCallback (file:///full-scope-schedulerV1.0/build/server/chunks/default-A0l0S0pj.js:190:8140)
+2025-11-12T15:15:42:     at async default (file:///full-scope-schedulerV1.0/build/server/chunks/9-0kQkUwv8.js:57:22)
+2025-11-12T15:15:42:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3193:22)
+2025-11-12T15:15:42:     at async handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-C1MNGZP_.js:3123:18) {
+2025-11-12T15:15:42:   clientVersion: '6.19.0'
+2025-11-12T15:15:42: }
+2025-11-12T15:15:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:15:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:16:41: Listening on http://0.0.0.0:3000
+2025-11-12T15:17:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:17:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:17:28: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:17:28:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:17:28:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:17:28:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:17:28:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:17:28:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:17:28: 
+2025-11-12T15:17:28: [1;31m[500] GET /auth/signup[0m
+2025-11-12T15:17:28: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:17:28:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:17:28:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:17:28:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:17:28:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:17:28:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:17:28:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:17:28:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T15:17:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:17:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:17:46: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:17:46:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:17:46:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:17:46:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:17:46:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:17:46:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:17:46: 
+2025-11-12T15:17:46: [1;31m[500] HEAD /[0m
+2025-11-12T15:17:46: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:17:46:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:17:46:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:17:46:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:17:46:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:17:46:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:17:46:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:17:46:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T15:18:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:18:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:18:03: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:18:03:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:18:03:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:18:03:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:18:03:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:18:03:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:18:03: 
+2025-11-12T15:18:03: [1;31m[500] HEAD /[0m
+2025-11-12T15:18:03: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:18:03:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:18:03:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:18:03:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:18:03:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:18:03:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:18:03:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:18:03:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T15:18:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:18:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:18:16: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:18:16:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:18:16:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:18:16:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:18:16:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:18:16:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:18:16: 
+2025-11-12T15:18:16: [1;31m[500] HEAD /[0m
+2025-11-12T15:18:16: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:18:16:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:18:16:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:18:16:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:18:16:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:18:16:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:18:16:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:18:16:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T15:19:41: Listening on http://0.0.0.0:3000
+2025-11-12T15:19:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:19:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:19:55: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:19:55:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:19:56:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:19:56:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:19:56:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:19:56:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:19:56: 
+2025-11-12T15:19:56: [1;31m[500] HEAD /[0m
+2025-11-12T15:19:56: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:19:56:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:19:56:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:19:56:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:19:56:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:19:56:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:19:56:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:19:56:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T15:20:30: Listening on http://0.0.0.0:3000
+2025-11-12T15:20:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:20:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:20:44: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:20:44:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:20:44:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:20:44:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:20:44:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:20:44:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:20:44: 
+2025-11-12T15:20:44: [1;31m[500] HEAD /[0m
+2025-11-12T15:20:44: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:20:44:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:20:44:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:20:44:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:20:44:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:20:44:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:20:44:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:20:44:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T15:22:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:22:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:22:40: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:22:40:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:22:40:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:22:40:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:22:40:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:22:40:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:22:40: 
+2025-11-12T15:22:40: [1;31m[500] GET /[0m
+2025-11-12T15:22:40: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:22:40:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:22:40:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:22:40:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:22:40:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:22:40:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:22:40:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:22:40:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-12T15:23:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:23:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-12T15:23:01: [31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: https://roster86.com/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+2025-11-12T15:23:01:     at assertConfig (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/assert.js:57:16)
+2025-11-12T15:23:01:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:72:29)
+2025-11-12T15:23:01:     at async auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:235:20)
+2025-11-12T15:23:01:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:23:01:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:23:01: 
+2025-11-12T15:23:01: [1;31m[500] GET /[0m
+2025-11-12T15:23:01: Error: There was a problem with the server configuration. Check the server logs for more information.
+2025-11-12T15:23:01:     at auth (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:247:9)
+2025-11-12T15:23:01:     at async authorizationHandle (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:359:19)
+2025-11-12T15:23:01:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:23:01:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-CNJswmCs.js:114:13)
+2025-11-12T15:23:01:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
+2025-11-12T15:23:01:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
+2025-11-12T15:23:01:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
