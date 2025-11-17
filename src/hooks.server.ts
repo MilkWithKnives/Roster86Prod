@@ -11,6 +11,7 @@ import { env } from '$env/dynamic/private';
 export const { handle: authHandle } = SvelteKitAuth({
 	adapter: PrismaAdapter(prisma),
 	trustHost: true,
+	debug: process.env.NODE_ENV === 'development',
 	basePath: '/auth',
 	providers: [
 		// Email/Password Login
@@ -21,32 +22,58 @@ export const { handle: authHandle } = SvelteKitAuth({
 				password: { label: 'Password', type: 'password' }
 			},
 			async authorize(credentials) {
+				console.log('🔐 Auth.js authorize called with email:', credentials?.email);
+
 				if (!credentials?.email || !credentials?.password) {
+					console.log('❌ Missing credentials - email or password not provided');
 					return null;
 				}
 
-				const user = await prisma.user.findUnique({
-					where: { email: credentials.email as string },
-					include: { Organization: true }
-				});
+				try {
+					console.log('🔍 Looking up user in database...');
+					const user = await prisma.user.findUnique({
+						where: { email: credentials.email as string },
+						include: { Organization: true }
+					});
 
-				if (!user || !user.password) {
+					if (!user) {
+						console.log('❌ User not found in database for email:', credentials.email);
+						return null;
+					}
+
+					if (!user.password) {
+						console.log('❌ User found but no password set for email:', credentials.email);
+						return null;
+					}
+
+					console.log('✅ User found, verifying password...');
+					const isValid = await bcrypt.compare(credentials.password as string, user.password);
+
+					if (!isValid) {
+						console.log('❌ Password verification failed for email:', credentials.email);
+						return null;
+					}
+
+					console.log('✅ Authentication successful for user:', {
+						id: user.id,
+						email: user.email,
+						name: user.name,
+						role: user.role,
+						organizationId: user.organizationId,
+						emailVerified: user.emailVerified
+					});
+
+					return {
+						id: user.id,
+						email: user.email,
+						name: user.name,
+						role: user.role,
+						organizationId: user.organizationId
+					};
+				} catch (error) {
+					console.error('💥 Database error during authentication:', error);
 					return null;
 				}
-
-				const isValid = await bcrypt.compare(credentials.password as string, user.password);
-
-				if (!isValid) {
-					return null;
-				}
-
-				return {
-					id: user.id,
-					email: user.email,
-					name: user.name,
-					role: user.role,
-					organizationId: user.organizationId
-				};
 			}
 		})
 
@@ -55,19 +82,48 @@ export const { handle: authHandle } = SvelteKitAuth({
 	],
 	callbacks: {
 		async session({ session, token }) {
+			console.log('🎫 Session callback called for user:', session.user?.email);
 			if (token && session.user) {
 				session.user.id = token.sub as string;
 				session.user.role = token.role as string;
 				session.user.organizationId = token.organizationId as string;
+				console.log('✅ Session updated with user data:', {
+					id: session.user.id,
+					email: session.user.email,
+					role: session.user.role,
+					organizationId: session.user.organizationId
+				});
 			}
 			return session;
 		},
 		async jwt({ token, user }) {
+			console.log('🔑 JWT callback called');
 			if (user) {
+				console.log('👤 Adding user data to JWT token:', {
+					id: user.id,
+					email: user.email,
+					role: user.role,
+					organizationId: user.organizationId
+				});
 				token.role = user.role;
 				token.organizationId = user.organizationId;
 			}
 			return token;
+		}
+	},
+	events: {
+		async signIn({ user, account, profile }) {
+			console.log('🎉 User signed in successfully:', {
+				userId: user.id,
+				email: user.email,
+				provider: account?.provider
+			});
+		},
+		async signOut({ session, token }) {
+			console.log('👋 User signed out:', {
+				userId: session?.user?.id || token?.sub,
+				email: session?.user?.email || token?.email
+			});
 		}
 	},
 	session: {
@@ -84,6 +140,7 @@ export const { handle: authHandle } = SvelteKitAuth({
 
 // Authorization middleware
 const authorizationHandle: Handle = async ({ event, resolve }) => {
+	// Get session using the correct Auth.js method
 	const session = await event.locals.auth();
 	const pathname = event.url.pathname;
 

@@ -2,6 +2,7 @@ import type { PageServerLoad, Actions } from './$types';
 import { requireRole } from '$lib/server/auth';
 import { prisma } from '$lib/server/prisma';
 import { fail } from '@sveltejs/kit';
+import crypto from 'crypto';
 
 export const load: PageServerLoad = async (event) => {
 	// Only managers and owners can manage templates
@@ -209,7 +210,9 @@ export const actions = {
 
 			// Create all shifts in a transaction
 			const createdShifts = await prisma.$transaction(
-				shifts.map((shift) => prisma.shift.create({ data: shift }))
+				shifts.map((shift) => prisma.shift.create({
+					data: shift
+				}))
 			);
 
 			return { success: true, count: createdShifts.length };

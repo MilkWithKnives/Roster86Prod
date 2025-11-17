@@ -4,6 +4,9 @@
 	import Button from '$lib/components/Button.svelte';
 	import Toast from '$lib/components/Toast.svelte';
 	import MobileNav from '$lib/components/MobileNav.svelte';
+	import AIChatBubble from '$lib/components/AIChatBubble.svelte';
+	import { aiContext } from '$lib/stores/aiContext';
+	import { aiChatService } from '$lib/services/aiChatService';
 	import type { LayoutData } from './$types';
 
 	let { data, children }: { data: LayoutData; children: any } = $props();
@@ -46,6 +49,76 @@
 
 	async function handleSignOut() {
 		await signOut({ callbackUrl: '/auth/login' });
+	}
+
+	// AI Chat functionality
+	async function handleAIMessage(message: string): Promise<string> {
+		try {
+			// Update context with current page info
+			aiContext.updateContext({
+				currentPage: getCurrentPageName(),
+				organizationData: {
+					employees: [], // TODO: Get from data
+					shifts: [],
+					locations: []
+				}
+			});
+
+			// Add user message to context
+			aiContext.addMessage({
+				type: 'user',
+				content: message
+			});
+
+			// Get current context and conversation history
+			const contextSummary = aiContext.getContextSummary();
+			let conversationHistory: any[] = [];
+
+			aiContext.subscribe(state => {
+				conversationHistory = state.messages.slice(-10); // Last 10 messages
+			})();
+
+			// Send to AI service
+			const response = await aiChatService.sendMessage({
+				message,
+				context: {
+					currentPage: getCurrentPageName(),
+					organizationData: {
+						employees: [],
+						shifts: [],
+						locations: []
+					}
+				},
+				conversationHistory,
+				sessionId: crypto.randomUUID()
+			});
+
+			// Add AI response to context
+			aiContext.addMessage({
+				type: 'ai',
+				content: response.response
+			});
+
+			return response.response;
+		} catch (error) {
+			console.error('AI Chat Error:', error);
+			return 'Sorry, I encountered an error. Please try again or contact support if the problem persists.';
+		}
+	}
+
+	function getCurrentPageName(): string {
+		const pathname = $page.url.pathname;
+		if (pathname === '/dashboard') return 'dashboard';
+		if (pathname.includes('/schedule')) return 'schedule';
+		if (pathname.includes('/team')) return 'employees';
+		if (pathname.includes('/reports')) return 'reports';
+		if (pathname.includes('/settings')) return 'settings';
+		if (pathname.includes('/availability')) return 'availability';
+		if (pathname.includes('/my-schedule')) return 'my-schedule';
+		if (pathname.includes('/time-off')) return 'time-off';
+		if (pathname.includes('/locations')) return 'locations';
+		if (pathname.includes('/templates')) return 'templates';
+		return 'unknown';
 	}
 </script>
 
@@ -160,3 +233,11 @@
 
 <!-- Toast notifications -->
 <Toast />
+
+<!-- AI Chat Bubble -->
+<AIChatBubble
+	position="bottom-right"
+	theme="auto"
+	initialMessage="Hi! I'm your AI scheduling assistant. I can help you with creating schedules, managing employees, understanding reports, and optimizing your workforce management. What would you like to know?"
+	onSendMessage={handleAIMessage}
+/>

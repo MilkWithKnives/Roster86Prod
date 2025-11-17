@@ -45,12 +45,8 @@ export const actions = {
 		}
 
 		try {
-			// Generate a unique ID for the location
-			const locationId = crypto.randomBytes(12).toString('base64url');
-
 			await prisma.location.create({
 				data: {
-					id: locationId,
 					name,
 					address,
 					latitude: latitude ? parseFloat(latitude) : null,

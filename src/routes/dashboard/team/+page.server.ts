@@ -3,6 +3,7 @@ import { prisma } from '$lib/server/prisma';
 import { requireAuth, requireRole } from '$lib/server/auth';
 import { startOfWeek, endOfWeek, eachDayOfInterval } from 'date-fns';
 import { fail } from '@sveltejs/kit';
+import crypto from 'crypto';
 
 export const load: PageServerLoad = async (event) => {
 	const session = await requireAuth(event);
@@ -167,7 +168,8 @@ export const actions = {
 					seniority: seniority ? parseInt(seniority) : null,
 					isFullTime,
 					skills: skillsJson ? JSON.parse(skillsJson) : [],
-					shiftTypePreferences: shiftTypePreferencesJson ? JSON.parse(shiftTypePreferencesJson) : []
+					shiftTypePreferences: shiftTypePreferencesJson ? JSON.parse(shiftTypePreferencesJson) : [],
+					updatedAt: new Date()
 				}
 			});
 

@@ -4,6 +4,7 @@ import type { User, Shift, Availability, Location, SchedulingPreferences } from 
 // Import existing schedulers
 import { generateScheduleSuggestions } from './scheduler'; // Current greedy algorithm
 import { ORToolsScheduler } from './ortools-scheduler';
+import { EnhancedAIScheduler } from './enhanced-ai-scheduler';
 
 interface SchedulingProblem {
 	shifts: Array<Shift & { Location: Location }>;
@@ -51,9 +52,11 @@ type ProblemComplexity = 'simple' | 'complex' | 'multi-stage';
  */
 export class MultiSolverScheduler {
 	private ortoolsScheduler: ORToolsScheduler;
+	private aiScheduler: EnhancedAIScheduler;
 
 	constructor() {
 		this.ortoolsScheduler = new ORToolsScheduler();
+		this.aiScheduler = new EnhancedAIScheduler();
 	}
 
 	/**
@@ -84,6 +87,38 @@ export class MultiSolverScheduler {
 			}
 
 			solution.solveTime = Date.now() - startTime;
+
+			// Enhance solution with AI explanation
+			try {
+				const aiContext = {
+					problem: {
+						shifts: problem.shifts.map(s => ({
+							id: s.id,
+							startTime: s.startTime,
+							endTime: s.endTime,
+							role: s.role,
+							location: s.Location.name,
+							requiredSkills: s.requiredSkills || []
+						})),
+						employees: problem.employees.map(e => ({
+							id: e.id,
+							name: e.name,
+							skills: e.skills || [],
+							availability: e.Availability,
+							preferences: e.preferredLocationId ? { preferredLocation: e.preferredLocationId } : {}
+						})),
+						constraints: problem.constraints || {}
+					},
+					solution
+				};
+
+				const aiExplanation = await this.aiScheduler.explainSolution(aiContext);
+				solution.explanation = aiExplanation;
+			} catch (aiError) {
+				console.warn('AI explanation failed:', aiError);
+				// Keep original explanation if AI fails
+			}
+
 			return solution;
 
 		} catch (error) {
@@ -275,5 +310,51 @@ export class MultiSolverScheduler {
 			costEfficiency: 0.7, // TODO: Calculate actual cost efficiency
 			coverageRate
 		};
+	}
+
+	/**
+	 * Get AI suggestions for improving a solution
+	 */
+	async getImprovementSuggestions(problem: SchedulingProblem, solution: SchedulingSolution): Promise<string> {
+		try {
+			const aiContext = {
+				problem: {
+					shifts: problem.shifts.map(s => ({
+						id: s.id,
+						startTime: s.startTime,
+						endTime: s.endTime,
+						role: s.role,
+						location: s.Location.name,
+						requiredSkills: s.requiredSkills || []
+					})),
+					employees: problem.employees.map(e => ({
+						id: e.id,
+						name: e.name,
+						skills: e.skills || [],
+						availability: e.Availability,
+						preferences: e.preferredLocationId ? { preferredLocation: e.preferredLocationId } : {}
+					})),
+					constraints: problem.constraints || {}
+				},
+				solution
+			};
+
+			return await this.aiScheduler.suggestImprovements(aiContext);
+		} catch (error) {
+			console.error('AI improvement suggestions failed:', error);
+			return 'AI assistant temporarily unavailable for improvement suggestions.';
+		}
+	}
+
+	/**
+	 * Compare multiple solutions and get AI recommendation
+	 */
+	async compareSolutions(solutions: SchedulingSolution[]): Promise<string> {
+		try {
+			return await this.aiScheduler.compareSolutions(solutions);
+		} catch (error) {
+			console.error('AI solution comparison failed:', error);
+			return 'AI assistant temporarily unavailable for solution comparison.';
+		}
 	}
 }

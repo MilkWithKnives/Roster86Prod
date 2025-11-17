@@ -107,7 +107,7 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions = {
 	requestSwap: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -221,7 +221,7 @@ export const actions = {
 	},
 
 	acceptSwap: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -281,7 +281,7 @@ export const actions = {
 	},
 
 	cancelSwap: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}

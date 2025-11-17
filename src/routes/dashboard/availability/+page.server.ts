@@ -2,6 +2,7 @@ import type { PageServerLoad, Actions } from './$types';
 import { prisma } from '$lib/server/prisma';
 import { requireAuth } from '$lib/server/auth';
 import { fail } from '@sveltejs/kit';
+import crypto from 'crypto';
 
 export const load: PageServerLoad = async (event) => {
 	const session = await requireAuth(event);
@@ -23,7 +24,7 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions = {
 	setAvailability: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -57,7 +58,7 @@ export const actions = {
 	},
 
 	deleteAvailability: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -91,7 +92,7 @@ export const actions = {
 	},
 
 	clearDay: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}

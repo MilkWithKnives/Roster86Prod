@@ -5,6 +5,7 @@ import { fail } from '@sveltejs/kit';
 import { startOfWeek, endOfWeek } from 'date-fns';
 import { generateScheduleSuggestions } from '$lib/server/scheduler';
 import { getAISchedulingSuggestions, getAIScheduleBuilder } from '$lib/server/ai-scheduler';
+import crypto from 'crypto';
 
 export const load: PageServerLoad = async (event) => {
 	// Only admins can access schedule management
@@ -90,7 +91,7 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions = {
 	createShift: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -128,7 +129,6 @@ export const actions = {
 
 			const shift = await prisma.shift.create({
 				data: {
-					id: crypto.randomUUID(),
 					locationId,
 					userId: userId || null,
 					role,
@@ -169,7 +169,7 @@ export const actions = {
 	},
 
 	updateShift: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -248,7 +248,7 @@ export const actions = {
 	},
 
 	deleteShift: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -273,7 +273,7 @@ export const actions = {
 	},
 
 	autoSchedule: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -311,7 +311,7 @@ export const actions = {
 	},
 
 	applyScheduleSuggestions: async ({ request, locals }) => {
-		const session = await locals.getSession();
+		const session = await locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}

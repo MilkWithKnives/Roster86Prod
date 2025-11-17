@@ -70,7 +70,7 @@ export const actions = {
 
 			// Create organization and owner user in a transaction
 			const result = await prisma.$transaction(async (tx) => {
-				// Create organization
+				// Create organization (CUID auto-generated)
 				const organization = await tx.organization.create({
 					data: {
 						name: organizationName,
@@ -78,7 +78,7 @@ export const actions = {
 					}
 				});
 
-				// Create owner user
+				// Create owner user (CUID auto-generated)
 				const user = await tx.user.create({
 					data: {
 						email,
@@ -90,7 +90,7 @@ export const actions = {
 					}
 				});
 
-				// Create verification token
+				// Create verification token (CUID auto-generated)
 				await tx.verificationToken.create({
 					data: {
 						identifier: email,
@@ -104,7 +104,13 @@ export const actions = {
 
 			// Send verification email
 			const verificationUrl = `${PUBLIC_APP_URL}/auth/verify-email?token=${verificationToken}`;
-			await sendVerificationEmail(email, name, verificationUrl);
+			try {
+				await sendVerificationEmail(email, name, verificationUrl);
+				console.log('Verification email sent successfully to:', email);
+			} catch (emailError) {
+				console.error('Failed to send verification email, but account was created:', emailError);
+				// Continue with signup even if email fails - user can request resend later
+			}
 
 			// Redirect to check email page
 			throw redirect(303, '/auth/check-email?email=' + encodeURIComponent(email));

@@ -2133,3 +2133,344 @@ Error: bind EADDRINUSE 0.0.0.0:3000
 2025-11-12T15:23:01:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6086:16)
 2025-11-12T15:23:01:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-DiyKnu53.js:6068:22)
 2025-11-12T15:23:01:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-17T05:07:39: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:07:39: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:07:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:07:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:07:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:15:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:15:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:15:17: 
+2025-11-17T05:15:17: [1;31m[404] GET /@vite/client[0m
+2025-11-17T05:17:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:26: 
+2025-11-17T05:17:26: [1;31m[405] POST /[0m
+2025-11-17T05:17:26: Error: POST method not allowed. No form actions exist for the page at /
+2025-11-17T05:17:26:     at handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:3165:14)
+2025-11-17T05:17:26:     at render_page (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:5323:31)
+2025-11-17T05:17:26:     at resolve2 (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6485:31)
+2025-11-17T05:17:26:     at file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6358:27
+2025-11-17T05:17:26:     at AsyncLocalStorage.run (node:async_hooks:346:14)
+2025-11-17T05:17:26:     at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-DVH-6ISX.js:53:20)
+2025-11-17T05:17:26:     at fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6356:26)
+2025-11-17T05:17:26:     at record_span (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:3052:12)
+2025-11-17T05:17:26:     at resolve (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6350:22)
+2025-11-17T05:17:26:     at resolve (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DvtzmbWF.js:146:12)
+2025-11-17T05:17:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:31: 
+2025-11-17T05:17:31: [1;31m[405] POST /[0m
+2025-11-17T05:17:31: Error: POST method not allowed. No form actions exist for the page at /
+2025-11-17T05:17:31:     at handle_action_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:3165:14)
+2025-11-17T05:17:31:     at render_page (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:5323:31)
+2025-11-17T05:17:31:     at resolve2 (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6485:31)
+2025-11-17T05:17:31:     at file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6358:27
+2025-11-17T05:17:31:     at AsyncLocalStorage.run (node:async_hooks:346:14)
+2025-11-17T05:17:31:     at with_request_store (file:///full-scope-schedulerV1.0/build/server/chunks/event-DVH-6ISX.js:53:20)
+2025-11-17T05:17:31:     at fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6356:26)
+2025-11-17T05:17:31:     at record_span (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:3052:12)
+2025-11-17T05:17:31:     at resolve (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6350:22)
+2025-11-17T05:17:31:     at resolve (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DvtzmbWF.js:146:12)
+2025-11-17T05:17:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:38: 
+2025-11-17T05:17:38: [1;31m[404] GET /WuEL[0m
+2025-11-17T05:17:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:46: 
+2025-11-17T05:17:46: [1;31m[404] GET /a[0m
+2025-11-17T05:17:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:51: 
+2025-11-17T05:17:51: [1;31m[404] GET /download/file.ext[0m
+2025-11-17T05:17:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:56: 
+2025-11-17T05:17:56: [1;31m[404] GET /SiteLoader[0m
+2025-11-17T05:17:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:17:59: 
+2025-11-17T05:17:59: [1;31m[404] GET /mPlayer[0m
+2025-11-17T05:36:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:36:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:36:05: 
+2025-11-17T05:36:05: [1;31m[404] POST /cgi-bin/fwbcgi[0m
+2025-11-17T05:39:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T05:39:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:19:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:19:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:24:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:24:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:31: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-17T06:52:31:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-17T06:52:31:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-17T06:52:31:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-17T06:52:31:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DvtzmbWF.js:115:13)
+2025-11-17T06:52:31:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6345:16)
+2025-11-17T06:52:31:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6327:22)
+2025-11-17T06:52:31:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-17T06:52:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:35: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-17T06:52:35:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-17T06:52:35:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-17T06:52:35:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-17T06:52:35:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DvtzmbWF.js:115:13)
+2025-11-17T06:52:35:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6345:16)
+2025-11-17T06:52:35:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6327:22)
+2025-11-17T06:52:35:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-17T06:52:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:52:36: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-17T06:52:36:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-17T06:52:36:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-17T06:52:36:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-17T06:52:36:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DvtzmbWF.js:115:13)
+2025-11-17T06:52:36:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6345:16)
+2025-11-17T06:52:36:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6327:22)
+2025-11-17T06:52:36:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-17T06:53:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:53:02: [31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+2025-11-17T06:53:02:     at Module.callback (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/actions/callback/index.js:236:23)
+2025-11-17T06:53:02:     at async AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:56:24)
+2025-11-17T06:53:02:     at async Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:34)
+2025-11-17T06:53:02:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DvtzmbWF.js:115:13)
+2025-11-17T06:53:02:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6345:16)
+2025-11-17T06:53:02:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6327:22)
+2025-11-17T06:53:02:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-17T06:53:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:53:07: [31m[auth][error][0m Error: Provider with id "email" not found. Available providers: [credentials].
+2025-11-17T06:53:07:     at parseProviders (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/utils/providers.js:37:15)
+2025-11-17T06:53:07:     at init (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/init.js:37:37)
+2025-11-17T06:53:07:     at AuthInternal (file:///full-scope-schedulerV1.0/node_modules/@auth/core/lib/index.js:13:40)
+2025-11-17T06:53:07:     at Auth (file:///full-scope-schedulerV1.0/node_modules/@auth/core/index.js:111:40)
+2025-11-17T06:53:07:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-11-17T06:53:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/hooks.server-DvtzmbWF.js:115:13)
+2025-11-17T06:53:07:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6345:16)
+2025-11-17T06:53:07:     at async internal_respond (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6327:22)
+2025-11-17T06:53:07:     at async Array.ssr (file:///full-scope-schedulerV1.0/build/handler.js:1306:3)
+2025-11-17T06:56:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:56:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:57:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:57:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:57:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:22: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:22: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:22: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T06:58:41: AI schedule analysis error: Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+2025-11-17T06:58:41:     at Anthropic.validateHeaders (file:///full-scope-schedulerV1.0/node_modules/@anthropic-ai/sdk/client.mjs:111:15)
+2025-11-17T06:58:41:     at Anthropic.buildHeaders (file:///full-scope-schedulerV1.0/node_modules/@anthropic-ai/sdk/client.mjs:469:14)
+2025-11-17T06:58:41:     at async Anthropic.buildRequest (file:///full-scope-schedulerV1.0/node_modules/@anthropic-ai/sdk/client.mjs:431:28)
+2025-11-17T06:58:41:     at async Anthropic.makeRequest (file:///full-scope-schedulerV1.0/node_modules/@anthropic-ai/sdk/client.mjs:218:39)
+2025-11-17T06:58:41:     at async getScheduleAnalysisAndTips (file:///full-scope-schedulerV1.0/build/server/chunks/scheduler-CXlx1gt_.js:77:21)
+2025-11-17T06:58:41:     at async generateScheduleSuggestions (file:///full-scope-schedulerV1.0/build/server/chunks/scheduler-CXlx1gt_.js:534:24)
+2025-11-17T06:58:41:     at async autoSchedule (file:///full-scope-schedulerV1.0/build/server/chunks/19-BbmF1JEw.js:253:22)
+2025-11-17T06:58:41:     at async fn (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:3246:22)
+2025-11-17T06:58:41:     at async handle_action_json_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:3087:18)
+2025-11-17T06:58:41:     at async resolve2 (file:///full-scope-schedulerV1.0/build/server/chunks/index-BLRVEBLm.js:6485:25)
+2025-11-17T07:00:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:00:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:00:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:00:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:00:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:00:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:01:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:05:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:05:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:40:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:40:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T07:40:13: 
+2025-11-17T07:40:13: [1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: 
+2025-11-17T08:14:43: [1;31m[404] GET /core/install.php[0m
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: 
+2025-11-17T08:14:43: [1;31m[404] GET /administrator/manifests/files/joomla.xml[0m
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:14:43: 
+2025-11-17T08:14:43: [1;31m[404] GET /magento_version[0m
+2025-11-17T08:44:39: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T08:44:39: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T09:25:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T09:25:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T09:58:39: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T09:58:39: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T09:59:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T09:59:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T10:00:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T10:00:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T10:01:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T10:01:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T11:01:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T11:01:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T11:01:42: 
+2025-11-17T11:01:42: [1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-17T11:41:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T11:41:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T11:43:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T11:43:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T11:43:16: 
+2025-11-17T11:43:16: [1;31m[404] POST /xmlrpc.php[0m
+2025-11-17T12:11:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T12:11:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:02:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:02:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:02:01: 
+2025-11-17T13:02:01: [1;31m[404] GET /.env[0m
+2025-11-17T13:11:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:11:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:35:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:35:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:35:46: 
+2025-11-17T13:35:46: [1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-17T13:46:25: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:46:25: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:46:25: 
+2025-11-17T13:46:25: [1;31m[404] GET /wordpress/wp-admin/setup-config.php[0m
+2025-11-17T13:46:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:46:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:46:31: 
+2025-11-17T13:46:31: [1;31m[404] GET /wp-admin/setup-config.php[0m
+2025-11-17T13:47:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:47:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:47:10: 
+2025-11-17T13:47:10: [1;31m[404] GET /wordpress/wp-admin/setup-config.php[0m
+2025-11-17T13:47:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:47:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:47:15: 
+2025-11-17T13:47:15: [1;31m[404] GET /wp-admin/setup-config.php[0m
+2025-11-17T13:53:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T13:53:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:03:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:03:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:20:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:20:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:20:19: 
+2025-11-17T14:20:19: [1;31m[404] GET /.env[0m
+2025-11-17T14:20:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:20:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:20:21: 
+2025-11-17T14:20:21: [1;31m[404] GET /api/.env[0m
+2025-11-17T14:20:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:20:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:20:24: 
+2025-11-17T14:20:24: [1;31m[404] GET /backend/.env[0m
+2025-11-17T14:39:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:39:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:43:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:43:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:11: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:11: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:11: 
+2025-11-17T14:47:11: [1;31m[404] GET /.env[0m
+2025-11-17T14:47:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:12: 
+2025-11-17T14:47:12: [1;31m[404] GET /telescope/requests[0m
+2025-11-17T14:47:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:13: 
+2025-11-17T14:47:13: [1;31m[404] GET /info.php[0m
+2025-11-17T14:47:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:13: 
+2025-11-17T14:47:13: [1;31m[404] GET /.git/config[0m
+2025-11-17T14:47:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:14: 
+2025-11-17T14:47:14: [1;31m[404] GET /server-status[0m
+2025-11-17T14:47:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T14:47:14: 
+2025-11-17T14:47:14: [1;31m[404] GET /config.json[0m
+2025-11-17T15:09:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:09:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:15:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:15:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:15:36: 
+2025-11-17T15:15:36: [1;31m[404] GET /.env[0m
+2025-11-17T15:15:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:15:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:15:37: 
+2025-11-17T15:15:37: [1;31m[404] GET /.git/config[0m
+2025-11-17T15:27:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:27:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:27:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:27:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:27:17: 
+2025-11-17T15:27:17: [1;31m[404] GET /favicon.ico[0m
+2025-11-17T15:27:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:27:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:27:37: 
+2025-11-17T15:27:37: [1;31m[404] GET /favicon.ico[0m
+2025-11-17T15:33:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:33:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:35:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:35:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:38:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:38:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:38:32: 
+2025-11-17T15:38:32: [1;31m[404] GET /.git/config[0m
+2025-11-17T15:46:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T15:46:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:08:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:08:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:43: 
+2025-11-17T16:31:43: [1;31m[404] GET /+CSCOL+/Java.jar[0m
+2025-11-17T16:31:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:43: 
+2025-11-17T16:31:43: [1;31m[404] GET /+CSCOE+/logon_forms.js[0m
+2025-11-17T16:31:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:44: 
+2025-11-17T16:31:44: [1;31m[404] GET /+CSCOL+/a1.jar[0m
+2025-11-17T16:31:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:31:45: 
+2025-11-17T16:31:45: [1;31m[404] GET /+CSCOE+/transfer.js[0m
+2025-11-17T16:43:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:43:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:43:14: 
+2025-11-17T16:43:14: [1;31m[404] GET /cgi-bin/luci/;stok=/locale[0m
+2025-11-17T16:46:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T16:46:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T18:11:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T18:11:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev

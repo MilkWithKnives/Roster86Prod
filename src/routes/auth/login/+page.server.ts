@@ -30,24 +30,31 @@ export const actions = {
 		const password = data.get('password') as string;
 		const remember = data.get('remember') === 'on';
 
+		console.log('Login attempt for email:', email);
+
 		if (!email || !password) {
+			console.log('Login failed: Missing email or password');
 			return fail(400, {
 				error: 'Email and password are required',
 				email
 			});
 		}
 
-		try {
-			// Auth.js will handle this via the Credentials provider
-			// The actual sign-in happens client-side, so we just return success here
-			return { success: true };
-		} catch (error) {
-			console.error('Login error:', error);
-			return fail(401, {
-				error: 'Invalid email or password',
+		// Validate email format
+		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		if (!emailRegex.test(email)) {
+			console.log('Login failed: Invalid email format');
+			return fail(400, {
+				error: 'Please enter a valid email address',
 				email
 			});
 		}
+
+		// Note: The actual authentication happens client-side via Auth.js signIn()
+		// This server action is mainly for form validation and logging
+		// Auth.js will use the credentials provider in hooks.server.ts for authentication
+		console.log('Login form validation passed, client-side auth will handle authentication');
+		return { success: true };
 	},
 
 	// Magic Link for Employees

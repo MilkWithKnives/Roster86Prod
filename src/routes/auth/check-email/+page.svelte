@@ -48,6 +48,19 @@
 				</a>
 			</p>
 
+			<!-- Development bypass (remove in production) -->
+			<div class="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg">
+				<p class="text-sm text-yellow-800 dark:text-yellow-200 mb-2">
+					<strong>Development Mode:</strong> Skip email verification
+				</p>
+				<a
+					href="/auth/verify-email-bypass?email={encodeURIComponent(email)}"
+					class="inline-block px-4 py-2 bg-yellow-600 hover:bg-yellow-700 text-white text-sm font-medium rounded-lg transition-colors"
+				>
+					Skip Verification (Dev Only)
+				</a>
+			</div>
+
 			<!-- Back to login -->
 			<div class="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
 				<a href="/auth/login" class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400">

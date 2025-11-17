@@ -1,9 +1,13 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { env } from '$env/dynamic/private';
 
-const anthropic = new Anthropic({
-	apiKey: env.ANTHROPIC_API_KEY
-});
+// Initialize Anthropic client only if API key is available
+let anthropic: Anthropic | null = null;
+if (env.ANTHROPIC_API_KEY) {
+	anthropic = new Anthropic({
+		apiKey: env.ANTHROPIC_API_KEY
+	});
+}
 
 interface SchedulingContext {
 	employees: Array<{
@@ -68,6 +72,12 @@ interface SchedulingContext {
 export async function getAISchedulingSuggestions(
 	context: SchedulingContext
 ): Promise<string> {
+	// Return fallback message if Anthropic client is not available
+	if (!anthropic) {
+		console.log('Anthropic API key not configured, skipping AI suggestions');
+		return 'AI suggestions are not available. To enable AI-powered scheduling help, please configure your Anthropic API key.';
+	}
+
 	const prompt = buildSchedulingPrompt(context);
 
 	try {
@@ -97,6 +107,12 @@ export async function getAIScheduleBuilder(
 	context: SchedulingContext,
 	userRequest: string
 ): Promise<string> {
+	// Return fallback message if Anthropic client is not available
+	if (!anthropic) {
+		console.log('Anthropic API key not configured, skipping AI schedule builder');
+		return 'AI schedule builder is not available. To enable AI-powered scheduling assistance, please configure your Anthropic API key.';
+	}
+
 	const prompt = `You are a scheduling assistant helping a manager create a work schedule.
 
 ## Current Situation
@@ -182,6 +198,12 @@ export async function getScheduleAnalysisAndTips(
 		}>;
 	}
 ): Promise<string> {
+	// Return fallback message if Anthropic client is not available
+	if (!anthropic) {
+		console.log('Anthropic API key not configured, skipping AI analysis');
+		return 'AI analysis is not available. To enable AI-powered scheduling insights, please configure your Anthropic API key.';
+	}
+
 	const prompt = buildScheduleAnalysisPrompt(context, scheduleResult);
 
 	try {

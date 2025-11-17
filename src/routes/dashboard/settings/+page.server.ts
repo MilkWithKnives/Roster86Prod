@@ -71,12 +71,8 @@ export const actions = {
 		}
 
 		try {
-			// Generate a unique ID for the location
-			const locationId = crypto.randomBytes(12).toString('base64url');
-
 			await prisma.location.create({
 				data: {
-					id: locationId,
 					name,
 					address,
 					latitude: latitude ? parseFloat(latitude) : null,
@@ -94,7 +90,7 @@ export const actions = {
 	},
 
 	updateProfile: async (event) => {
-		const session = await event.locals.getSession();
+		const session = await event.locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}
@@ -276,7 +272,7 @@ export const actions = {
 	},
 
 	updateNotifications: async (event) => {
-		const session = await event.locals.getSession();
+		const session = await event.locals.auth();
 		if (!session?.user) {
 			return fail(401, { error: 'Unauthorized' });
 		}

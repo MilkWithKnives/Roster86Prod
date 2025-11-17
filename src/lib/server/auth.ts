@@ -6,7 +6,7 @@ import type { RequestEvent } from '@sveltejs/kit';
  * Returns null if no session exists
  */
 export async function getSession(event: RequestEvent) {
-	return await event.locals.getSession();
+	return await event.locals.auth();
 }
 
 /**

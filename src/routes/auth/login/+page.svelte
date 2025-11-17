@@ -14,10 +14,14 @@
 	let magicLinkLoading = $state(false);
 	let magicLinkEmail = $state('');
 	let magicLinkSent = $state(false);
+	let loginError = $state<string | null>(null);
 
 	async function handlePasswordLogin(e: SubmitEvent) {
 		e.preventDefault();
 		loading = true;
+		loginError = null;
+
+		console.log('Attempting login for:', email);
 
 		try {
 			const result = await signIn('credentials', {
@@ -26,15 +30,39 @@
 				redirect: false
 			});
 
+			console.log('SignIn result:', result);
+
 			if (result?.error) {
-				// Handle error
+				// Handle different types of Auth.js errors
+				console.error('Auth.js error:', result.error);
+
+				switch (result.error) {
+					case 'CredentialsSignin':
+						loginError = 'Invalid email or password. Please check your credentials and try again.';
+						break;
+					case 'CallbackRouteError':
+						loginError = 'Authentication service error. Please try again.';
+						break;
+					case 'AccessDenied':
+						loginError = 'Access denied. Please contact your administrator.';
+						break;
+					default:
+						loginError = 'Login failed. Please try again.';
+				}
 				loading = false;
-			} else {
-				// Redirect to dashboard on success
+			} else if (result?.ok) {
+				// Successful login
+				console.log('Login successful, redirecting to dashboard');
 				window.location.href = '/dashboard';
+			} else {
+				// Unexpected result
+				console.error('Unexpected login result:', result);
+				loginError = 'Login failed. Please try again.';
+				loading = false;
 			}
 		} catch (error) {
 			console.error('Login error:', error);
+			loginError = 'Network error. Please check your connection and try again.';
 			loading = false;
 		}
 	}
@@ -110,9 +138,9 @@
 				<div>
 					<h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-6">Sign in</h2>
 
-					{#if form?.error}
+					{#if form?.error || loginError}
 						<div class="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
-							<p class="text-sm text-red-600 dark:text-red-400">{form.error}</p>
+							<p class="text-sm text-red-600 dark:text-red-400">{loginError || form.error}</p>
 						</div>
 					{/if}
 

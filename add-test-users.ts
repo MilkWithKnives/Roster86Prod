@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
+import crypto from 'crypto';
 
 const prisma = new PrismaClient();
 
@@ -25,6 +26,7 @@ async function main() {
 	if (!location) {
 		location = await prisma.location.create({
 			data: {
+				id: crypto.randomBytes(12).toString('base64url'),
 				name: 'Main Location',
 				address: '123 Main St',
 				organizationId: org.id
@@ -73,12 +75,14 @@ async function main() {
 		if (!existing) {
 			const user = await prisma.user.create({
 				data: {
+					id: crypto.randomBytes(12).toString('base64url'),
 					email: emp.email,
 					name: emp.name,
 					password,
 					role: 'EMPLOYEE',
 					organizationId: org.id,
-					defaultHourlyRate: emp.rate
+					defaultHourlyRate: emp.rate,
+					updatedAt: new Date()
 				}
 			});
 
@@ -86,6 +90,7 @@ async function main() {
 			await prisma.availability.createMany({
 				data: [
 					{
+						id: crypto.randomBytes(12).toString('base64url'),
 						userId: user.id,
 						dayOfWeek: 1, // Monday
 						startTime: '09:00',
@@ -93,6 +98,7 @@ async function main() {
 						isRecurring: true
 					},
 					{
+						id: crypto.randomBytes(12).toString('base64url'),
 						userId: user.id,
 						dayOfWeek: 2, // Tuesday
 						startTime: '09:00',
@@ -100,6 +106,7 @@ async function main() {
 						isRecurring: true
 					},
 					{
+						id: crypto.randomBytes(12).toString('base64url'),
 						userId: user.id,
 						dayOfWeek: 4, // Thursday
 						startTime: '09:00',
