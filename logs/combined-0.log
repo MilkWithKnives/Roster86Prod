@@ -2970,3 +2970,19 @@ Error: bind EADDRINUSE 0.0.0.0:3000
 2025-11-17T16:46:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
 2025-11-17T18:11:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
 2025-11-17T18:11:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T19:30:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T19:30:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:24:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:24:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:24:41: 
+2025-11-17T20:24:41: [1;31m[404] GET /.git/config[0m
+2025-11-17T20:24:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:24:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:24:42: 
+2025-11-17T20:24:42: [1;31m[404] GET /.git/config[0m
+2025-11-17T20:25:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:25:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:28:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:28:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-17T20:28:55: 
+2025-11-17T20:28:55: [1;31m[404] GET /.git/config[0m
