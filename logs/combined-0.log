@@ -5305,3 +5305,5 @@ Error: bind EADDRINUSE 0.0.0.0:3000
 2025-11-18T21:13:14:   role: 'OWNER',
 2025-11-18T21:13:14:   organizationId: 'cmhzntumh0000xetpspwe7del'
 2025-11-18T21:13:14: }
+2025-11-18T21:27:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-18T21:27:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
