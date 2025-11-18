@@ -72,11 +72,27 @@
 	const calendarEvents = $derived(convertShiftsToEvents(data.shifts));
 	// Event handlers for the calendar
 	function handleEventClick(calendarEvent: any) {
+		console.log('🔍 Calendar event clicked:', calendarEvent.id);
 		const shift = data.shifts.find((s) => s.id === calendarEvent.id);
 		if (shift) {
+			console.log('✅ Found shift for editing:', shift.id, shift.role);
+			console.log('📋 Shift data:', {
+				id: shift.id,
+				locationId: shift.locationId,
+				userId: shift.userId,
+				role: shift.role,
+				startTime: shift.startTime,
+				endTime: shift.endTime,
+				breakMinutes: shift.breakMinutes,
+				hourlyRate: shift.hourlyRate,
+				notes: shift.notes
+			});
 			selectedShift = shift;
 			selectedDate = null;
 			showShiftModal = true;
+			console.log('🔄 Modal should open with shift:', selectedShift?.id);
+		} else {
+			console.log('❌ No shift found for ID:', calendarEvent.id);
 		}
 	}
 

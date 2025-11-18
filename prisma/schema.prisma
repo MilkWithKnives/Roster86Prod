@@ -237,6 +237,11 @@ model User {
   shiftReminderHours                             Int                @default(24)
   smsNotifications                               Boolean            @default(false)
   swapRequestNotifications                       Boolean            @default(true)
+  stripeCustomerId                               String?            @unique
+  stripeSubscriptionId                           String?            @unique
+  subscriptionStatus                             String?
+  subscriptionPlan                               String?
+  subscriptionCurrentPeriodEnd                   DateTime?
   Availability                                   Availability[]
   Notification                                   Notification[]
   Shift                                          Shift[]

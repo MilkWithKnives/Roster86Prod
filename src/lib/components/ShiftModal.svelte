@@ -36,8 +36,12 @@
 
 	// Update form when shift or selectedDate changes
 	$effect(() => {
+		// Only populate if modal is open and we have locations
+		if (!open || !locations || locations.length === 0) return;
+
 		if (shift) {
 			// Editing existing shift - populate form
+			console.log('🔍 Populating form for shift edit:', shift.id);
 			locationId = shift.locationId || locations[0]?.id || '';
 			userId = shift.userId || '';
 			role = shift.role || '';
@@ -51,8 +55,10 @@
 			shiftType = shift.shiftType || '';
 			priority = shift.priority || 0;
 			minSeniority = shift.minSeniority?.toString() || '';
+			console.log('✅ Form populated with role:', role, 'date:', date, 'time:', startTime + '-' + endTime);
 		} else {
 			// Creating new shift - reset form
+			console.log('🔍 Resetting form for new shift');
 			locationId = locations[0]?.id || '';
 			userId = '';
 			role = '';
@@ -186,20 +192,26 @@
 		}
 	}
 
-	// Reset form when modal closes
+	// Reset form when modal closes (but don't interfere with edit mode)
 	$effect(() => {
 		if (!open) {
-			// Reset form after animation
+			// Reset form after animation, but only for create mode
 			setTimeout(() => {
-				if (!shift) {
-					userId = '';
-					role = '';
-					notes = '';
-					requiredSkills = [];
-					shiftType = '';
-					priority = 0;
-					minSeniority = '';
-				}
+				console.log('🔄 Modal closed, resetting form (shift exists:', !!shift, ')');
+				// Always reset to prevent stale data
+				locationId = locations[0]?.id || '';
+				userId = '';
+				role = '';
+				date = formatDate(new Date());
+				startTime = '09:00';
+				endTime = '17:00';
+				breakMinutes = 30;
+				hourlyRate = '';
+				notes = '';
+				requiredSkills = [];
+				shiftType = '';
+				priority = 0;
+				minSeniority = '';
 			}, 300);
 		}
 	});

@@ -6,6 +6,8 @@ import { PrismaAdapter } from '@auth/prisma-adapter';
 import { redirect, type Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
 import { env } from '$env/dynamic/private';
+import { securityHeaders } from '$lib/server/security.js';
+import { rateLimitMiddleware } from '$lib/server/rateLimit.js';
 
 // Auth.js handle
 export const { handle: authHandle } = SvelteKitAuth({
@@ -174,5 +176,10 @@ const authorizationHandle: Handle = async ({ event, resolve }) => {
 	return resolve(event);
 };
 
-// Combine both handles using sequence
-export const handle = sequence(authHandle, authorizationHandle);
+// Combine all handles using sequence (order matters!)
+export const handle = sequence(
+	securityHeaders,      // Apply security headers first
+	rateLimitMiddleware,  // Then rate limiting
+	authHandle,          // Then authentication
+	authorizationHandle  // Finally authorization
+);
