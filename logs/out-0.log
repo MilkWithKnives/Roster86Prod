@@ -841,3 +841,132 @@
 2025-11-20T03:53:54: 🔍 Looking up user in database...
 2025-11-20T03:53:54: ✅ User found, verifying password...
 2025-11-20T03:53:55: ❌ Password verification failed for email: admin@roster86.com
+2025-11-22T00:45:05: Listening on http://0.0.0.0:3000
+2025-11-22T05:28:00: 🔑 JWT callback called
+2025-11-22T05:28:00: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T05:28:00: ✅ Session updated with user data: {
+2025-11-22T05:28:00:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T05:28:00:   email: 'admin@roster86.com',
+2025-11-22T05:28:00:   role: 'OWNER',
+2025-11-22T05:28:00:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T05:28:00: }
+2025-11-22T20:28:00: 🔑 JWT callback called
+2025-11-22T20:28:00: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:28:00: ✅ Session updated with user data: {
+2025-11-22T20:28:00:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:28:00:   email: 'admin@roster86.com',
+2025-11-22T20:28:00:   role: 'OWNER',
+2025-11-22T20:28:00:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:28:00: }
+2025-11-22T20:28:24: 🔑 JWT callback called
+2025-11-22T20:28:24: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:28:24: ✅ Session updated with user data: {
+2025-11-22T20:28:24:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:28:24:   email: 'admin@roster86.com',
+2025-11-22T20:28:24:   role: 'OWNER',
+2025-11-22T20:28:24:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:28:24: }
+2025-11-22T20:28:45: 🔑 JWT callback called
+2025-11-22T20:28:45: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:28:45: ✅ Session updated with user data: {
+2025-11-22T20:28:45:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:28:45:   email: 'admin@roster86.com',
+2025-11-22T20:28:45:   role: 'OWNER',
+2025-11-22T20:28:45:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:28:45: }
+2025-11-22T20:28:47: 🔑 JWT callback called
+2025-11-22T20:28:47: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:28:47: ✅ Session updated with user data: {
+2025-11-22T20:28:47:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:28:47:   email: 'admin@roster86.com',
+2025-11-22T20:28:47:   role: 'OWNER',
+2025-11-22T20:28:47:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:28:47: }
+2025-11-22T20:28:47: 🔑 JWT callback called
+2025-11-22T20:28:47: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:28:47: ✅ Session updated with user data: {
+2025-11-22T20:28:47:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:28:47:   email: 'admin@roster86.com',
+2025-11-22T20:28:47:   role: 'OWNER',
+2025-11-22T20:28:47:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:28:47: }
+2025-11-22T20:29:57: 🔑 JWT callback called
+2025-11-22T20:29:57: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:29:57: ✅ Session updated with user data: {
+2025-11-22T20:29:57:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:29:57:   email: 'admin@roster86.com',
+2025-11-22T20:29:57:   role: 'OWNER',
+2025-11-22T20:29:57:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:29:57: }
+2025-11-22T20:29:57: 🔑 JWT callback called
+2025-11-22T20:29:57: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:29:57: ✅ Session updated with user data: {
+2025-11-22T20:29:57:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:29:57:   email: 'admin@roster86.com',
+2025-11-22T20:29:57:   role: 'OWNER',
+2025-11-22T20:29:57:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:29:57: }
+2025-11-22T20:30:01: 🔑 JWT callback called
+2025-11-22T20:30:01: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:30:01: ✅ Session updated with user data: {
+2025-11-22T20:30:01:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:30:01:   email: 'admin@roster86.com',
+2025-11-22T20:30:01:   role: 'OWNER',
+2025-11-22T20:30:01:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:30:01: }
+2025-11-22T20:30:01: 🔑 JWT callback called
+2025-11-22T20:30:01: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:30:01: ✅ Session updated with user data: {
+2025-11-22T20:30:01:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:30:01:   email: 'admin@roster86.com',
+2025-11-22T20:30:01:   role: 'OWNER',
+2025-11-22T20:30:01:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:30:01: }
+2025-11-22T20:30:01: 🔑 JWT callback called
+2025-11-22T20:30:01: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:30:01: ✅ Session updated with user data: {
+2025-11-22T20:30:01:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:30:01:   email: 'admin@roster86.com',
+2025-11-22T20:30:01:   role: 'OWNER',
+2025-11-22T20:30:01:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:30:01: }
+2025-11-22T20:30:01: 🔑 JWT callback called
+2025-11-22T20:30:01: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:30:01: ✅ Session updated with user data: {
+2025-11-22T20:30:01:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:30:01:   email: 'admin@roster86.com',
+2025-11-22T20:30:01:   role: 'OWNER',
+2025-11-22T20:30:01:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:30:01: }
+2025-11-22T20:30:09: 🔑 JWT callback called
+2025-11-22T20:30:09: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:30:09: ✅ Session updated with user data: {
+2025-11-22T20:30:09:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:30:09:   email: 'admin@roster86.com',
+2025-11-22T20:30:09:   role: 'OWNER',
+2025-11-22T20:30:09:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:30:09: }
+2025-11-22T20:30:09: 🔑 JWT callback called
+2025-11-22T20:30:09: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:30:09: ✅ Session updated with user data: {
+2025-11-22T20:30:09:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:30:09:   email: 'admin@roster86.com',
+2025-11-22T20:30:09:   role: 'OWNER',
+2025-11-22T20:30:09:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:30:09: }
+2025-11-22T20:30:09: 🔑 JWT callback called
+2025-11-22T20:30:09: 🎫 Session callback called for user: admin@roster86.com
+2025-11-22T20:30:09: ✅ Session updated with user data: {
+2025-11-22T20:30:09:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-22T20:30:09:   email: 'admin@roster86.com',
+2025-11-22T20:30:09:   role: 'OWNER',
+2025-11-22T20:30:09:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-22T20:30:09: }
+2025-11-22T21:52:51: 🔑 JWT callback called
+2025-11-22T21:52:51: 🎫 Session callback called for user: ryan@fullscope-media.com
+2025-11-22T21:52:51: ✅ Session updated with user data: {
+2025-11-22T21:52:51:   id: 'cmhcdn3nk0002pkfbnyoe8el5',
+2025-11-22T21:52:51:   email: 'ryan@fullscope-media.com',
+2025-11-22T21:52:51:   role: 'OWNER',
+2025-11-22T21:52:51:   organizationId: 'cmhcdn3lz0000pkfbsipsiwns'
+2025-11-22T21:52:51: }
