@@ -10275,3 +10275,1348 @@ Error: bind EADDRINUSE 0.0.0.0:3000
 2025-11-22T22:31:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
 2025-11-22T22:31:35: 
 2025-11-22T22:31:35: [1;31m[404] GET /.git/config[0m
+2025-11-22T22:35:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T22:35:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T22:35:41: 
+2025-11-22T22:35:41: [1;31m[404] GET /.env[0m
+2025-11-22T22:38:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T22:38:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T22:38:38: 
+2025-11-22T22:38:38: [1;31m[404] GET /docs/getting-started[0m
+2025-11-22T22:47:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T22:47:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T22:57:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T22:57:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:19:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:19:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:26:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:26:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:27:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:27:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:36:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:36:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:38:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:38:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:52: 
+2025-11-22T23:46:52: [1;31m[404] GET /terms[0m
+2025-11-22T23:46:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:46:59: 
+2025-11-22T23:46:59: [1;31m[404] GET /features[0m
+2025-11-22T23:47:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:08: 
+2025-11-22T23:47:08: [1;31m[404] GET /docs/getting-started[0m
+2025-11-22T23:47:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:12: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:12: 
+2025-11-22T23:47:12: [1;31m[404] GET /help/category/scheduling[0m
+2025-11-22T23:47:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:18: 
+2025-11-22T23:47:18: [1;31m[404] GET /help/category/integrations[0m
+2025-11-22T23:47:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:21: 
+2025-11-22T23:47:21: [1;31m[404] GET /help/category/getting-started[0m
+2025-11-22T23:47:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:24: 
+2025-11-22T23:47:24: [1;31m[404] GET /help/category/team-management[0m
+2025-11-22T23:47:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:28: 
+2025-11-22T23:47:28: [1;31m[404] GET /help/category/troubleshooting[0m
+2025-11-22T23:47:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:31: 
+2025-11-22T23:47:31: [1;31m[404] GET /help/category/account-settings[0m
+2025-11-22T23:47:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:34: 
+2025-11-22T23:47:34: [1;31m[404] GET /help/article/setting-up-automatic-scheduling[0m
+2025-11-22T23:47:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:37: 
+2025-11-22T23:47:37: [1;31m[404] GET /help/article/understanding-time-off-requests[0m
+2025-11-22T23:47:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:41: 
+2025-11-22T23:47:41: [1;31m[404] GET /help/article/adding-and-managing-team-members[0m
+2025-11-22T23:47:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:44: 
+2025-11-22T23:47:44: [1;31m[404] GET /help/article/configuring-notification-settings[0m
+2025-11-22T23:47:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:47:47: 
+2025-11-22T23:47:47: [1;31m[404] GET /help/article/how-to-create-your-first-schedule[0m
+2025-11-22T23:58:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:58:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:58:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:58:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-22T23:58:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T00:03:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T00:03:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T00:03:31: 
+2025-11-23T00:03:31: [1;31m[404] GET /og-image.jpg[0m
+2025-11-23T00:18:20: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T00:18:20: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T00:45:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T00:45:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T01:23:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T01:23:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T01:26:50: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T01:26:50: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:08:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:08:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:20:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:20:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:28:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:28:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:28:36: 
+2025-11-23T02:28:36: [1;31m[404] GET /.env[0m
+2025-11-23T02:28:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:28:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:28:37: 
+2025-11-23T02:28:37: [1;31m[405] POST /[0m
+2025-11-23T02:28:37: Error: POST method not allowed. No form actions exist for the page at /
+2025-11-23T02:28:37:     at handle_action_json_request (file:///full-scope-schedulerV1.0/build/server/chunks/index-CEpudXQc.js:3065:30)
+2025-11-23T02:28:37:     at render_page (file:///full-scope-schedulerV1.0/build/server/chunks/index-CEpudXQc.js:5309:12)
+2025-11-23T02:28:37:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-11-23T02:28:37:     at async resolve2 (file:///full-scope-schedulerV1.0/build/server/chunks/index-CEpudXQc.js:6485:25)
+2025-11-23T02:59:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:59:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T02:59:54: 
+2025-11-23T02:59:54: [1;31m[404] GET /wp-admin/setup-config.php[0m
+2025-11-23T03:00:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:00:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:00:33: 
+2025-11-23T03:00:33: [1;31m[404] GET /wordpress/wp-admin/setup-config.php[0m
+2025-11-23T03:00:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:00:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:00:43: 
+2025-11-23T03:00:43: [1;31m[404] GET /wp-admin/setup-config.php[0m
+2025-11-23T03:01:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:01:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:02:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:02:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:02:32: 
+2025-11-23T03:02:32: [1;31m[404] GET /wordpress/wp-admin/setup-config.php[0m
+2025-11-23T03:06:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:06:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:06:29: 
+2025-11-23T03:06:29: [1;31m[404] GET /webui/[0m
+2025-11-23T03:10:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:10:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:10:30: 
+2025-11-23T03:10:30: [1;31m[404] GET /favicon.ico[0m
+2025-11-23T03:12:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:12:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:30: 
+2025-11-23T03:20:30: [1;31m[404] GET /aaa9[0m
+2025-11-23T03:20:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:30: 
+2025-11-23T03:20:30: [1;31m[404] GET /aab9[0m
+2025-11-23T03:20:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:20:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:23:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:23:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:23:33: 
+2025-11-23T03:23:33: [1;31m[404] GET /geoserver/web/[0m
+2025-11-23T03:27:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:27:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:27:43: 
+2025-11-23T03:27:43: [1;31m[404] GET /.git/config[0m
+2025-11-23T03:47:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:46: 
+2025-11-23T03:47:46: [1;31m[404] GET /.env[0m
+2025-11-23T03:47:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:47: 
+2025-11-23T03:47:47: [1;31m[404] GET /config/.env.js[0m
+2025-11-23T03:47:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:47: 
+2025-11-23T03:47:47: [1;31m[404] GET /app/.env.admin[0m
+2025-11-23T03:47:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:49: 
+2025-11-23T03:47:49: [1;31m[404] GET /config/dev.env[0m
+2025-11-23T03:47:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:49: 
+2025-11-23T03:47:49: [1;31m[404] GET /api/config.env[0m
+2025-11-23T03:47:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:51: 
+2025-11-23T03:47:51: [1;31m[404] GET /config/env.php[0m
+2025-11-23T03:47:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:51: 
+2025-11-23T03:47:51: [1;31m[404] GET /config/env.txt[0m
+2025-11-23T03:47:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:52: 
+2025-11-23T03:47:52: [1;31m[404] GET /configs/db.env[0m
+2025-11-23T03:47:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:53: 
+2025-11-23T03:47:53: [1;31m[404] GET /configura/.env[0m
+2025-11-23T03:47:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:54: 
+2025-11-23T03:47:54: [1;31m[404] GET /anaconda/..env[0m
+2025-11-23T03:47:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:54: 
+2025-11-23T03:47:54: [1;31m[404] GET /console/.env.1[0m
+2025-11-23T03:47:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:55: 
+2025-11-23T03:47:55: [1;31m[404] GET /console/.env.2[0m
+2025-11-23T03:47:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:56: 
+2025-11-23T03:47:56: [1;31m[404] GET /.env-vault.log[0m
+2025-11-23T03:47:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:57: 
+2025-11-23T03:47:57: [1;31m[404] GET /.env-admin.log[0m
+2025-11-23T03:47:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:58: 
+2025-11-23T03:47:58: [1;31m[404] GET /.env-scheduler[0m
+2025-11-23T03:47:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:47:59: 
+2025-11-23T03:47:59: [1;31m[404] GET /.env-agent.env[0m
+2025-11-23T03:48:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:00: 
+2025-11-23T03:48:00: [1;31m[404] GET /.env-cloud.env[0m
+2025-11-23T03:48:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:01: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:01: 
+2025-11-23T03:48:01: [1;31m[404] GET /.env-alert.log[0m
+2025-11-23T03:48:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:03: 
+2025-11-23T03:48:03: [1;31m[404] GET /.env-cloud.log[0m
+2025-11-23T03:48:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:05: 
+2025-11-23T03:48:05: [1;31m[404] GET /.env-stack.log[0m
+2025-11-23T03:48:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:06: 
+2025-11-23T03:48:06: [1;31m[404] GET /.env-webserver[0m
+2025-11-23T03:48:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:07: 
+2025-11-23T03:48:07: [1;31m[404] GET /.env-stage.env[0m
+2025-11-23T03:48:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:08: 
+2025-11-23T03:48:08: [1;31m[404] GET /.env-stage.log[0m
+2025-11-23T03:48:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:10: 
+2025-11-23T03:48:10: [1;31m[404] GET /.env-ssl-chain[0m
+2025-11-23T03:48:11: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:11: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:11: 
+2025-11-23T03:48:11: [1;31m[404] GET /.env-sanitizer[0m
+2025-11-23T03:48:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:13: 
+2025-11-23T03:48:13: [1;31m[404] GET /.env-trace.env[0m
+2025-11-23T03:48:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:14: 
+2025-11-23T03:48:14: [1;31m[404] GET /.env-trace.log[0m
+2025-11-23T03:48:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:14: 
+2025-11-23T03:48:14: [1;31m[404] GET /.env-traceback[0m
+2025-11-23T03:48:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:15: 
+2025-11-23T03:48:15: [1;31m[404] GET /.env-nginx.log[0m
+2025-11-23T03:48:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:16: 
+2025-11-23T03:48:16: [1;31m[404] GET /.env-whois.env[0m
+2025-11-23T03:48:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:17: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T03:48:17: 
+2025-11-23T03:48:17: [1;31m[404] GET /.env-trail.log[0m
+2025-11-23T04:01:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:14: 
+2025-11-23T04:01:14: [1;31m[404] GET /.env[0m
+2025-11-23T04:01:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:16: 
+2025-11-23T04:01:16: [1;31m[404] GET /api/.env[0m
+2025-11-23T04:01:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:16: 
+2025-11-23T04:01:16: [1;31m[404] GET /backend/.env[0m
+2025-11-23T04:01:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:16: 
+2025-11-23T04:01:16: [1;31m[404] GET /admin/.env[0m
+2025-11-23T04:01:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:01:18: 
+2025-11-23T04:01:18: [1;31m[404] GET /.env.example[0m
+2025-11-23T04:09:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:09:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:31:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:31:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:37:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:37:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:42:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:42:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:52:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:52:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:52:02: 
+2025-11-23T04:52:02: [1;31m[404] GET /aab9[0m
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:56:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:58:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T04:58:56: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:14:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:14:34: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:19:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:19:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:31:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:31:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:43:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:43:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:52:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:52:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:52:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:52:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:52:45: 
+2025-11-23T05:52:45: [1;31m[404] GET /favicon.ico[0m
+2025-11-23T05:56:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:56:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:56:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:56:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:56:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:56:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:57:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:57:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:57:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:57:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:58:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:58:23: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T05:58:23: 
+2025-11-23T05:58:23: [1;31m[404] GET /help/category/integrations[0m
+2025-11-23T06:03:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:03:51: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:04:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:04:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:04:44: 
+2025-11-23T06:04:44: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:04:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:04:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:04:54: 
+2025-11-23T06:04:54: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:04:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:04:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:04:55: 
+2025-11-23T06:04:55: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:05:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:05: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:05: 
+2025-11-23T06:05:05: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:05:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:06: 
+2025-11-23T06:05:06: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:05:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:16: 
+2025-11-23T06:05:16: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:05:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:16: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:16: 
+2025-11-23T06:05:16: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:05:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:27: 
+2025-11-23T06:05:27: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:05:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:27: 
+2025-11-23T06:05:27: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:05:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:38: 
+2025-11-23T06:05:38: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:05:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:38: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:38: 
+2025-11-23T06:05:38: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:05:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:48: 
+2025-11-23T06:05:48: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:05:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:49: 
+2025-11-23T06:05:49: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:05:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:05:59: 
+2025-11-23T06:05:59: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:06:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:00: 
+2025-11-23T06:06:00: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:06:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:10: 
+2025-11-23T06:06:10: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:06:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:10: 
+2025-11-23T06:06:10: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:06:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:21: 
+2025-11-23T06:06:21: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:06:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:21: 
+2025-11-23T06:06:21: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:06:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:32: 
+2025-11-23T06:06:32: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:06:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:32: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:32: 
+2025-11-23T06:06:32: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:06:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:42: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:42: 
+2025-11-23T06:06:42: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:06:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:43: 
+2025-11-23T06:06:43: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:06:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:49: 
+2025-11-23T06:06:49: [1;31m[404] GET /help/article/adding-and-managing-team-members[0m
+2025-11-23T06:06:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:53: 
+2025-11-23T06:06:53: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:06:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:54: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:06:54: 
+2025-11-23T06:06:54: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:07:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:04: 
+2025-11-23T06:07:04: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:07:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:04: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:04: 
+2025-11-23T06:07:04: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:07:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:15: 
+2025-11-23T06:07:15: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:07:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:15: 
+2025-11-23T06:07:15: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:07:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:26: 
+2025-11-23T06:07:26: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:07:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:26: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:26: 
+2025-11-23T06:07:26: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:07:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:36: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:36: 
+2025-11-23T06:07:36: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:07:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:37: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:37: 
+2025-11-23T06:07:37: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:07:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:47: 
+2025-11-23T06:07:47: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:07:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:48: 
+2025-11-23T06:07:48: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:07:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:58: 
+2025-11-23T06:07:58: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:07:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:58: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:07:58: 
+2025-11-23T06:07:58: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:08:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:09: 
+2025-11-23T06:08:09: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:08:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:09: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:09: 
+2025-11-23T06:08:09: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:08:20: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:20: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:20: 
+2025-11-23T06:08:20: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:08:20: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:20: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:20: 
+2025-11-23T06:08:20: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:08:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:30: 
+2025-11-23T06:08:30: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:08:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:31: 
+2025-11-23T06:08:31: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:08:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:41: 
+2025-11-23T06:08:41: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:08:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:41: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:41: 
+2025-11-23T06:08:41: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:08:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:52: 
+2025-11-23T06:08:52: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:08:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:52: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:08:52: 
+2025-11-23T06:08:52: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:09:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:03: 
+2025-11-23T06:09:03: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:09:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:03: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:03: 
+2025-11-23T06:09:03: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:09:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:13: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:13: 
+2025-11-23T06:09:13: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:09:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:14: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:14: 
+2025-11-23T06:09:14: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:09:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:24: 
+2025-11-23T06:09:24: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:09:25: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:25: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:25: 
+2025-11-23T06:09:25: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:09:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:35: 
+2025-11-23T06:09:35: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:09:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:35: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:35: 
+2025-11-23T06:09:35: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:09:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:46: 
+2025-11-23T06:09:46: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:09:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:46: 
+2025-11-23T06:09:46: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:09:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:57: 
+2025-11-23T06:09:57: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:09:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:09:57: 
+2025-11-23T06:09:57: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:10:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:07: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:07: 
+2025-11-23T06:10:07: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:10:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:08: 
+2025-11-23T06:10:08: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:10:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:18: 
+2025-11-23T06:10:18: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:10:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:19: 
+2025-11-23T06:10:19: [1;31m[404] GET /restapps/applications.php[0m
+2025-11-23T06:10:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:10:29: 
+2025-11-23T06:10:29: [1;31m[404] GET /admin/modules/fpbxphones/ajax.php[0m
+2025-11-23T06:16:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:16:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:16:15: 
+2025-11-23T06:16:15: [1;31m[404] GET /help/article/setting-up-automatic-scheduling[0m
+2025-11-23T06:24:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:24:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:24:15: 
+2025-11-23T06:24:15: [1;31m[404] GET /actuator/gateway/routes[0m
+2025-11-23T06:37:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:37:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:37:00: 
+2025-11-23T06:37:00: [1;31m[404] GET /help/article/how-to-create-your-first-schedule[0m
+2025-11-23T06:47:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:47:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:47:21: 
+2025-11-23T06:47:21: [1;31m[404] GET /help/category/troubleshooting[0m
+2025-11-23T06:57:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T06:57:28: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:02:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:02:21: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:10:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:10:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:10:30: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:20:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:20:24: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:25:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:25:15: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:25:15: 
+2025-11-23T07:25:15: [1;31m[404] GET /global-protect/login.esp[0m
+2025-11-23T07:28:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:28:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:31:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:31:33: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:41:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:41:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:51:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:51:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T07:51:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:00:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:00:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:00:27: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:14:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:14:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:14:45: 
+2025-11-23T08:14:45: [1;31m[404] GET /RDWeb[0m
+2025-11-23T08:14:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:14:46: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:14:46: 
+2025-11-23T08:14:46: [1;31m[404] GET /help/category/scheduling[0m
+2025-11-23T08:20:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:20:18: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:20:18: 
+2025-11-23T08:20:18: [1;31m[404] GET /help/category/integrations[0m
+2025-11-23T08:23:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:23:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:23:19: 
+2025-11-23T08:23:19: [1;31m[404] GET /RDWeb[0m
+2025-11-23T08:23:50: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:23:50: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:23:50: 
+2025-11-23T08:23:50: [1;31m[404] GET /.well-known/security.txt[0m
+2025-11-23T08:24:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:24:47: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:24:47: 
+2025-11-23T08:24:47: [1;31m[404] GET /RDWeb[0m
+2025-11-23T08:27:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:27:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:48: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:48: 🔑 JWT callback called
+2025-11-23T08:32:48: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:32:48: ✅ Session updated with user data: {
+2025-11-23T08:32:48:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:32:48:   email: 'admin@roster86.com',
+2025-11-23T08:32:48:   role: 'OWNER',
+2025-11-23T08:32:48:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:32:48: }
+2025-11-23T08:32:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:55: 🔑 JWT callback called
+2025-11-23T08:32:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:32:55: ✅ Session updated with user data: {
+2025-11-23T08:32:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:32:55:   email: 'admin@roster86.com',
+2025-11-23T08:32:55:   role: 'OWNER',
+2025-11-23T08:32:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:32:55: }
+2025-11-23T08:32:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:55: 🔑 JWT callback called
+2025-11-23T08:32:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:32:55: ✅ Session updated with user data: {
+2025-11-23T08:32:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:32:55:   email: 'admin@roster86.com',
+2025-11-23T08:32:55:   role: 'OWNER',
+2025-11-23T08:32:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:32:55: }
+2025-11-23T08:32:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:55: 🔑 JWT callback called
+2025-11-23T08:32:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:32:55: ✅ Session updated with user data: {
+2025-11-23T08:32:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:32:55:   email: 'admin@roster86.com',
+2025-11-23T08:32:55:   role: 'OWNER',
+2025-11-23T08:32:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:32:55: }
+2025-11-23T08:32:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:59: 🔑 JWT callback called
+2025-11-23T08:32:59: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:32:59: ✅ Session updated with user data: {
+2025-11-23T08:32:59:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:32:59:   email: 'admin@roster86.com',
+2025-11-23T08:32:59:   role: 'OWNER',
+2025-11-23T08:32:59:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:32:59: }
+2025-11-23T08:32:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:59: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:32:59: 🔑 JWT callback called
+2025-11-23T08:32:59: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:32:59: ✅ Session updated with user data: {
+2025-11-23T08:32:59:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:32:59:   email: 'admin@roster86.com',
+2025-11-23T08:32:59:   role: 'OWNER',
+2025-11-23T08:32:59:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:32:59: }
+2025-11-23T08:32:59: 🔑 JWT callback called
+2025-11-23T08:32:59: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:32:59: ✅ Session updated with user data: {
+2025-11-23T08:32:59:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:32:59:   email: 'admin@roster86.com',
+2025-11-23T08:32:59:   role: 'OWNER',
+2025-11-23T08:32:59:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:32:59: }
+2025-11-23T08:33:00: 
+2025-11-23T08:33:00: [1;31m[500] GET /dashboard/team[0m
+2025-11-23T08:33:00: TypeError: Cannot read properties of undefined (reading 'name')
+2025-11-23T08:33:00:     at $$render_inner (file:///full-scope-schedulerV1.0/build/server/chunks/_page.svelte-BxO16S1p.js:849:62)
+2025-11-23T08:33:00:     at file:///full-scope-schedulerV1.0/build/server/chunks/_page.svelte-BxO16S1p.js:897:9
+2025-11-23T08:33:00:     at Renderer.child (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2673:20)
+2025-11-23T08:33:00:     at Renderer.component (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2694:24)
+2025-11-23T08:33:00:     at _page (file:///full-scope-schedulerV1.0/build/server/chunks/_page.svelte-BxO16S1p.js:587:14)
+2025-11-23T08:33:00:     at file:///full-scope-schedulerV1.0/build/server/chunks/index-CEpudXQc.js:2510:19
+2025-11-23T08:33:00:     at file:///full-scope-schedulerV1.0/build/server/chunks/_layout.svelte-CIbaDEht.js:1505:7
+2025-11-23T08:33:00:     at Renderer.child (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2673:20)
+2025-11-23T08:33:00:     at Renderer.component (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2694:24)
+2025-11-23T08:33:00:     at _layout (file:///full-scope-schedulerV1.0/build/server/chunks/_layout.svelte-CIbaDEht.js:1291:14)
+2025-11-23T08:33:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:08: 🔑 JWT callback called
+2025-11-23T08:33:08: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:08: ✅ Session updated with user data: {
+2025-11-23T08:33:08:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:08:   email: 'admin@roster86.com',
+2025-11-23T08:33:08:   role: 'OWNER',
+2025-11-23T08:33:08:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:08: }
+2025-11-23T08:33:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:08: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:08: 🔑 JWT callback called
+2025-11-23T08:33:08: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:08: ✅ Session updated with user data: {
+2025-11-23T08:33:08:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:08:   email: 'admin@roster86.com',
+2025-11-23T08:33:08:   role: 'OWNER',
+2025-11-23T08:33:08:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:08: }
+2025-11-23T08:33:08: 🔑 JWT callback called
+2025-11-23T08:33:08: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:08: ✅ Session updated with user data: {
+2025-11-23T08:33:08:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:08:   email: 'admin@roster86.com',
+2025-11-23T08:33:08:   role: 'OWNER',
+2025-11-23T08:33:08:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:08: }
+2025-11-23T08:33:08: 
+2025-11-23T08:33:08: [1;31m[500] GET /dashboard/team[0m
+2025-11-23T08:33:08: TypeError: Cannot read properties of undefined (reading 'name')
+2025-11-23T08:33:08:     at $$render_inner (file:///full-scope-schedulerV1.0/build/server/chunks/_page.svelte-BxO16S1p.js:849:62)
+2025-11-23T08:33:08:     at file:///full-scope-schedulerV1.0/build/server/chunks/_page.svelte-BxO16S1p.js:897:9
+2025-11-23T08:33:08:     at Renderer.child (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2673:20)
+2025-11-23T08:33:08:     at Renderer.component (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2694:24)
+2025-11-23T08:33:08:     at _page (file:///full-scope-schedulerV1.0/build/server/chunks/_page.svelte-BxO16S1p.js:587:14)
+2025-11-23T08:33:08:     at file:///full-scope-schedulerV1.0/build/server/chunks/index-CEpudXQc.js:2510:19
+2025-11-23T08:33:08:     at file:///full-scope-schedulerV1.0/build/server/chunks/_layout.svelte-CIbaDEht.js:1505:7
+2025-11-23T08:33:08:     at Renderer.child (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2673:20)
+2025-11-23T08:33:08:     at Renderer.component (file:///full-scope-schedulerV1.0/build/server/chunks/index2-KN_uJAIa.js:2694:24)
+2025-11-23T08:33:08:     at _layout (file:///full-scope-schedulerV1.0/build/server/chunks/_layout.svelte-CIbaDEht.js:1291:14)
+2025-11-23T08:33:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:10: 🔑 JWT callback called
+2025-11-23T08:33:10: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:10: ✅ Session updated with user data: {
+2025-11-23T08:33:10:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:10:   email: 'admin@roster86.com',
+2025-11-23T08:33:10:   role: 'OWNER',
+2025-11-23T08:33:10:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:10: }
+2025-11-23T08:33:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:10: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:10: 🔑 JWT callback called
+2025-11-23T08:33:10: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:10: ✅ Session updated with user data: {
+2025-11-23T08:33:10:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:10:   email: 'admin@roster86.com',
+2025-11-23T08:33:10:   role: 'OWNER',
+2025-11-23T08:33:10:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:10: }
+2025-11-23T08:33:10: 🔑 JWT callback called
+2025-11-23T08:33:10: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:10: ✅ Session updated with user data: {
+2025-11-23T08:33:10:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:10:   email: 'admin@roster86.com',
+2025-11-23T08:33:10:   role: 'OWNER',
+2025-11-23T08:33:10:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:10: }
+2025-11-23T08:33:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:19: 🔑 JWT callback called
+2025-11-23T08:33:19: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:19: ✅ Session updated with user data: {
+2025-11-23T08:33:19:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:19:   email: 'admin@roster86.com',
+2025-11-23T08:33:19:   role: 'OWNER',
+2025-11-23T08:33:19:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:19: }
+2025-11-23T08:33:19: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:19: 🔑 JWT callback called
+2025-11-23T08:33:19: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:19: ✅ Session updated with user data: {
+2025-11-23T08:33:19:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:19:   email: 'admin@roster86.com',
+2025-11-23T08:33:19:   role: 'OWNER',
+2025-11-23T08:33:19:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:19: }
+2025-11-23T08:33:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:43: 🔑 JWT callback called
+2025-11-23T08:33:43: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:43: ✅ Session updated with user data: {
+2025-11-23T08:33:43:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:43:   email: 'admin@roster86.com',
+2025-11-23T08:33:43:   role: 'OWNER',
+2025-11-23T08:33:43:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:43: }
+2025-11-23T08:33:43: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:43: 🔑 JWT callback called
+2025-11-23T08:33:43: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:43: ✅ Session updated with user data: {
+2025-11-23T08:33:43:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:43:   email: 'admin@roster86.com',
+2025-11-23T08:33:43:   role: 'OWNER',
+2025-11-23T08:33:43:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:43: }
+2025-11-23T08:33:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:44: 🔑 JWT callback called
+2025-11-23T08:33:44: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:44: ✅ Session updated with user data: {
+2025-11-23T08:33:44:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:44:   email: 'admin@roster86.com',
+2025-11-23T08:33:44:   role: 'OWNER',
+2025-11-23T08:33:44:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:44: }
+2025-11-23T08:33:44: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:44: 🔑 JWT callback called
+2025-11-23T08:33:44: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:44: ✅ Session updated with user data: {
+2025-11-23T08:33:44:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:44:   email: 'admin@roster86.com',
+2025-11-23T08:33:44:   role: 'OWNER',
+2025-11-23T08:33:44:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:44: }
+2025-11-23T08:33:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:45: 🔑 JWT callback called
+2025-11-23T08:33:45: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:45: ✅ Session updated with user data: {
+2025-11-23T08:33:45:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:45:   email: 'admin@roster86.com',
+2025-11-23T08:33:45:   role: 'OWNER',
+2025-11-23T08:33:45:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:45: }
+2025-11-23T08:33:45: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:45: 🔑 JWT callback called
+2025-11-23T08:33:45: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:45: ✅ Session updated with user data: {
+2025-11-23T08:33:45:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:45:   email: 'admin@roster86.com',
+2025-11-23T08:33:45:   role: 'OWNER',
+2025-11-23T08:33:45:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:45: }
+2025-11-23T08:33:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:49: 🔑 JWT callback called
+2025-11-23T08:33:49: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:49: ✅ Session updated with user data: {
+2025-11-23T08:33:49:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:49:   email: 'admin@roster86.com',
+2025-11-23T08:33:49:   role: 'OWNER',
+2025-11-23T08:33:49:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:49: }
+2025-11-23T08:33:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:49: 🔑 JWT callback called
+2025-11-23T08:33:49: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:49: ✅ Session updated with user data: {
+2025-11-23T08:33:49:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:49:   email: 'admin@roster86.com',
+2025-11-23T08:33:49:   role: 'OWNER',
+2025-11-23T08:33:49:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:49: }
+2025-11-23T08:33:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:49: 🔑 JWT callback called
+2025-11-23T08:33:49: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:49: ✅ Session updated with user data: {
+2025-11-23T08:33:49:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:49:   email: 'admin@roster86.com',
+2025-11-23T08:33:49:   role: 'OWNER',
+2025-11-23T08:33:49:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:49: }
+2025-11-23T08:33:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:49: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:49: 🔑 JWT callback called
+2025-11-23T08:33:49: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:49: ✅ Session updated with user data: {
+2025-11-23T08:33:49:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:49:   email: 'admin@roster86.com',
+2025-11-23T08:33:49:   role: 'OWNER',
+2025-11-23T08:33:49:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:49: }
+2025-11-23T08:33:49: 🔑 JWT callback called
+2025-11-23T08:33:49: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:49: ✅ Session updated with user data: {
+2025-11-23T08:33:49:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:49:   email: 'admin@roster86.com',
+2025-11-23T08:33:49:   role: 'OWNER',
+2025-11-23T08:33:49:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:49: }
+2025-11-23T08:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:53: 🔑 JWT callback called
+2025-11-23T08:33:53: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:53: ✅ Session updated with user data: {
+2025-11-23T08:33:53:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:53:   email: 'admin@roster86.com',
+2025-11-23T08:33:53:   role: 'OWNER',
+2025-11-23T08:33:53:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:53: }
+2025-11-23T08:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:53: 🔑 JWT callback called
+2025-11-23T08:33:53: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:53: ✅ Session updated with user data: {
+2025-11-23T08:33:53:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:53:   email: 'admin@roster86.com',
+2025-11-23T08:33:53:   role: 'OWNER',
+2025-11-23T08:33:53:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:53: }
+2025-11-23T08:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:53: 🔑 JWT callback called
+2025-11-23T08:33:53: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:53: ✅ Session updated with user data: {
+2025-11-23T08:33:53:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:53:   email: 'admin@roster86.com',
+2025-11-23T08:33:53:   role: 'OWNER',
+2025-11-23T08:33:53:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:53: }
+2025-11-23T08:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:53: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:53: 🔑 JWT callback called
+2025-11-23T08:33:53: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:53: ✅ Session updated with user data: {
+2025-11-23T08:33:53:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:53:   email: 'admin@roster86.com',
+2025-11-23T08:33:53:   role: 'OWNER',
+2025-11-23T08:33:53:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:53: }
+2025-11-23T08:33:53: 🔑 JWT callback called
+2025-11-23T08:33:53: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:53: ✅ Session updated with user data: {
+2025-11-23T08:33:53:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:53:   email: 'admin@roster86.com',
+2025-11-23T08:33:53:   role: 'OWNER',
+2025-11-23T08:33:53:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:53: }
+2025-11-23T08:33:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:55: 🔑 JWT callback called
+2025-11-23T08:33:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:55: ✅ Session updated with user data: {
+2025-11-23T08:33:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:55:   email: 'admin@roster86.com',
+2025-11-23T08:33:55:   role: 'OWNER',
+2025-11-23T08:33:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:55: }
+2025-11-23T08:33:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:55: 🔑 JWT callback called
+2025-11-23T08:33:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:55: ✅ Session updated with user data: {
+2025-11-23T08:33:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:55:   email: 'admin@roster86.com',
+2025-11-23T08:33:55:   role: 'OWNER',
+2025-11-23T08:33:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:55: }
+2025-11-23T08:33:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:55: 🔑 JWT callback called
+2025-11-23T08:33:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:55: ✅ Session updated with user data: {
+2025-11-23T08:33:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:55:   email: 'admin@roster86.com',
+2025-11-23T08:33:55:   role: 'OWNER',
+2025-11-23T08:33:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:55: }
+2025-11-23T08:33:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:55: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:55: 🔑 JWT callback called
+2025-11-23T08:33:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:55: ✅ Session updated with user data: {
+2025-11-23T08:33:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:55:   email: 'admin@roster86.com',
+2025-11-23T08:33:55:   role: 'OWNER',
+2025-11-23T08:33:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:55: }
+2025-11-23T08:33:55: 🔑 JWT callback called
+2025-11-23T08:33:55: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:55: ✅ Session updated with user data: {
+2025-11-23T08:33:55:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:55:   email: 'admin@roster86.com',
+2025-11-23T08:33:55:   role: 'OWNER',
+2025-11-23T08:33:55:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:55: }
+2025-11-23T08:33:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:57: 🔑 JWT callback called
+2025-11-23T08:33:57: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:57: ✅ Session updated with user data: {
+2025-11-23T08:33:57:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:57:   email: 'admin@roster86.com',
+2025-11-23T08:33:57:   role: 'OWNER',
+2025-11-23T08:33:57:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:57: }
+2025-11-23T08:33:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:57: 🔑 JWT callback called
+2025-11-23T08:33:57: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:57: ✅ Session updated with user data: {
+2025-11-23T08:33:57:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:57:   email: 'admin@roster86.com',
+2025-11-23T08:33:57:   role: 'OWNER',
+2025-11-23T08:33:57:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:57: }
+2025-11-23T08:33:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:57: 🔑 JWT callback called
+2025-11-23T08:33:57: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:57: ✅ Session updated with user data: {
+2025-11-23T08:33:57:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:57:   email: 'admin@roster86.com',
+2025-11-23T08:33:57:   role: 'OWNER',
+2025-11-23T08:33:57:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:57: }
+2025-11-23T08:33:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:57: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:33:57: 🔑 JWT callback called
+2025-11-23T08:33:57: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:57: ✅ Session updated with user data: {
+2025-11-23T08:33:57:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:57:   email: 'admin@roster86.com',
+2025-11-23T08:33:57:   role: 'OWNER',
+2025-11-23T08:33:57:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:57: }
+2025-11-23T08:33:57: 🔑 JWT callback called
+2025-11-23T08:33:57: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:33:57: ✅ Session updated with user data: {
+2025-11-23T08:33:57:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:33:57:   email: 'admin@roster86.com',
+2025-11-23T08:33:57:   role: 'OWNER',
+2025-11-23T08:33:57:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:33:57: }
+2025-11-23T08:34:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:00: 🔑 JWT callback called
+2025-11-23T08:34:00: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:00: ✅ Session updated with user data: {
+2025-11-23T08:34:00:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:00:   email: 'admin@roster86.com',
+2025-11-23T08:34:00:   role: 'OWNER',
+2025-11-23T08:34:00:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:00: }
+2025-11-23T08:34:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:00: 🔑 JWT callback called
+2025-11-23T08:34:00: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:00: ✅ Session updated with user data: {
+2025-11-23T08:34:00:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:00:   email: 'admin@roster86.com',
+2025-11-23T08:34:00:   role: 'OWNER',
+2025-11-23T08:34:00:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:00: }
+2025-11-23T08:34:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:00: 🔑 JWT callback called
+2025-11-23T08:34:00: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:00: ✅ Session updated with user data: {
+2025-11-23T08:34:00:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:00:   email: 'admin@roster86.com',
+2025-11-23T08:34:00:   role: 'OWNER',
+2025-11-23T08:34:00:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:00: }
+2025-11-23T08:34:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:00: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:00: 🔑 JWT callback called
+2025-11-23T08:34:00: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:00: ✅ Session updated with user data: {
+2025-11-23T08:34:00:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:00:   email: 'admin@roster86.com',
+2025-11-23T08:34:00:   role: 'OWNER',
+2025-11-23T08:34:00:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:00: }
+2025-11-23T08:34:00: 🔑 JWT callback called
+2025-11-23T08:34:00: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:00: ✅ Session updated with user data: {
+2025-11-23T08:34:00:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:00:   email: 'admin@roster86.com',
+2025-11-23T08:34:00:   role: 'OWNER',
+2025-11-23T08:34:00:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:00: }
+2025-11-23T08:34:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:02: 🔑 JWT callback called
+2025-11-23T08:34:02: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:02: ✅ Session updated with user data: {
+2025-11-23T08:34:02:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:02:   email: 'admin@roster86.com',
+2025-11-23T08:34:02:   role: 'OWNER',
+2025-11-23T08:34:02:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:02: }
+2025-11-23T08:34:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:02: 🔑 JWT callback called
+2025-11-23T08:34:02: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:02: ✅ Session updated with user data: {
+2025-11-23T08:34:02:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:02:   email: 'admin@roster86.com',
+2025-11-23T08:34:02:   role: 'OWNER',
+2025-11-23T08:34:02:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:02: }
+2025-11-23T08:34:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:02: 🔑 JWT callback called
+2025-11-23T08:34:02: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:02: ✅ Session updated with user data: {
+2025-11-23T08:34:02:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:02:   email: 'admin@roster86.com',
+2025-11-23T08:34:02:   role: 'OWNER',
+2025-11-23T08:34:02:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:02: }
+2025-11-23T08:34:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:02: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:02: 🔑 JWT callback called
+2025-11-23T08:34:02: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:02: ✅ Session updated with user data: {
+2025-11-23T08:34:02:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:02:   email: 'admin@roster86.com',
+2025-11-23T08:34:02:   role: 'OWNER',
+2025-11-23T08:34:02:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:02: }
+2025-11-23T08:34:02: 🔑 JWT callback called
+2025-11-23T08:34:02: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:02: ✅ Session updated with user data: {
+2025-11-23T08:34:02:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:02:   email: 'admin@roster86.com',
+2025-11-23T08:34:02:   role: 'OWNER',
+2025-11-23T08:34:02:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:02: }
+2025-11-23T08:34:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:06: 🔑 JWT callback called
+2025-11-23T08:34:06: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:06: ✅ Session updated with user data: {
+2025-11-23T08:34:06:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:06:   email: 'admin@roster86.com',
+2025-11-23T08:34:06:   role: 'OWNER',
+2025-11-23T08:34:06:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:06: }
+2025-11-23T08:34:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:06: 🔑 JWT callback called
+2025-11-23T08:34:06: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:06: ✅ Session updated with user data: {
+2025-11-23T08:34:06:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:06:   email: 'admin@roster86.com',
+2025-11-23T08:34:06:   role: 'OWNER',
+2025-11-23T08:34:06:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:06: }
+2025-11-23T08:34:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:06: 🔑 JWT callback called
+2025-11-23T08:34:06: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:06: ✅ Session updated with user data: {
+2025-11-23T08:34:06:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:06:   email: 'admin@roster86.com',
+2025-11-23T08:34:06:   role: 'OWNER',
+2025-11-23T08:34:06:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:06: }
+2025-11-23T08:34:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:06: 🔑 JWT callback called
+2025-11-23T08:34:06: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:06: ✅ Session updated with user data: {
+2025-11-23T08:34:06:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:06:   email: 'admin@roster86.com',
+2025-11-23T08:34:06:   role: 'OWNER',
+2025-11-23T08:34:06:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:06: }
+2025-11-23T08:34:06: 🔑 JWT callback called
+2025-11-23T08:34:06: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:06: ✅ Session updated with user data: {
+2025-11-23T08:34:06:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:06:   email: 'admin@roster86.com',
+2025-11-23T08:34:06:   role: 'OWNER',
+2025-11-23T08:34:06:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:06: }
+2025-11-23T08:34:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:29: 🔑 JWT callback called
+2025-11-23T08:34:29: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:29: ✅ Session updated with user data: {
+2025-11-23T08:34:29:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:29:   email: 'admin@roster86.com',
+2025-11-23T08:34:29:   role: 'OWNER',
+2025-11-23T08:34:29:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:29: }
+2025-11-23T08:34:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:29: 🔑 JWT callback called
+2025-11-23T08:34:29: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:29: ✅ Session updated with user data: {
+2025-11-23T08:34:29:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:29:   email: 'admin@roster86.com',
+2025-11-23T08:34:29:   role: 'OWNER',
+2025-11-23T08:34:29:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:29: }
+2025-11-23T08:34:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:29: 🔑 JWT callback called
+2025-11-23T08:34:29: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:29: ✅ Session updated with user data: {
+2025-11-23T08:34:29:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:29:   email: 'admin@roster86.com',
+2025-11-23T08:34:29:   role: 'OWNER',
+2025-11-23T08:34:29:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:29: }
+2025-11-23T08:34:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:29: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:29: 🔑 JWT callback called
+2025-11-23T08:34:29: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:29: ✅ Session updated with user data: {
+2025-11-23T08:34:29:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:29:   email: 'admin@roster86.com',
+2025-11-23T08:34:29:   role: 'OWNER',
+2025-11-23T08:34:29:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:29: }
+2025-11-23T08:34:29: 🔑 JWT callback called
+2025-11-23T08:34:29: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:29: ✅ Session updated with user data: {
+2025-11-23T08:34:29:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:29:   email: 'admin@roster86.com',
+2025-11-23T08:34:29:   role: 'OWNER',
+2025-11-23T08:34:29:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:29: }
+2025-11-23T08:34:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:31: 🔑 JWT callback called
+2025-11-23T08:34:31: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:31: ✅ Session updated with user data: {
+2025-11-23T08:34:31:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:31:   email: 'admin@roster86.com',
+2025-11-23T08:34:31:   role: 'OWNER',
+2025-11-23T08:34:31:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:31: }
+2025-11-23T08:34:31: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:31: 🔑 JWT callback called
+2025-11-23T08:34:31: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:31: ✅ Session updated with user data: {
+2025-11-23T08:34:31:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:31:   email: 'admin@roster86.com',
+2025-11-23T08:34:31:   role: 'OWNER',
+2025-11-23T08:34:31:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:31: }
+2025-11-23T08:34:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:40: 🔑 JWT callback called
+2025-11-23T08:34:40: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:40: ✅ Session updated with user data: {
+2025-11-23T08:34:40:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:40:   email: 'admin@roster86.com',
+2025-11-23T08:34:40:   role: 'OWNER',
+2025-11-23T08:34:40:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:40: }
+2025-11-23T08:34:40: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:34:40: 🔑 JWT callback called
+2025-11-23T08:34:40: 🎫 Session callback called for user: admin@roster86.com
+2025-11-23T08:34:40: ✅ Session updated with user data: {
+2025-11-23T08:34:40:   id: 'cmi2skbpk0001xe61obqdrgnd',
+2025-11-23T08:34:40:   email: 'admin@roster86.com',
+2025-11-23T08:34:40:   role: 'OWNER',
+2025-11-23T08:34:40:   organizationId: 'cmhzntumh0000xetpspwe7del'
+2025-11-23T08:34:40: }
+2025-11-23T08:35:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
+2025-11-23T08:35:06: [33m[auth][warn][env-url-basepath-redundant][0m Read more: https://warnings.authjs.dev
