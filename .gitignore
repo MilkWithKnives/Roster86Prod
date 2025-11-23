@@ -25,3 +25,8 @@ vite.config.ts.timestamp-*
 # MCP Servers (not needed in production)
 svelte5-mcp-server/
 python/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
