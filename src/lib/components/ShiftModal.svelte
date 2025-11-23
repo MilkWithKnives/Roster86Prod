@@ -15,7 +15,7 @@
 
 	let { open = $bindable(), onClose, locations, users, selectedDate = null, shift = null }: Props = $props();
 
-	// Form state
+	// Form state with proper initialization
 	let locationId = $state('');
 	let userId = $state('');
 	let role = $state('');
@@ -33,45 +33,112 @@
 	let minSeniority = $state('');
 
 	let submitting = $state(false);
+	
+	// Track original values for partial updates
+	let originalValues = $state<Record<string, any>>({});
+	let isEditMode = $state(false);
 
-	// Update form when shift or selectedDate changes
-	$effect(() => {
-		// Only populate if modal is open and we have locations
-		if (!open || !locations || locations.length === 0) return;
+	// Initialize form when modal opens with shift data
+	function initializeForm() {
+		if (!open) return;
+		
+		// Ensure we have locations before proceeding
+		if (!locations || locations.length === 0) {
+			console.warn('No locations available');
+			return;
+		}
 
-		if (shift) {
-			// Editing existing shift - populate form
-			console.log('🔍 Populating form for shift edit:', shift.id);
-			locationId = shift.locationId || locations[0]?.id || '';
+		isEditMode = !!shift?.id;
+		
+		if (shift?.id) {
+			// Editing existing shift - populate all fields
+			console.log('🔍 Initializing form for shift edit:', shift.id);
+			
+			locationId = shift.locationId || shift.location?.id || locations[0]?.id || '';
 			userId = shift.userId || '';
 			role = shift.role || '';
-			date = formatDate(new Date(shift.startTime));
+			
+			// Handle date/time properly
+			const shiftStart = new Date(shift.startTime);
+			date = formatDate(shiftStart);
 			startTime = formatTimeUtil(shift.startTime);
 			endTime = formatTimeUtil(shift.endTime);
-			breakMinutes = shift.breakMinutes || 30;
+			
+			breakMinutes = shift.breakMinutes ?? 30;
 			hourlyRate = shift.hourlyRate?.toString() || '';
 			notes = shift.notes || '';
-			requiredSkills = shift.requiredSkills || [];
+			requiredSkills = Array.isArray(shift.requiredSkills) ? [...shift.requiredSkills] : [];
 			shiftType = shift.shiftType || '';
-			priority = shift.priority || 0;
+			priority = shift.priority ?? 0;
 			minSeniority = shift.minSeniority?.toString() || '';
-			console.log('✅ Form populated with role:', role, 'date:', date, 'time:', startTime + '-' + endTime);
+			
+			// Store original values for comparison
+			originalValues = {
+				locationId,
+				userId,
+				role,
+				date,
+				startTime,
+				endTime,
+				breakMinutes,
+				hourlyRate,
+				notes,
+				requiredSkills: [...requiredSkills],
+				shiftType,
+				priority,
+				minSeniority
+			};
+			
+			console.log('✅ Form populated with:', {
+				role,
+				date,
+				time: `${startTime} - ${endTime}`,
+				location: locationId
+			});
 		} else {
-			// Creating new shift - reset form
-			console.log('🔍 Resetting form for new shift');
-			locationId = locations[0]?.id || '';
-			userId = '';
-			role = '';
-			date = selectedDate ? formatDate(selectedDate) : formatDate(new Date());
-			startTime = '09:00';
-			endTime = '17:00';
-			breakMinutes = 30;
-			hourlyRate = '';
-			notes = '';
-			requiredSkills = [];
-			shiftType = '';
-			priority = 0;
-			minSeniority = '';
+			// Creating new shift - use defaults
+			console.log('🔍 Initializing form for new shift');
+			resetToDefaults();
+			
+			// Use selected date if provided
+			if (selectedDate) {
+				date = formatDate(selectedDate);
+			}
+		}
+	}
+
+	// Reset form to default values
+	function resetToDefaults() {
+		locationId = locations?.[0]?.id || '';
+		userId = '';
+		role = '';
+		date = selectedDate ? formatDate(selectedDate) : formatDate(new Date());
+		startTime = '09:00';
+		endTime = '17:00';
+		breakMinutes = 30;
+		hourlyRate = '';
+		notes = '';
+		requiredSkills = [];
+		shiftType = '';
+		priority = 0;
+		minSeniority = '';
+		originalValues = {};
+		isEditMode = false;
+	}
+
+	// Watch for modal open/close and shift changes
+	$effect(() => {
+		if (open) {
+			// Initialize form when modal opens
+			initializeForm();
+		}
+	});
+
+	// Watch for shift prop changes while modal is open
+	$effect(() => {
+		if (open && shift) {
+			// Re-initialize if shift changes while modal is open
+			initializeForm();
 		}
 	});
 
@@ -121,46 +188,124 @@
 		requiredSkills = requiredSkills.filter(s => s !== skill);
 	}
 
+	// Get only changed fields for partial update
+	function getChangedFields(): Record<string, any> {
+		if (!isEditMode) return {}; // Return empty for new shifts
+		
+		const changes: Record<string, any> = {};
+		
+		// Check each field for changes
+		if (locationId !== originalValues.locationId) changes.locationId = locationId;
+		if (userId !== originalValues.userId) changes.userId = userId || null;
+		if (role !== originalValues.role) changes.role = role;
+		if (date !== originalValues.date) changes.date = date;
+		if (startTime !== originalValues.startTime) changes.startTime = startTime;
+		if (endTime !== originalValues.endTime) changes.endTime = endTime;
+		if (breakMinutes !== originalValues.breakMinutes) changes.breakMinutes = breakMinutes;
+		if (hourlyRate !== originalValues.hourlyRate) changes.hourlyRate = hourlyRate || null;
+		if (notes !== originalValues.notes) changes.notes = notes || null;
+		if (JSON.stringify(requiredSkills) !== JSON.stringify(originalValues.requiredSkills)) {
+			changes.requiredSkills = requiredSkills;
+		}
+		if (shiftType !== originalValues.shiftType) changes.shiftType = shiftType || null;
+		if (priority !== originalValues.priority) changes.priority = priority;
+		if (minSeniority !== originalValues.minSeniority) changes.minSeniority = minSeniority || null;
+		
+		return changes;
+	}
+
 	async function handleSubmit(e: Event) {
 		e.preventDefault();
+		
+		// Validate required fields
+		if (!locationId || !role || !date || !startTime || !endTime) {
+			toast.error('Please fill in all required fields');
+			return;
+		}
+		
 		submitting = true;
 
-		const formData = new FormData();
-		if (shift?.id) formData.append('shiftId', shift.id);
-		formData.append('locationId', locationId);
-		formData.append('userId', userId || '');
-		formData.append('role', role);
-		formData.append('date', date);
-		formData.append('startTime', startTime);
-		formData.append('endTime', endTime);
-		formData.append('breakMinutes', breakMinutes.toString());
-		if (hourlyRate) formData.append('hourlyRate', hourlyRate.toString());
-		if (notes) formData.append('notes', notes);
-
-		// Shift requirements
-		formData.append('requiredSkills', JSON.stringify(requiredSkills));
-		if (shiftType) formData.append('shiftType', shiftType);
-		formData.append('priority', priority.toString());
-		if (minSeniority) formData.append('minSeniority', minSeniority.toString());
-
 		try {
-			const action = shift?.id ? '?/updateShift' : '?/createShift';
+			const formData = new FormData();
+			
+			if (isEditMode && shift?.id) {
+				// For updates, send shift ID and only changed fields
+				formData.append('shiftId', shift.id);
+				
+				const changes = getChangedFields();
+				if (Object.keys(changes).length === 0) {
+					toast.info('No changes to save');
+					submitting = false;
+					return;
+				}
+				
+				// Always include these for server-side validation
+				formData.append('locationId', locationId);
+				formData.append('role', role);
+				formData.append('date', date);
+				formData.append('startTime', startTime);
+				formData.append('endTime', endTime);
+				
+				// Add other fields
+				formData.append('userId', userId || '');
+				formData.append('breakMinutes', breakMinutes.toString());
+				formData.append('hourlyRate', hourlyRate || '');
+				formData.append('notes', notes || '');
+				formData.append('requiredSkills', JSON.stringify(requiredSkills));
+				formData.append('shiftType', shiftType || '');
+				formData.append('priority', priority.toString());
+				formData.append('minSeniority', minSeniority || '');
+				
+				// Add a flag to indicate partial update
+				formData.append('partialUpdate', 'true');
+				formData.append('changedFields', JSON.stringify(Object.keys(changes)));
+			} else {
+				// For new shifts, send all fields
+				formData.append('locationId', locationId);
+				formData.append('userId', userId || '');
+				formData.append('role', role);
+				formData.append('date', date);
+				formData.append('startTime', startTime);
+				formData.append('endTime', endTime);
+				formData.append('breakMinutes', breakMinutes.toString());
+				formData.append('hourlyRate', hourlyRate || '');
+				formData.append('notes', notes || '');
+				formData.append('requiredSkills', JSON.stringify(requiredSkills));
+				formData.append('shiftType', shiftType || '');
+				formData.append('priority', priority.toString());
+				formData.append('minSeniority', minSeniority || '');
+			}
+
+			const action = isEditMode ? '?/updateShift' : '?/createShift';
 			const response = await fetch(action, {
 				method: 'POST',
 				body: formData
 			});
 
-			if (response.ok) {
-				toast.success(shift?.id ? 'Shift updated!' : 'Shift created!');
+			const result = await response.json();
+			
+			if (response.ok && result.type === 'success') {
+				toast.success(isEditMode ? 'Shift updated successfully!' : 'Shift created successfully!');
+				
+				// Close modal and trigger refresh
 				onClose();
-				window.location.reload();
+				
+				// Trigger a data refresh instead of full page reload
+				// This should be handled by the parent component
+				window.dispatchEvent(new CustomEvent('shift-updated', { 
+					detail: { shift: result.data?.shift } 
+				}));
+				
+				// Only reload if event handling isn't implemented yet
+				if (!window.onshiftupdate) {
+					window.location.reload();
+				}
 			} else {
-				const result = await response.json();
-				toast.error(result.error || 'Failed to save shift');
+				toast.error(result.error?.message || 'Failed to save shift');
 			}
 		} catch (error) {
 			console.error('Submit error:', error);
-			toast.error('Something went wrong');
+			toast.error('Something went wrong. Please try again.');
 		} finally {
 			submitting = false;
 		}
@@ -168,8 +313,12 @@
 
 	async function handleDelete() {
 		if (!shift?.id) return;
-		if (!confirm('Are you sure you want to delete this shift?')) return;
+		
+		if (!confirm(`Are you sure you want to delete this shift for ${role} on ${date}?`)) {
+			return;
+		}
 
+		submitting = true;
 		const formData = new FormData();
 		formData.append('shiftId', shift.id);
 
@@ -179,49 +328,51 @@
 				body: formData
 			});
 
-			if (response.ok) {
-				toast.success('Shift deleted');
+			const result = await response.json();
+			
+			if (response.ok && result.type === 'success') {
+				toast.success('Shift deleted successfully');
 				onClose();
-				window.location.reload();
+				
+				// Trigger refresh
+				window.dispatchEvent(new CustomEvent('shift-deleted', { 
+					detail: { shiftId: shift.id } 
+				}));
+				
+				// Fallback to reload if event handling isn't implemented
+				if (!window.onshiftdelete) {
+					window.location.reload();
+				}
 			} else {
-				toast.error('Failed to delete shift');
+				toast.error(result.error?.message || 'Failed to delete shift');
 			}
 		} catch (error) {
 			console.error('Delete error:', error);
-			toast.error('Something went wrong');
+			toast.error('Something went wrong. Please try again.');
+		} finally {
+			submitting = false;
 		}
 	}
 
-	// Reset form when modal closes (but don't interfere with edit mode)
-	$effect(() => {
-		if (!open) {
-			// Reset form after animation, but only for create mode
-			setTimeout(() => {
-				console.log('🔄 Modal closed, resetting form (shift exists:', !!shift, ')');
-				// Always reset to prevent stale data
-				locationId = locations[0]?.id || '';
-				userId = '';
-				role = '';
-				date = formatDate(new Date());
-				startTime = '09:00';
-				endTime = '17:00';
-				breakMinutes = 30;
-				hourlyRate = '';
-				notes = '';
-				requiredSkills = [];
-				shiftType = '';
-				priority = 0;
-				minSeniority = '';
-			}, 300);
-		}
-	});
+	// Clean up when modal closes
+	function handleClose() {
+		// Don't reset immediately to prevent flicker
+		onClose();
+		
+		// Reset after animation completes
+		setTimeout(() => {
+			if (!open) {
+				resetToDefaults();
+			}
+		}, 300);
+	}
 </script>
 
 {#if open}
 	<!-- Modal Overlay -->
 	<div 
 		class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
-		onclick={onClose}
+		onclick={handleClose}
 	>
 		<!-- Modal Content -->
 		<div 
@@ -231,12 +382,13 @@
 			<!-- Modal Header -->
 			<div class="flex items-center justify-between p-6 border-b border-slate-200 dark:border-slate-700">
 				<h2 class="text-2xl font-bold text-slate-900 dark:text-white">
-					{shift?.id ? 'Edit Shift' : 'Create Shift'}
+					{isEditMode ? 'Edit Shift' : 'Create New Shift'}
 				</h2>
 				<button
 					type="button"
-					onclick={onClose}
+					onclick={handleClose}
 					class="text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 text-2xl"
+					aria-label="Close modal"
 				>
 					✕
 				</button>
@@ -252,7 +404,8 @@
 					<select
 						bind:value={locationId}
 						required
-						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+						disabled={submitting}
+						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 					>
 						{#each locations as location}
 							<option value={location.id}>{location.name}</option>
@@ -267,7 +420,8 @@
 					</label>
 					<select
 						bind:value={userId}
-						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+						disabled={submitting}
+						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 					>
 						<option value="">Unassigned</option>
 						{#each users as user}
@@ -288,9 +442,10 @@
 						type="text"
 						bind:value={role}
 						required
+						disabled={submitting}
 						list="roles"
 						placeholder="Select or type a role"
-						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 					/>
 					<datalist id="roles">
 						{#each commonRoles as commonRole}
@@ -307,6 +462,7 @@
 							label="Date"
 							bind:value={date}
 							required
+							disabled={submitting}
 						/>
 					</div>
 					<div>
@@ -315,6 +471,7 @@
 							label="Start Time"
 							bind:value={startTime}
 							required
+							disabled={submitting}
 						/>
 					</div>
 					<div>
@@ -323,6 +480,7 @@
 							label="End Time"
 							bind:value={endTime}
 							required
+							disabled={submitting}
 						/>
 					</div>
 				</div>
@@ -338,7 +496,8 @@
 							bind:value={breakMinutes}
 							min="0"
 							step="15"
-							class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+							disabled={submitting}
+							class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 						/>
 					</div>
 					<div>
@@ -350,8 +509,9 @@
 							bind:value={hourlyRate}
 							min="0"
 							step="0.01"
+							disabled={submitting}
 							placeholder="Uses employee's default rate"
-							class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+							class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 						/>
 					</div>
 				</div>
@@ -385,7 +545,8 @@
 											<button
 												type="button"
 												onclick={() => removeSkill(skill)}
-												class="hover:bg-primary-200 dark:hover:bg-primary-800/50 rounded-full p-0.5 transition-colors"
+												disabled={submitting}
+												class="hover:bg-primary-200 dark:hover:bg-primary-800/50 rounded-full p-0.5 transition-colors disabled:opacity-50"
 												aria-label="Remove {skill}"
 											>
 												<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -403,13 +564,15 @@
 									type="text"
 									bind:value={newSkill}
 									placeholder="Add required skill"
-									class="flex-1 px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-primary-500"
+									disabled={submitting}
+									class="flex-1 px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 									onkeydown={(e) => e.key === 'Enter' && (e.preventDefault(), addSkill())}
 								/>
 								<button
 									type="button"
 									onclick={addSkill}
-									class="px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors font-medium"
+									disabled={submitting}
+									class="px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
 								>
 									Add
 								</button>
@@ -421,7 +584,8 @@
 									<button
 										type="button"
 										onclick={() => requiredSkills = [...requiredSkills, skillOption]}
-										class="px-3 py-1 text-xs bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors border border-slate-200 dark:border-slate-700"
+										disabled={submitting}
+										class="px-3 py-1 text-xs bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors border border-slate-200 dark:border-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
 									>
 										+ {skillOption}
 									</button>
@@ -438,7 +602,8 @@
 							</label>
 							<select
 								bind:value={shiftType}
-								class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+								disabled={submitting}
+								class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 							>
 								{#each shiftTypeOptions as option}
 									<option value={option.value}>{option.label}</option>
@@ -455,7 +620,8 @@
 								bind:value={priority}
 								min="0"
 								max="10"
-								class="w-full"
+								disabled={submitting}
+								class="w-full disabled:opacity-50"
 							/>
 							<div class="flex justify-between text-xs text-slate-500 dark:text-slate-400 mt-1">
 								<span>Low</span>
@@ -474,7 +640,8 @@
 								min="0"
 								max="50"
 								placeholder="0"
-								class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+								disabled={submitting}
+								class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 							/>
 						</div>
 					</div>
@@ -488,31 +655,42 @@
 					<textarea
 						bind:value={notes}
 						rows="3"
+						disabled={submitting}
 						placeholder="Any special instructions or notes..."
-						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+						class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 					></textarea>
 				</div>
 
 				<!-- Actions -->
 				<div class="flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-700">
 					<div>
-						{#if shift?.id}
+						{#if isEditMode && shift?.id}
 							<Button
 								type="button"
 								variant="ghost"
 								onclick={handleDelete}
+								disabled={submitting}
 								class="text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20"
 							>
-								🗑️ Delete
+								🗑️ Delete Shift
 							</Button>
 						{/if}
 					</div>
 					<div class="flex gap-3">
-						<Button type="button" variant="ghost" onclick={onClose}>
+						<Button 
+							type="button" 
+							variant="ghost" 
+							onclick={handleClose}
+							disabled={submitting}
+						>
 							Cancel
 						</Button>
-						<Button type="submit" variant="primary" loading={submitting}>
-							{submitting ? 'Saving...' : (shift?.id ? 'Update Shift' : 'Create Shift')}
+						<Button 
+							type="submit" 
+							variant="primary" 
+							loading={submitting}
+						>
+							{submitting ? 'Saving...' : (isEditMode ? 'Update Shift' : 'Create Shift')}
 						</Button>
 					</div>
 				</div>
