@@ -13,24 +13,28 @@
 	let { open = $bindable(), onClose, locations, employee = null }: Props = $props();
 
 	// Form state
-	let name = $state(employee?.name || '');
-	let email = $state(employee?.email || '');
-	let role = $state(employee?.role || 'EMPLOYEE');
-	let defaultHourlyRate = $state(employee?.defaultHourlyRate || '');
-	let phoneNumber = $state(employee?.phoneNumber || '');
-	let preferredLocationId = $state(employee?.preferredLocationId || locations[0]?.id || '');
+	let name = $state('');
+	let email = $state('');
+	let role = $state('EMPLOYEE');
+	let defaultHourlyRate = $state('');
+	let phoneNumber = $state('');
+	let preferredLocationId = $state('');
 
 	// Scheduling preferences
-	let maxHoursPerWeek = $state(employee?.maxHoursPerWeek || '');
-	let minHoursPerWeek = $state(employee?.minHoursPerWeek || '');
-	let maxConsecutiveDays = $state(employee?.maxConsecutiveDays || '6');
-	let minRestHours = $state(employee?.minRestHours || '8');
-	let seniority = $state(employee?.seniority || '0');
-	let isFullTime = $state(employee?.isFullTime || false);
-	let skills = $state(employee?.skills || []);
-	let shiftTypePreferences = $state(employee?.shiftTypePreferences || []);
+	let maxHoursPerWeek = $state('');
+	let minHoursPerWeek = $state('');
+	let maxConsecutiveDays = $state('6');
+	let minRestHours = $state('8');
+	let seniority = $state('0');
+	let isFullTime = $state(false);
+	let skills = $state<string[]>([]);
+	let shiftTypePreferences = $state<string[]>([]);
 
 	let submitting = $state(false);
+	let isEditMode = $state(false);
+	
+	// Track original values for partial updates
+	let originalValues = $state<Record<string, any>>({});
 
 	// Role options
 	const roleOptions = [
@@ -54,6 +58,106 @@
 		{ value: 'overnight', label: 'Overnight (11pm-6am)' }
 	];
 
+	// Initialize form when modal opens
+	function initializeForm() {
+		if (!open) return;
+		
+		// Ensure we have locations
+		if (!locations || locations.length === 0) {
+			console.warn('No locations available');
+			return;
+		}
+
+		isEditMode = !!employee?.id;
+		
+		if (employee?.id) {
+			// Editing existing employee - populate all fields
+			console.log('🔍 Initializing form for employee edit:', employee.id);
+			
+			name = employee.name || '';
+			email = employee.email || '';
+			role = employee.role || 'EMPLOYEE';
+			defaultHourlyRate = employee.defaultHourlyRate?.toString() || '';
+			phoneNumber = employee.phone || employee.phoneNumber || ''; // Handle both field names
+			preferredLocationId = employee.preferredLocationId || '';
+			
+			// Scheduling preferences
+			maxHoursPerWeek = employee.maxHoursPerWeek?.toString() || '';
+			minHoursPerWeek = employee.minHoursPerWeek?.toString() || '';
+			maxConsecutiveDays = employee.maxConsecutiveDays?.toString() || '6';
+			minRestHours = employee.minRestHours?.toString() || '8';
+			seniority = employee.seniority?.toString() || '0';
+			isFullTime = employee.isFullTime || false;
+			skills = Array.isArray(employee.skills) ? [...employee.skills] : [];
+			shiftTypePreferences = Array.isArray(employee.shiftTypePreferences) ? [...employee.shiftTypePreferences] : [];
+			
+			// Store original values for comparison
+			originalValues = {
+				name,
+				email,
+				role,
+				defaultHourlyRate,
+				phoneNumber,
+				preferredLocationId,
+				maxHoursPerWeek,
+				minHoursPerWeek,
+				maxConsecutiveDays,
+				minRestHours,
+				seniority,
+				isFullTime,
+				skills: [...skills],
+				shiftTypePreferences: [...shiftTypePreferences]
+			};
+			
+			console.log('✅ Form populated with employee data:', {
+				name,
+				email,
+				role,
+				phone: phoneNumber
+			});
+		} else {
+			// Creating new employee - use defaults
+			console.log('🔍 Initializing form for new employee');
+			resetToDefaults();
+		}
+	}
+
+	// Reset form to default values
+	function resetToDefaults() {
+		name = '';
+		email = '';
+		role = 'EMPLOYEE';
+		defaultHourlyRate = '';
+		phoneNumber = '';
+		preferredLocationId = locations?.[0]?.id || '';
+		maxHoursPerWeek = '';
+		minHoursPerWeek = '';
+		maxConsecutiveDays = '6';
+		minRestHours = '8';
+		seniority = '0';
+		isFullTime = false;
+		skills = [];
+		shiftTypePreferences = [];
+		originalValues = {};
+		isEditMode = false;
+	}
+
+	// Watch for modal open/close and employee changes
+	$effect(() => {
+		if (open) {
+			// Initialize form when modal opens
+			initializeForm();
+		}
+	});
+
+	// Watch for employee prop changes while modal is open
+	$effect(() => {
+		if (open && employee) {
+			// Re-initialize if employee changes while modal is open
+			initializeForm();
+		}
+	});
+
 	// Skill input
 	let newSkill = $state('');
 
@@ -76,47 +180,144 @@
 		}
 	}
 
+	// Get only changed fields for partial update
+	function getChangedFields(): Record<string, any> {
+		if (!isEditMode) return {}; // Return empty for new employees
+		
+		const changes: Record<string, any> = {};
+		
+		// Check each field for changes
+		if (name !== originalValues.name) changes.name = name;
+		if (email !== originalValues.email) changes.email = email;
+		if (role !== originalValues.role) changes.role = role;
+		if (defaultHourlyRate !== originalValues.defaultHourlyRate) {
+			changes.defaultHourlyRate = defaultHourlyRate || null;
+		}
+		if (phoneNumber !== originalValues.phoneNumber) {
+			changes.phoneNumber = phoneNumber || null;
+		}
+		if (preferredLocationId !== originalValues.preferredLocationId) {
+			changes.preferredLocationId = preferredLocationId || null;
+		}
+		if (maxHoursPerWeek !== originalValues.maxHoursPerWeek) {
+			changes.maxHoursPerWeek = maxHoursPerWeek || null;
+		}
+		if (minHoursPerWeek !== originalValues.minHoursPerWeek) {
+			changes.minHoursPerWeek = minHoursPerWeek || null;
+		}
+		if (maxConsecutiveDays !== originalValues.maxConsecutiveDays) {
+			changes.maxConsecutiveDays = maxConsecutiveDays;
+		}
+		if (minRestHours !== originalValues.minRestHours) {
+			changes.minRestHours = minRestHours;
+		}
+		if (seniority !== originalValues.seniority) {
+			changes.seniority = seniority;
+		}
+		if (isFullTime !== originalValues.isFullTime) {
+			changes.isFullTime = isFullTime;
+		}
+		if (JSON.stringify(skills) !== JSON.stringify(originalValues.skills)) {
+			changes.skills = skills;
+		}
+		if (JSON.stringify(shiftTypePreferences) !== JSON.stringify(originalValues.shiftTypePreferences)) {
+			changes.shiftTypePreferences = shiftTypePreferences;
+		}
+		
+		return changes;
+	}
+
 	async function handleSubmit(e: Event) {
 		e.preventDefault();
+		
+		// Validate required fields
+		if (!name || !email || !role) {
+			toast.error('Please fill in all required fields');
+			return;
+		}
+		
+		// Email validation
+		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		if (!emailRegex.test(email)) {
+			toast.error('Please enter a valid email address');
+			return;
+		}
+		
 		submitting = true;
 
-		const formData = new FormData();
-		if (employee?.id) formData.append('employeeId', employee.id);
-		formData.append('name', name);
-		formData.append('email', email);
-		formData.append('role', role);
-		if (defaultHourlyRate) formData.append('defaultHourlyRate', defaultHourlyRate.toString());
-		if (phoneNumber) formData.append('phoneNumber', phoneNumber);
-		if (preferredLocationId) formData.append('preferredLocationId', preferredLocationId);
-
-		// Scheduling preferences
-		if (maxHoursPerWeek) formData.append('maxHoursPerWeek', maxHoursPerWeek.toString());
-		if (minHoursPerWeek) formData.append('minHoursPerWeek', minHoursPerWeek.toString());
-		if (maxConsecutiveDays) formData.append('maxConsecutiveDays', maxConsecutiveDays.toString());
-		if (minRestHours) formData.append('minRestHours', minRestHours.toString());
-		if (seniority) formData.append('seniority', seniority.toString());
-		formData.append('isFullTime', isFullTime.toString());
-		formData.append('skills', JSON.stringify(skills));
-		formData.append('shiftTypePreferences', JSON.stringify(shiftTypePreferences));
-
 		try {
-			const action = employee?.id ? '?/updateEmployee' : '?/inviteEmployee';
+			const formData = new FormData();
+			
+			if (isEditMode && employee?.id) {
+				// For updates, send employee ID
+				formData.append('employeeId', employee.id);
+				
+				const changes = getChangedFields();
+				if (Object.keys(changes).length === 0) {
+					toast.info('No changes to save');
+					submitting = false;
+					return;
+				}
+				
+				// Send all fields for now (server will handle validation)
+				formData.append('name', name);
+				formData.append('role', role);
+				// Email cannot be changed for existing employees
+				
+				// Add a flag to indicate partial update
+				formData.append('partialUpdate', 'true');
+				formData.append('changedFields', JSON.stringify(Object.keys(changes)));
+			} else {
+				// For new employees, send all fields
+				formData.append('name', name);
+				formData.append('email', email);
+				formData.append('role', role);
+			}
+			
+			// Add optional fields
+			if (defaultHourlyRate) formData.append('defaultHourlyRate', defaultHourlyRate);
+			if (phoneNumber) formData.append('phoneNumber', phoneNumber);
+			if (preferredLocationId) formData.append('preferredLocationId', preferredLocationId);
+			
+			// Scheduling preferences
+			if (maxHoursPerWeek) formData.append('maxHoursPerWeek', maxHoursPerWeek);
+			if (minHoursPerWeek) formData.append('minHoursPerWeek', minHoursPerWeek);
+			formData.append('maxConsecutiveDays', maxConsecutiveDays);
+			formData.append('minRestHours', minRestHours);
+			formData.append('seniority', seniority);
+			formData.append('isFullTime', isFullTime.toString());
+			formData.append('skills', JSON.stringify(skills));
+			formData.append('shiftTypePreferences', JSON.stringify(shiftTypePreferences));
+
+			const action = isEditMode ? '?/updateEmployee' : '?/inviteEmployee';
 			const response = await fetch(action, {
 				method: 'POST',
 				body: formData
 			});
 
-			if (response.ok) {
-				toast.success(employee?.id ? 'Employee updated!' : 'Invitation sent!');
+			const result = await response.json();
+			
+			if (response.ok && result.type === 'success') {
+				toast.success(isEditMode ? 'Employee updated successfully!' : 'Invitation sent successfully!');
+				
+				// Close modal and trigger refresh
 				onClose();
-				window.location.reload();
+				
+				// Trigger a data refresh instead of full page reload
+				window.dispatchEvent(new CustomEvent('employee-updated', { 
+					detail: { employee: result.data?.user } 
+				}));
+				
+				// Only reload if event handling isn't implemented yet
+				if (!window.onemployeeupdate) {
+					window.location.reload();
+				}
 			} else {
-				const result = await response.json();
-				toast.error(result.error || 'Failed to save employee');
+				toast.error(result.error?.message || 'Failed to save employee');
 			}
 		} catch (error) {
 			console.error('Submit error:', error);
-			toast.error('Something went wrong');
+			toast.error('Something went wrong. Please try again.');
 		} finally {
 			submitting = false;
 		}
@@ -124,8 +325,12 @@
 
 	async function handleDelete() {
 		if (!employee?.id) return;
-		if (!confirm(`Are you sure you want to remove ${employee.name} from your team?`)) return;
+		
+		if (!confirm(`Are you sure you want to remove ${employee.name} from your team? This action cannot be undone.`)) {
+			return;
+		}
 
+		submitting = true;
 		const formData = new FormData();
 		formData.append('employeeId', employee.id);
 
@@ -135,85 +340,51 @@
 				body: formData
 			});
 
-			if (response.ok) {
-				toast.success('Employee removed');
+			const result = await response.json();
+			
+			if (response.ok && result.type === 'success') {
+				toast.success('Employee removed successfully');
 				onClose();
-				window.location.reload();
+				
+				// Trigger refresh
+				window.dispatchEvent(new CustomEvent('employee-removed', { 
+					detail: { employeeId: employee.id } 
+				}));
+				
+				// Fallback to reload if event handling isn't implemented
+				if (!window.onemployeeremove) {
+					window.location.reload();
+				}
 			} else {
-				toast.error('Failed to remove employee');
+				toast.error(result.error?.message || 'Failed to remove employee');
 			}
 		} catch (error) {
 			console.error('Delete error:', error);
-			toast.error('Something went wrong');
+			toast.error('Something went wrong. Please try again.');
+		} finally {
+			submitting = false;
 		}
 	}
 
-	// Populate form when editing existing employee
-	$effect(() => {
-		if (employee) {
-			// Editing existing employee - populate form
-			name = employee.name || '';
-			email = employee.email || '';
-			role = employee.role || 'EMPLOYEE';
-			defaultHourlyRate = employee.defaultHourlyRate?.toString() || '';
-			phoneNumber = employee.phone || '';
-			preferredLocationId = employee.preferredLocationId || locations[0]?.id || '';
-			maxHoursPerWeek = employee.maxHoursPerWeek?.toString() || '';
-			minHoursPerWeek = employee.minHoursPerWeek?.toString() || '';
-			maxConsecutiveDays = employee.maxConsecutiveDays?.toString() || '6';
-			minRestHours = employee.minRestHours?.toString() || '8';
-			seniority = employee.seniority?.toString() || '0';
-			isFullTime = employee.isFullTime || false;
-			skills = employee.skills || [];
-			shiftTypePreferences = employee.shiftTypePreferences || [];
-		} else {
-			// Creating new employee - reset form
-			name = '';
-			email = '';
-			role = 'EMPLOYEE';
-			defaultHourlyRate = '';
-			phoneNumber = '';
-			preferredLocationId = locations[0]?.id || '';
-			maxHoursPerWeek = '';
-			minHoursPerWeek = '';
-			maxConsecutiveDays = '6';
-			minRestHours = '8';
-			seniority = '0';
-			isFullTime = false;
-			skills = [];
-			shiftTypePreferences = [];
-		}
-	});
-
-	// Reset form when modal closes
-	$effect(() => {
-		if (!open && !employee) {
-			// Reset form after animation
-			setTimeout(() => {
-				name = '';
-				email = '';
-				role = 'EMPLOYEE';
-				defaultHourlyRate = '';
-				phoneNumber = '';
-				preferredLocationId = locations[0]?.id || '';
-				maxHoursPerWeek = '';
-				minHoursPerWeek = '';
-				maxConsecutiveDays = '6';
-				minRestHours = '8';
-				seniority = '0';
-				isFullTime = false;
-				skills = [];
-				shiftTypePreferences = [];
-			}, 300);
-		}
-	});
+	// Clean up when modal closes
+	function handleClose() {
+		// Don't reset immediately to prevent flicker
+		onClose();
+		
+		// Reset after animation completes
+		setTimeout(() => {
+			if (!open) {
+				resetToDefaults();
+			}
+		}, 300);
+	}
 </script>
 
 {#if open}
 	<!-- Modal Overlay -->
 	<div
 		class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
-		onclick={onClose}
+		onclick={handleClose}
 	>
 		<!-- Modal Content -->
 		<div
@@ -223,12 +394,13 @@
 			<!-- Modal Header -->
 			<div class="flex items-center justify-between p-6 border-b border-slate-200 dark:border-slate-700">
 				<h2 class="text-2xl font-bold text-slate-900 dark:text-white">
-					{employee?.id ? 'Edit Employee' : 'Invite Team Member'}
+					{isEditMode ? 'Edit Employee' : 'Invite Team Member'}
 				</h2>
 				<button
 					type="button"
-					onclick={onClose}
+					onclick={handleClose}
 					class="text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 text-2xl"
+					aria-label="Close modal"
 				>
 					✕
 				</button>
@@ -244,6 +416,7 @@
 						label="Full Name"
 						bind:value={name}
 						required
+						disabled={submitting}
 						placeholder="John Doe"
 					/>
 				</div>
@@ -257,11 +430,15 @@
 						bind:value={email}
 						required
 						placeholder="john@example.com"
-						disabled={!!employee?.id}
+						disabled={submitting || isEditMode}
 					/>
-					{#if !employee?.id}
+					{#if !isEditMode}
 						<p class="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
 							An invitation will be sent to this email address
+						</p>
+					{:else}
+						<p class="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
+							Email cannot be changed after creation
 						</p>
 					{/if}
 				</div>
@@ -273,6 +450,7 @@
 						name="employee-phone"
 						label="Phone Number (optional)"
 						bind:value={phoneNumber}
+						disabled={submitting}
 						placeholder="+1 (555) 123-4567"
 					/>
 				</div>
@@ -290,6 +468,7 @@
 									bind:group={role}
 									value={option.value}
 									required
+									disabled={submitting}
 									class="mt-1"
 								/>
 								<div class="flex-1">
@@ -313,7 +492,8 @@
 						</label>
 						<select
 							bind:value={preferredLocationId}
-							class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500"
+							disabled={submitting}
+							class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 						>
 							<option value="">No preference</option>
 							{#each locations as location}
@@ -329,6 +509,7 @@
 							bind:value={defaultHourlyRate}
 							min="0"
 							step="0.01"
+							disabled={submitting}
 							placeholder="15.00"
 						/>
 					</div>
@@ -354,6 +535,7 @@
 							<input
 								type="checkbox"
 								bind:checked={isFullTime}
+								disabled={submitting}
 								class="w-4 h-4 text-primary-600 rounded focus:ring-2 focus:ring-primary-500"
 							/>
 							<div class="flex-1">
@@ -376,6 +558,7 @@
 								bind:value={minHoursPerWeek}
 								min="0"
 								max="168"
+								disabled={submitting}
 								placeholder="0"
 							/>
 							<p class="mt-1 text-xs text-slate-500 dark:text-slate-400">
@@ -389,6 +572,7 @@
 								bind:value={maxHoursPerWeek}
 								min="0"
 								max="168"
+								disabled={submitting}
 								placeholder="40"
 							/>
 							<p class="mt-1 text-xs text-slate-500 dark:text-slate-400">
@@ -406,6 +590,7 @@
 								bind:value={seniority}
 								min="0"
 								max="50"
+								disabled={submitting}
 								placeholder="0"
 							/>
 						</div>
@@ -416,6 +601,7 @@
 								bind:value={maxConsecutiveDays}
 								min="1"
 								max="14"
+								disabled={submitting}
 								placeholder="6"
 							/>
 						</div>
@@ -426,6 +612,7 @@
 								bind:value={minRestHours}
 								min="1"
 								max="24"
+								disabled={submitting}
 								placeholder="8"
 							/>
 						</div>
@@ -446,7 +633,8 @@
 											<button
 												type="button"
 												onclick={() => removeSkill(skill)}
-												class="hover:bg-primary-200 dark:hover:bg-primary-800/50 rounded-full p-0.5 transition-colors"
+												disabled={submitting}
+												class="hover:bg-primary-200 dark:hover:bg-primary-800/50 rounded-full p-0.5 transition-colors disabled:opacity-50"
 												aria-label="Remove {skill}"
 											>
 												<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -464,13 +652,15 @@
 									type="text"
 									bind:value={newSkill}
 									placeholder="Add a skill (e.g., Bartender, Cook)"
-									class="flex-1 px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-primary-500"
+									disabled={submitting}
+									class="flex-1 px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
 									onkeydown={(e) => e.key === 'Enter' && (e.preventDefault(), addSkill())}
 								/>
 								<button
 									type="button"
 									onclick={addSkill}
-									class="px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors font-medium"
+									disabled={submitting}
+									class="px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
 								>
 									Add
 								</button>
@@ -482,7 +672,8 @@
 									<button
 										type="button"
 										onclick={() => skills = [...skills, skillOption]}
-										class="px-3 py-1 text-xs bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors border border-slate-200 dark:border-slate-700"
+										disabled={submitting}
+										class="px-3 py-1 text-xs bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors border border-slate-200 dark:border-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
 									>
 										+ {skillOption}
 									</button>
@@ -503,6 +694,7 @@
 										type="checkbox"
 										checked={shiftTypePreferences.includes(shiftType.value)}
 										onchange={() => toggleShiftType(shiftType.value)}
+										disabled={submitting}
 										class="w-4 h-4 text-primary-600 rounded focus:ring-2 focus:ring-primary-500"
 									/>
 									<div class="flex-1">
@@ -522,11 +714,12 @@
 				<!-- Actions -->
 				<div class="flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-700">
 					<div>
-						{#if employee?.id}
+						{#if isEditMode && employee?.id}
 							<Button
 								type="button"
 								variant="ghost"
 								onclick={handleDelete}
+								disabled={submitting}
 								class="text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20"
 							>
 								🗑️ Remove Employee
@@ -534,11 +727,20 @@
 						{/if}
 					</div>
 					<div class="flex gap-3">
-						<Button type="button" variant="ghost" onclick={onClose}>
+						<Button 
+							type="button" 
+							variant="ghost" 
+							onclick={handleClose}
+							disabled={submitting}
+						>
 							Cancel
 						</Button>
-						<Button type="submit" variant="primary" loading={submitting}>
-							{submitting ? 'Saving...' : (employee?.id ? 'Update Employee' : 'Send Invitation')}
+						<Button 
+							type="submit" 
+							variant="primary" 
+							loading={submitting}
+						>
+							{submitting ? 'Saving...' : (isEditMode ? 'Update Employee' : 'Send Invitation')}
 						</Button>
 					</div>
 				</div>
