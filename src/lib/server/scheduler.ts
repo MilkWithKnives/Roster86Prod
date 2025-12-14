@@ -295,10 +295,10 @@ export async function generateScheduleSuggestions(
 		const averageHourlyRate =
 			totalScheduledHours > 0 ? currentWeekLaborCost / totalScheduledHours : 0;
 
-		const overtimeThreshold = config.maxHoursPerWeek ?? DEFAULT_OVERTIME_THRESHOLD;
+		const regularHoursLimit = config.maxHoursPerWeek ?? DEFAULT_OVERTIME_THRESHOLD;
 		const overtimeHours = Array.from(assignedHoursByEmployee.values()).reduce(
 			(total, hours) =>
-				hours > overtimeThreshold ? total + (hours - overtimeThreshold) : total,
+				hours > regularHoursLimit ? total + (hours - regularHoursLimit) : total,
 			0
 		);
 
@@ -335,7 +335,7 @@ export async function generateScheduleSuggestions(
 				endTime: shift.endTime.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }),
 				role: shift.role,
 				location: shift.Location?.name || 'Unknown',
-				assigned: suggestions.some(s => s.shiftId === shift.id),
+				assigned: suggestionByShift.has(shift.id),
 				hourlyRate: shift.hourlyRate,
 				laborCost: (() => {
 					const assignedSuggestion = suggestionByShift.get(shift.id);
