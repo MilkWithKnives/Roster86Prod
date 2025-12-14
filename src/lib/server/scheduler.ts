@@ -3,6 +3,9 @@ import { differenceInMinutes, parseISO, isSameDay } from 'date-fns';
 import { getScheduleAnalysisAndTips } from './ai-scheduler.js';
 import { calculateFinancialAnalytics } from './financial-analytics.js';
 
+const DEFAULT_HOURLY_RATE = 15;
+const DEFAULT_OVERTIME_THRESHOLD = 40;
+
 interface SchedulingConstraints {
 	maxHoursPerWeek?: number;
 	maxConsecutiveDays?: number;
@@ -263,37 +266,43 @@ export async function generateScheduleSuggestions(
 
 	// Generate AI analysis and tips with financial context
 	try {
+		const shiftLookup = new Map(unassignedShifts.map((shift) => [shift.id, shift]));
+		const employeeLookup = new Map(employeeData.map((emp) => [emp.id, emp]));
+
+		let currentWeekLaborCost = 0;
+		let totalScheduledHours = 0;
+		const assignedHoursByEmployee = new Map<string, number>();
+
+		for (const suggestion of suggestions) {
+			const shift = shiftLookup.get(suggestion.shiftId);
+			if (!shift) continue;
+
+			const hours = differenceInMinutes(shift.endTime, shift.startTime) / 60;
+			totalScheduledHours += hours;
+
+			const rate =
+				shift.hourlyRate ??
+				employeeLookup.get(suggestion.employeeId)?.defaultHourlyRate ??
+				DEFAULT_HOURLY_RATE;
+			currentWeekLaborCost += hours * rate;
+
+			assignedHoursByEmployee.set(
+				suggestion.employeeId,
+				(assignedHoursByEmployee.get(suggestion.employeeId) ?? 0) + hours
+			);
+		}
+
+		const averageHourlyRate =
+			totalScheduledHours > 0 ? currentWeekLaborCost / totalScheduledHours : 0;
+
+		const regularHoursLimit = config.maxHoursPerWeek ?? DEFAULT_OVERTIME_THRESHOLD;
+		const overtimeHours = Array.from(assignedHoursByEmployee.values()).reduce(
+			(total, hours) => total + calculateOvertimeHours(hours, regularHoursLimit),
+			0
+		);
+
 		// Calculate financial metrics
-		const currentWeekLaborCost = suggestions.reduce((total, s) => {
-			const shift = unassignedShifts.find(shift => shift.id === s.shiftId);
-			if (shift) {
-				const hours = differenceInMinutes(shift.endTime, shift.startTime) / 60;
-				const rate = shift.hourlyRate || employeeData.find(emp => emp.id === s.employeeId)?.defaultHourlyRate || 15;
-				return total + (hours * rate);
-			}
-			return total;
-		}, 0);
-
-		const totalScheduledHours = suggestions.reduce((total, s) => {
-			const shift = unassignedShifts.find(shift => shift.id === s.shiftId);
-			if (shift) {
-				return total + differenceInMinutes(shift.endTime, shift.startTime) / 60;
-			}
-			return total;
-		}, 0);
-
-		const averageHourlyRate = totalScheduledHours > 0 ? currentWeekLaborCost / totalScheduledHours : 0;
-
 		// Calculate overtime
-		const overtimeHours = employeeData.reduce((total, emp) => {
-			const empSuggestions = suggestions.filter(s => s.employeeId === emp.id);
-			const empHours = empSuggestions.reduce((hours, s) => {
-				const shift = unassignedShifts.find(shift => shift.id === s.shiftId);
-				return shift ? hours + differenceInMinutes(shift.endTime, shift.startTime) / 60 : hours;
-			}, 0);
-			return empHours > 40 ? total + (empHours - 40) : total;
-		}, 0);
-
 		const overtimeCost = overtimeHours * averageHourlyRate * 1.5; // 1.5x overtime rate
 
 		// Get comprehensive financial analytics
@@ -304,6 +313,8 @@ export async function generateScheduleSuggestions(
 			currentWeekLaborCost,
 			totalScheduledHours
 		);
+
+		const suggestionByShift = new Map(suggestions.map((s) => [s.shiftId, s]));
 
 		const schedulingContext = {
 			employees: employeeData.map(emp => ({
@@ -323,15 +334,23 @@ export async function generateScheduleSuggestions(
 				endTime: shift.endTime.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }),
 				role: shift.role,
 				location: shift.Location?.name || 'Unknown',
-				assigned: suggestions.some(s => s.shiftId === shift.id),
+				assigned: suggestionByShift.has(shift.id),
 				hourlyRate: shift.hourlyRate,
-				laborCost: suggestions.find(s => s.shiftId === shift.id) ?
-					(differenceInMinutes(shift.endTime, shift.startTime) / 60) *
-					(shift.hourlyRate || employeeData.find(emp => emp.id === suggestions.find(s => s.shiftId === shift.id)?.employeeId)?.defaultHourlyRate || 15) : 0
+				laborCost: (() => {
+					const assignedSuggestion = suggestionByShift.get(shift.id);
+					if (!assignedSuggestion) return 0;
+
+					const hours = differenceInMinutes(shift.endTime, shift.startTime) / 60;
+					const rate =
+						shift.hourlyRate ??
+						employeeLookup.get(assignedSuggestion.employeeId)?.defaultHourlyRate ??
+						DEFAULT_HOURLY_RATE;
+					return hours * rate;
+				})()
 			})),
 			coverageGaps: coverageGaps,
 			constraints: {
-				maxHoursPerWeek: constraints.maxHoursPerWeek || 40,
+				maxHoursPerWeek: config.maxHoursPerWeek ?? DEFAULT_OVERTIME_THRESHOLD,
 				minRestHours: constraints.minRestHoursBetweenShifts || 8
 			},
 			financialContext: {
@@ -600,6 +619,10 @@ function countConsecutiveDays(existingShifts: Array<{ startTime: Date }>, newShi
 function timeToMinutes(time: string): number {
 	const [hours, minutes] = time.split(':').map(Number);
 	return hours * 60 + minutes;
+}
+
+function calculateOvertimeHours(hours: number, threshold: number): number {
+	return hours > threshold ? hours - threshold : 0;
 }
 
 /**
