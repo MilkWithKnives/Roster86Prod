@@ -263,37 +263,42 @@ export async function generateScheduleSuggestions(
 
 	// Generate AI analysis and tips with financial context
 	try {
+		const shiftLookup = new Map(unassignedShifts.map((shift) => [shift.id, shift]));
+		const employeeLookup = new Map(employeeData.map((emp) => [emp.id, emp]));
+
+		let currentWeekLaborCost = 0;
+		let totalScheduledHours = 0;
+		const assignedHoursByEmployee = new Map<string, number>();
+
+		for (const suggestion of suggestions) {
+			const shift = shiftLookup.get(suggestion.shiftId);
+			if (!shift) continue;
+
+			const hours = differenceInMinutes(shift.endTime, shift.startTime) / 60;
+			totalScheduledHours += hours;
+
+			const rate =
+				shift.hourlyRate ??
+				employeeLookup.get(suggestion.employeeId)?.defaultHourlyRate ??
+				15;
+			currentWeekLaborCost += hours * rate;
+
+			assignedHoursByEmployee.set(
+				suggestion.employeeId,
+				(assignedHoursByEmployee.get(suggestion.employeeId) ?? 0) + hours
+			);
+		}
+
+		const averageHourlyRate =
+			totalScheduledHours > 0 ? currentWeekLaborCost / totalScheduledHours : 0;
+
+		const overtimeHours = Array.from(assignedHoursByEmployee.values()).reduce(
+			(total, hours) => (hours > 40 ? total + (hours - 40) : total),
+			0
+		);
+
 		// Calculate financial metrics
-		const currentWeekLaborCost = suggestions.reduce((total, s) => {
-			const shift = unassignedShifts.find(shift => shift.id === s.shiftId);
-			if (shift) {
-				const hours = differenceInMinutes(shift.endTime, shift.startTime) / 60;
-				const rate = shift.hourlyRate || employeeData.find(emp => emp.id === s.employeeId)?.defaultHourlyRate || 15;
-				return total + (hours * rate);
-			}
-			return total;
-		}, 0);
-
-		const totalScheduledHours = suggestions.reduce((total, s) => {
-			const shift = unassignedShifts.find(shift => shift.id === s.shiftId);
-			if (shift) {
-				return total + differenceInMinutes(shift.endTime, shift.startTime) / 60;
-			}
-			return total;
-		}, 0);
-
-		const averageHourlyRate = totalScheduledHours > 0 ? currentWeekLaborCost / totalScheduledHours : 0;
-
 		// Calculate overtime
-		const overtimeHours = employeeData.reduce((total, emp) => {
-			const empSuggestions = suggestions.filter(s => s.employeeId === emp.id);
-			const empHours = empSuggestions.reduce((hours, s) => {
-				const shift = unassignedShifts.find(shift => shift.id === s.shiftId);
-				return shift ? hours + differenceInMinutes(shift.endTime, shift.startTime) / 60 : hours;
-			}, 0);
-			return empHours > 40 ? total + (empHours - 40) : total;
-		}, 0);
-
 		const overtimeCost = overtimeHours * averageHourlyRate * 1.5; // 1.5x overtime rate
 
 		// Get comprehensive financial analytics
