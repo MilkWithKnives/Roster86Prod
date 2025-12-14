@@ -315,6 +315,8 @@ export async function generateScheduleSuggestions(
 			totalScheduledHours
 		);
 
+		const suggestionByShift = new Map(suggestions.map((s) => [s.shiftId, s]));
+
 		const schedulingContext = {
 			employees: employeeData.map(emp => ({
 				id: emp.id,
@@ -335,13 +337,21 @@ export async function generateScheduleSuggestions(
 				location: shift.Location?.name || 'Unknown',
 				assigned: suggestions.some(s => s.shiftId === shift.id),
 				hourlyRate: shift.hourlyRate,
-				laborCost: suggestions.find(s => s.shiftId === shift.id) ?
-					(differenceInMinutes(shift.endTime, shift.startTime) / 60) *
-					(shift.hourlyRate || employeeData.find(emp => emp.id === suggestions.find(s => s.shiftId === shift.id)?.employeeId)?.defaultHourlyRate || 15) : 0
+				laborCost: (() => {
+					const assignedSuggestion = suggestionByShift.get(shift.id);
+					if (!assignedSuggestion) return 0;
+
+					const hours = differenceInMinutes(shift.endTime, shift.startTime) / 60;
+					const rate =
+						shift.hourlyRate ??
+						employeeLookup.get(assignedSuggestion.employeeId)?.defaultHourlyRate ??
+						DEFAULT_HOURLY_RATE;
+					return hours * rate;
+				})()
 			})),
 			coverageGaps: coverageGaps,
 			constraints: {
-				maxHoursPerWeek: constraints.maxHoursPerWeek || 40,
+				maxHoursPerWeek: config.maxHoursPerWeek ?? DEFAULT_OVERTIME_THRESHOLD,
 				minRestHours: constraints.minRestHoursBetweenShifts || 8
 			},
 			financialContext: {
