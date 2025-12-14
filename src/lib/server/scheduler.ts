@@ -3,6 +3,9 @@ import { differenceInMinutes, parseISO, isSameDay } from 'date-fns';
 import { getScheduleAnalysisAndTips } from './ai-scheduler.js';
 import { calculateFinancialAnalytics } from './financial-analytics.js';
 
+const DEFAULT_HOURLY_RATE = 15;
+const DEFAULT_OVERTIME_THRESHOLD = 40;
+
 interface SchedulingConstraints {
 	maxHoursPerWeek?: number;
 	maxConsecutiveDays?: number;
@@ -280,7 +283,7 @@ export async function generateScheduleSuggestions(
 			const rate =
 				shift.hourlyRate ??
 				employeeLookup.get(suggestion.employeeId)?.defaultHourlyRate ??
-				15;
+				DEFAULT_HOURLY_RATE;
 			currentWeekLaborCost += hours * rate;
 
 			assignedHoursByEmployee.set(
@@ -292,8 +295,10 @@ export async function generateScheduleSuggestions(
 		const averageHourlyRate =
 			totalScheduledHours > 0 ? currentWeekLaborCost / totalScheduledHours : 0;
 
+		const overtimeThreshold = config.maxHoursPerWeek ?? DEFAULT_OVERTIME_THRESHOLD;
 		const overtimeHours = Array.from(assignedHoursByEmployee.values()).reduce(
-			(total, hours) => (hours > 40 ? total + (hours - 40) : total),
+			(total, hours) =>
+				hours > overtimeThreshold ? total + (hours - overtimeThreshold) : total,
 			0
 		);
 
