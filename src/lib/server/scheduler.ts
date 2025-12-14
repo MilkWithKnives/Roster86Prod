@@ -297,8 +297,7 @@ export async function generateScheduleSuggestions(
 
 		const regularHoursLimit = config.maxHoursPerWeek ?? DEFAULT_OVERTIME_THRESHOLD;
 		const overtimeHours = Array.from(assignedHoursByEmployee.values()).reduce(
-			(total, hours) =>
-				hours > regularHoursLimit ? total + (hours - regularHoursLimit) : total,
+			(total, hours) => total + calculateOvertimeHours(hours, regularHoursLimit),
 			0
 		);
 
@@ -620,6 +619,10 @@ function countConsecutiveDays(existingShifts: Array<{ startTime: Date }>, newShi
 function timeToMinutes(time: string): number {
 	const [hours, minutes] = time.split(':').map(Number);
 	return hours * 60 + minutes;
+}
+
+function calculateOvertimeHours(hours: number, threshold: number): number {
+	return hours > threshold ? hours - threshold : 0;
 }
 
 /**
