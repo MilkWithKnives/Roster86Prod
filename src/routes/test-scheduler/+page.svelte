@@ -17,9 +17,10 @@
 			testResults = [...testResults, { ...result, timestamp: new Date() }];
 		} catch (error) {
 			console.error('Test failed:', error);
+			const message = error instanceof Error ? error.message : 'Unknown error';
 			testResults = [...testResults, { 
 				success: false, 
-				error: error.message, 
+				error: message, 
 				testType,
 				timestamp: new Date() 
 			}];
