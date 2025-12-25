@@ -81,6 +81,10 @@
 		}
 		return plan.price;
 	}
+
+	function isPopular(plan: PageData['plans'][keyof PageData['plans']]) {
+		return 'popular' in plan && Boolean(plan.popular);
+	}
 </script>
 
 <svelte:head>
@@ -136,9 +140,9 @@
 			{#each Object.entries(data.plans) as [key, plan], index}
 				<motion.div
 					variants={fadeInUp}
-					class="relative bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-slate-200 dark:border-slate-700 p-8 {plan.popular ? 'ring-2 ring-primary-500 scale-105' : ''}"
+					class="relative bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-slate-200 dark:border-slate-700 p-8 {isPopular(plan) ? 'ring-2 ring-primary-500 scale-105' : ''}"
 				>
-					{#if plan.popular}
+					{#if isPopular(plan)}
 						<div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
 							<div class="bg-gradient-to-r from-primary-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center">
 								<Star class="w-4 h-4 mr-1 fill-current" />
@@ -162,7 +166,7 @@
 						</div>
 
 						<Button
-							variant={plan.popular ? 'primary' : 'outline'}
+							variant={isPopular(plan) ? 'primary' : 'secondary'}
 							size="lg"
 							class="w-full"
 							disabled={loading}
