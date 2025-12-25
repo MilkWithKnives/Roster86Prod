@@ -83,7 +83,7 @@
 	}
 
 	function isPopular(plan: PageData['plans'][keyof PageData['plans']]) {
-		return 'popular' in plan && Boolean((plan as { popular?: boolean }).popular);
+		return 'popular' in plan && Boolean(plan.popular);
 	}
 </script>
 
